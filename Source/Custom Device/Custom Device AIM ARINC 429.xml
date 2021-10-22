@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+	<AddMenu>
+		<eng>AIM ARINC 429</eng>
+		<loc>AIM ARINC 429</loc>
+	</AddMenu>
+	<Version>1.1.0</Version>
+	<Type>Inline HW Interface</Type>
+	<MaxOccurrence>-1</MaxOccurrence>
+	<MainPageGUID>2D790D37-75CB-4384-9C8B-614C6F0F16DF</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Initialization VI.vi</Path>
+		</Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Windows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Engine Windows.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\AIM ARINC 429\AIM ARINC 429 Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\AIM ARINC 429\Linux_x64\AIM ARINC 429 Engine Linux64.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\AIM ARINC 429\AIM ARINC 429 Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+	<Dependencies>
+		<Dependency>
+			<SupportedTarget>Linux_x64</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Linux_x64\AIM ARINC 429 Engine.lvlibp</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\AIM ARINC 429\AIM ARINC 429 Engine.lvlibp</RealTimeSystemDestination>
+		</Dependency>
+	</Dependencies>
+	<Pages>
+		<Page>
+			<Name>
+				<eng>AIM ARINC 429</eng>
+				<loc>AIM ARINC 429</loc>
+			</Name>
+			<GUID>2D790D37-75CB-4384-9C8B-614C6F0F16DF</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\Glyphs\ArincGrey.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>CD96FB02-5A3A-4817-B6B0-CD6EFAE9DC2D</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Export Configuration RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>9D3285B4-FD58-42EB-BD59-9EA018AF0942</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Import Configuration RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>b46466fd-3c5d-4203-8a70-21c8e3dc3b39</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Export.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>CD96FB02-5A3A-4817-B6B0-CD6EFAE9DC2D</ReferencedGUID>
+					<ButtonText>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Export Custom Device Configuration</eng>
+						<loc>Export Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Export Custom Device Configuration</eng>
+						<loc>Export Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>b3646754-9018-4224-a9be-d83b69edf9fa</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Import.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>9D3285B4-FD58-42EB-BD59-9EA018AF0942</ReferencedGUID>
+					<ButtonText>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
+			</ButtonList>
+			<ActionVIOnLoad>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\ActionVIOnLoad.vi</Path>
+			</ActionVIOnLoad>
+			<ActionVIOnCompile>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\ActionVIOnCompile.vi</Path>
+			</ActionVIOnCompile>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Configuration Files</eng>
+				<loc>Configuration Files</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>9CC1718D-5483-4E02-9349-BDEBD161B45E</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\file.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Ports</eng>
+				<loc>Ports</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>758B4561-0065-41D8-A3C5-EE4D6DBA4B41</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CH %d</eng>
+				<loc>CH %d</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<Copy>Copy</Copy>
+			<GUID>8F4E2FDB-ABCC-4261-A817-85981E70FAF8</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Database</eng>
+				<loc>Database</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<Copy>Copy</Copy>
+			<GUID>0E05AB3D-2EA9-4234-944A-B8CBACBD7759</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\Database.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Incoming</eng>
+				<loc>Incoming</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>D51C55E8-15D6-4FA2-852D-BCEC3384A3F2</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Incoming.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Outgoing</eng>
+				<loc>Outgoing</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>4820ED19-BA5E-4F93-B9FD-0537F273FAE4</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Outgoing.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Label</eng>
+				<loc>Label</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>ADB9C5E2-6464-4FCC-92F3-599E637ADE1E</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Parameter</eng>
+				<loc>Parameter</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>C134BE96-2099-43AB-94FA-9B4420FA681F</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET SinglePoint.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Channel Specification</eng>
+				<loc>Channel Specification</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>B2A2CF05-6E12-4B12-AD6E-484715D7E6DB</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Status</eng>
+				<loc>Status</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>8E884AA6-4EB7-4451-9366-671B1F80E122</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Status.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Status Channel</eng>
+				<loc>Status Channel</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>F1643FA0-1C8B-4412-B885-8686A95466A9</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Receive Time</eng>
+				<loc>Receive Time</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>8384C54A-C815-4431-A5F1-A0B3A5E0000E</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Receive Time.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Word</eng>
+				<loc>Word</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>F4424C32-A6E9-4D92-92EF-32D1787FC962</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Vendor</eng>
+				<loc>Vendor</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>55C1F7F6-C65E-44A3-892F-ED507C2CC731</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>C4B1E8A9-2D66-41E0-94F3-D7622082A6F8</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Protocol</eng>
+				<loc>Protocol</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>DE6C4FDC-BD63-4F5C-9E61-946DAF30A276</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>C4B1E8A9-2D66-41E0-94F3-D7622082A6F8</GUID>
+					<Type>Custom</Type>
+					<Name>
+						<eng />
+						<loc />
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+					</Item2Launch>
+					<CustomPopulation>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+					</CustomPopulation>
+				</MenuItem>
+			</RunTimeMenu>
+		</Page>
+		<Page>
+			<Name>
+				<eng>Logging</eng>
+				<loc>Logging</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>A7E97344-F434-4F0B-98D8-9CD4B5E268FA</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga category.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
+	</Pages>
+	<CustomXML>
+		<Dummy></Dummy>
+	</CustomXML>
+</CustomDevice>
