@@ -1,0 +1,2361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
+	<MD5Checksum />
+	<Version Major="2020" Minor="0" Fix="0" Build="0" />
+	<Content>Definition</Content>
+	<Root Name="test" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00" Identifier="56d31bef-d91e-416e-93cc-741653e4a663">
+		<Description>test</Description>
+		<Properties>
+			<Property Name="Name">
+				<String>test</String>
+			</Property>
+			<Property Name="Version">
+				<String>1.0.0</String>
+			</Property>
+			<Property Name="Creator">
+				<String>test</String>
+			</Property>
+			<Property Name="Creation Date">
+				<Double>3719254682.9357452</Double>
+			</Property>
+		</Properties>
+		<Errors />
+		<TargetSections Name="Targets" TypeGUID="eb379619-68d7-4d81-be90-c0bc511cdc10" Identifier="f75bdfba-c8d1-44e4-871d-b12fc725cc30">
+			<Description />
+			<Properties />
+			<Errors />
+			<Target Name="Controller" TypeGUID="775504BB-1485-13A6-56755DBF2C326980" Identifier="d40b8476-0d56-40a5-8ec1-7e78b2046193">
+				<Description />
+				<Properties>
+					<Property Name="OS">
+						<String>Linux_x64</String>
+					</Property>
+					<Property Name="IP Address">
+						<String>vs-eco-slave-8880</String>
+					</Property>
+					<Property Name="Control Loop Processor">
+						<I32>-2</I32>
+					</Property>
+					<Property Name="Secondary Control Loop Processor">
+						<I32>-2</I32>
+					</Property>
+					<Property Name="Stream Rate">
+						<I32>1</I32>
+					</Property>
+					<Property Name="DIO Rate">
+						<Double>100</Double>
+					</Property>
+					<Property Name="Streamed Channels">
+						<I32>512</I32>
+					</Property>
+					<Property Name="Filter DAQ Errors">
+						<Boolean>false</Boolean>
+					</Property>
+					<Property Name="Filter Watchdog Errors">
+						<Boolean>false</Boolean>
+					</Property>
+					<Property Name="Engine Rate">
+						<Double>100</Double>
+					</Property>
+					<Property Name="TL timeout">
+						<Double>120</Double>
+					</Property>
+					<Property Name="daq timeout">
+						<U32>1000</U32>
+					</Property>
+					<Property Name="TL sleep time">
+						<U32>0</U32>
+					</Property>
+					<Property Name="HS Port">
+						<I32>2040</I32>
+					</Property>
+					<Property Name="LS Port">
+						<I32>2050</I32>
+					</Property>
+					<Property Name="HS Port Timeout">
+						<I32>1000</I32>
+					</Property>
+					<Property Name="LS Port Timeout">
+						<I32>1000</I32>
+					</Property>
+					<Property Name="Deployment Group">
+						<I32>0</I32>
+					</Property>
+					<Property Name="Control Rate">
+						<Double>1</Double>
+					</Property>
+					<Property Name="Execution Mode">
+						<U32>0</U32>
+					</Property>
+					<Property Name="ts">
+						<U32>0</U32>
+					</Property>
+					<Property Name="Warmup Time [ms]">
+						<U32>2000</U32>
+					</Property>
+					<Property Name="Data Rate">
+						<Double>15</Double>
+					</Property>
+					<Property Name="FPGAScanInterfaceMode">
+						<U16>0</U16>
+					</Property>
+				</Properties>
+				<Errors />
+				<Section Name="Hardware" TypeGUID="775504AB-1485-13A6-560018C1F4E3EEE1" Identifier="e4631817-d9c1-491c-a29e-2796d22893c6">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Chassis" TypeGUID="03D3BACD-1485-13A6-56E99D97B7543BAF" Identifier="f8899553-0b2b-43bf-9d9a-3e884150ffba">
+						<Description />
+						<Properties>
+							<Property Name="Master type">
+								<U32>1</U32>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Timing and Sync" TypeGUID="03D3BAED-1485-13A6-56E20B50F6E06D94" Identifier="e977ac1c-6f71-4bf0-9f99-2fbde02dbe0a">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="DAQ" TypeGUID="77550612-1485-13A6-56570AB5032158E9" Identifier="fb947850-7fdb-4c30-8dad-452a2d0289be">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="Waveform Tasks" TypeGUID="1D6B8779-A957-42D1-B074-82153DB7FF44" Identifier="e4fb1adf-1278-403b-976d-13e2b9d4a87f">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="FPGA" TypeGUID="03D3B659-1485-13A6-5652D8A07328ECB7" Identifier="419542e0-5a87-4d67-8980-d4e81dda8991">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="NI-XNET" TypeGUID="6b693e6d-67b1-40b8-8108-4a4cc3147721" Identifier="50f9e8ba-9226-469b-b603-7acbe3a08fb7">
+							<Description />
+							<Properties>
+								<Property Name="CD Status">
+									<U32>2</U32>
+								</Property>
+								<Property Name="Decimation">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Driver VI Exec Mode">
+									<U32>1</U32>
+								</Property>
+								<Property Name="user.CD.Version">
+									<U32>1</U32>
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="CAN" TypeGUID="6c5bb91f-0da7-407d-aefc-acbe49c768df" Identifier="bffa8ca0-8456-4bff-abf5-7c477c9c5354">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="FlexRay" TypeGUID="e33fae90-03f1-4f76-b2f1-6eb8fcac2676" Identifier="d02729cf-7293-4b99-a6ce-a7480074eb8b">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="LIN" TypeGUID="c9c30728-42cb-4dc3-b054-b80e7a54e833" Identifier="ad2965a6-11b9-4bb7-aefb-b91af446437c">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="Data Sharing" TypeGUID="d56f3ac1-7b2c-422c-9d11-fd9cc7abf2a5" Identifier="b79957e2-174b-49ee-bf54-f331e6fb8d27">
+							<Description />
+							<Properties>
+								<Property Name="CD Status">
+									<U32>2</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="SLSC" TypeGUID="3ea8ee87-daf4-4abc-a6e6-9c54a9452824" Identifier="2e378699-963f-4cde-9c2f-d7bc526eb5f4">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+				</Section>
+				<Section Name="Custom Devices" TypeGUID="03D3BB79-1485-13A6-5605EB7AFD7405AC" Identifier="ac1e82f5-6379-4b00-9c4f-95f4109b94e0">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Ballard ARINC 429" TypeGUID="2D790D37-75CB-4384-9C8B-614C6F0F16DF" Identifier="2a3e0e3f-b862-49ca-9281-0dd96f55c137">
+						<Description />
+						<Properties>
+							<Property Name="CD Status">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Exec Mode">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Version">
+								<String>1.1.0</String>
+							</Property>
+							<Property Name="Loop type">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Use Dev Clk">
+								<Boolean>false</Boolean>
+							</Property>
+							<Property Name="Decimation">
+								<I32>1</I32>
+							</Property>
+							<Property Name="FIFO Source">
+								<U32>1</U32>
+							</Property>
+							<Property Name="FIFO Sink">
+								<U32>1</U32>
+							</Property>
+							<Property Name="TL Priority">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Driver VI Path_0">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\AIM ARINC 429\Linux_x64\AIM ARINC 429 Engine Linux64.llb\RT Driver VI.vi">
+									<Version>1.1.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\AIM ARINC 429\AIM ARINC 429 Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Engine Windows.llb\RT Driver VI.vi">
+									<Version>1.1.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\AIM ARINC 429\AIM ARINC 429 Engine Windows.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Dependency_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\AIM ARINC 429\Linux_x64\AIM ARINC 429 Engine.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\AIM ARINC 429\AIM ARINC 429 Engine.lvlibp</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="user.CD.Initialization Method">
+								<U16>1</U16>
+							</Property>
+							<Property Name="user.CD.PXI Slot Number">
+								<I32>2</I32>
+							</Property>
+							<Property Name="user.CD.card number">
+								<I32>0</I32>
+							</Property>
+							<Property Name="user.CD.core number">
+								<I32>0</I32>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Status" TypeGUID="8E884AA6-4EB7-4451-9366-671B1F80E122" Identifier="c7c540bf-2304-4135-a8c2-adfe44cdcd39">
+							<Description />
+							<Properties />
+							<Errors />
+							<Channel Name="Receiving Error Count" TypeGUID="F1643FA0-1C8B-4412-B885-8686A95466A9" Identifier="13adab90-9c1e-4166-9f87-116f0f22e378" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Gap Error Count" TypeGUID="F1643FA0-1C8B-4412-B885-8686A95466A9" Identifier="1b154171-f8ac-47a6-b9d6-7d5a23c63a35" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Parity Error Count" TypeGUID="F1643FA0-1C8B-4412-B885-8686A95466A9" Identifier="0ec22685-6697-4caa-825e-84f376b4d595" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Long Word Error Count" TypeGUID="F1643FA0-1C8B-4412-B885-8686A95466A9" Identifier="81e93515-8e31-4b27-a36e-3ccbcedd815c" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Bit Timing Error Count" TypeGUID="F1643FA0-1C8B-4412-B885-8686A95466A9" Identifier="ab0ecd7a-6be9-49b4-a5c9-60c215130c1e" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Timeout Error Count" TypeGUID="F1643FA0-1C8B-4412-B885-8686A95466A9" Identifier="1c949b9b-f40b-46e0-8c90-0aa5f8f895de" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+						<Section Name="Configuration Files" TypeGUID="9CC1718D-5483-4E02-9349-BDEBD161B45E" Identifier="afb03f5b-d3ef-4544-ae64-c2696eaf3c94">
+							<Description />
+							<Properties>
+								<Property Name="user.CD.Win Parameters File Path">
+									<DependentFile Type="Relative" Path="8 Channel Loopback_PARAM_Core_0.xml">
+										<Version />
+										<RTDestination />
+										<SupportedTarget />
+										<MD5>6bfe39d62b5aa54c338a8f0630a6542a</MD5>
+									</DependentFile>
+								</Property>
+								<Property Name="user.CD.MD5.Checksum">
+									<BinaryString>NmJmZTM5ZDYyYjVhYTU0YzMzOGE4ZjA2MzBhNjU0MmE=</BinaryString>
+								</Property>
+								<Property Name="user.CD.Parameters File Needed">
+									<Boolean>true</Boolean>
+								</Property>
+								<Property Name="user.CD.Hardware Configuration File">
+									<DependentFile Type="Relative" Path="8 Channel Loopback_HW_Core_0.xml">
+										<Version>1.0</Version>
+										<ForceDownload>true</ForceDownload>
+										<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\8 Channel Loopback_HW_Core_0.xml</RTDestination>
+										<SupportedTarget>Linux_x64</SupportedTarget>
+										<MD5>920e3809e4edaa06a9d067ec8f00994e</MD5>
+									</DependentFile>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+						<Section Name="Logging" TypeGUID="A7E97344-F434-4F0B-98D8-9CD4B5E268FA" Identifier="d3336af1-d962-4af0-b93d-ec93bc9d4c86">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="Ports" TypeGUID="758B4561-0065-41D8-A3C5-EE4D6DBA4B41" Identifier="79cfc766-ead5-41bf-ab5d-aac148b033fb">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="Incoming" TypeGUID="D51C55E8-15D6-4FA2-852D-BCEC3384A3F2" Identifier="e9af5244-903d-40c9-9ea4-970ff99d92d7">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="CH0" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="a7a62a58-ecda-4064-a508-5054b11a23b1">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>0</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 124" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="5272847e-2d7a-4e4d-9fe1-56b57d0439be">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>124</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="9f5c069e-8b8e-44f7-a405-8ad57c6a7079">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Rx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="5802f64c-e93e-465f-a863-5f6a13773e20" RowDim="1" ColDim="1" Units="psi" BitFields="1">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Channel Name="Timestamp" TypeGUID="8384C54A-C815-4431-A5F1-A0B3A5E0000E" Identifier="f84fb4da-4019-41d0-b5ab-242a2b873fa7" RowDim="1" ColDim="1" Units="s" BitFields="1">
+											<Description />
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+								</Section>
+								<Section Name="CH1" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="fcd9b585-2b4b-4e15-b789-1576a617c7e9">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>1</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 125" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="e383ea77-b137-4081-8983-0be866f192e0">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>125</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="afcdc920-8ca2-42ca-8e4d-8cd6d4f58307">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Rx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="be609bfe-759b-43ed-b9f4-15673500c24b" RowDim="1" ColDim="1" Units="psi" BitFields="1">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+									</Section>
+								</Section>
+								<Section Name="CH2" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="37ab6487-8343-46ce-ace4-3e643c4a06be">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>2</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 126" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="1c9437eb-3b1f-42a5-9992-f311c4b67d42">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>126</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="7ee51312-1223-4b70-84b1-dc298585bceb">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Rx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="ecc7f9d2-c54f-41c4-a344-2928e08bcea2" RowDim="1" ColDim="1" Units="psi" BitFields="1">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+									</Section>
+								</Section>
+								<Section Name="CH3" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="de9f6529-31b2-4378-ba29-ffeb99bab627">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>3</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 127" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="9d597ff8-3b13-4311-a771-cedb2d403b1c">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>127</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="222ec7e3-d79c-4751-83d1-8a96f0dfe36f">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Rx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="5f3c020d-c977-48b6-9eb9-4491e3a10ba9" RowDim="1" ColDim="1" Units="psi" BitFields="1">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+									</Section>
+								</Section>
+								<Section Name="CH4" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="5721cf5e-68ac-4490-ac04-435ef57fa084">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>4</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 128" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="aab2eeee-2f00-440e-8346-42614d8b7254">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>128</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="a68c95f9-2871-4a9c-b8dc-a1fa9b3e95b8">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Rx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="fe1bf3b5-31f7-4b3c-b2eb-1774d0fc8d36" RowDim="1" ColDim="1" Units="psi" BitFields="1">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+									</Section>
+								</Section>
+								<Section Name="CH5" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="8ec0792b-e4d7-41ea-bbbc-d79d56e52187">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>5</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 129" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="42990725-257e-4a5c-90a1-ca4a3428f870">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>129</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="944bd123-c00d-46d9-afb7-d8b0a6d9e438">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Rx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="78857062-f918-44f0-b23f-0b9d9ff224dc" RowDim="1" ColDim="1" Units="psi" BitFields="1">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+									</Section>
+								</Section>
+								<Section Name="CH6" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="cec3d07b-5035-42ce-adc4-560bc56bd3ec">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>6</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 130" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="86945058-0daa-43f7-abd8-c790d9051f25">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>130</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="8b46224e-a3d6-4179-badb-0a8c05217016">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Rx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="76037d98-52f2-454f-827b-899be817596d" RowDim="1" ColDim="1" Units="psi" BitFields="1">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+									</Section>
+								</Section>
+								<Section Name="CH7" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="e0270774-d7bd-4f50-a707-7540c2f0acce">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>7</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 131" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="07baf577-5a68-4f80-ac5c-6e8793d7ed16">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>131</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="706708c5-95fe-4f10-8c53-b694e04a2ad2">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Rx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="ce98ab0f-6247-45b5-8766-c9b8db8c165b" RowDim="1" ColDim="1" Units="psi" BitFields="1">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+									</Section>
+								</Section>
+							</Section>
+							<Section Name="Outgoing" TypeGUID="4820ED19-BA5E-4F93-B9FD-0537F273FAE4" Identifier="a85d6e02-38a5-4b21-9f42-2b1e8f0194ec">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="CH24" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="2b7ca8cc-ef33-45c1-8719-ce6f3f7aeb84">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>24</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 124" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="d1808b76-9b5b-4982-9741-40d25e8f5790">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>124</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="user.CD.TransferType">
+												<U16>0</U16>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="e64bbdc0-09e5-4ddb-ba6c-eea00eff3f51">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Tx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="c164adfe-6589-4541-afa0-112d185c453f" RowDim="1" ColDim="1" Units="psi" BitFields="3">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Channel Name="Disable" TypeGUID="B2A2CF05-6E12-4B12-AD6E-484715D7E6DB" Identifier="ab0b7c93-bb9c-4056-91a7-84596226ecdd" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+								</Section>
+								<Section Name="CH25" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="537cc20f-fe6d-4c67-b6a3-1357397c90c1">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>25</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 125" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="fb9fb190-3b51-455d-a6fe-4016da4c4604">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>125</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="user.CD.TransferType">
+												<U16>0</U16>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="f0bb7bea-2b09-4b7b-a2f7-8eda92424996">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Tx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="9b12cab9-2c41-4e64-b43d-e9aeefe1d680" RowDim="1" ColDim="1" Units="psi" BitFields="3">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Channel Name="Disable" TypeGUID="B2A2CF05-6E12-4B12-AD6E-484715D7E6DB" Identifier="b81ce25f-5030-450c-933c-822be85d0d88" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+								</Section>
+								<Section Name="CH26" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="338cf720-c0ba-46ec-9892-cc7384ea6b9c">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>26</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 126" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="83e8c283-fc89-4b6f-a97f-45d7307d0905">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>126</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="user.CD.TransferType">
+												<U16>0</U16>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="c3b8d0ad-2e20-452b-b9f4-a56a671dca45">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Tx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="82d17e4f-18ec-4957-8781-8fe836315098" RowDim="1" ColDim="1" Units="psi" BitFields="3">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Channel Name="Disable" TypeGUID="B2A2CF05-6E12-4B12-AD6E-484715D7E6DB" Identifier="01651e73-7493-465d-a4c7-d54a3eba541f" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+								</Section>
+								<Section Name="CH27" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="1856721a-464f-4853-b8a2-7c860a18911e">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>27</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 127" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="86eb31f1-6493-432f-a08d-1f7397090077">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>127</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="user.CD.TransferType">
+												<U16>0</U16>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="e7c537de-4ff3-45fa-963a-fb9a52db5063">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Tx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="c6781867-b479-4e17-862c-cd7ec30cb05c" RowDim="1" ColDim="1" Units="psi" BitFields="3">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Channel Name="Disable" TypeGUID="B2A2CF05-6E12-4B12-AD6E-484715D7E6DB" Identifier="3447ad57-9f62-4a59-abe0-e6e4c9dc55b6" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+								</Section>
+								<Section Name="CH28" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="5a6fa3d5-5408-417a-8e6e-afa286de3ed6">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>28</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 128" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="2ea2674d-bc03-4218-8761-32d554ae11c7">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>128</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="user.CD.TransferType">
+												<U16>0</U16>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="612e91d4-f6f5-4d01-a56a-7239f31b74f6">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Tx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="cb55fa1d-0735-4634-a828-3a6dc49865a8" RowDim="1" ColDim="1" Units="psi" BitFields="3">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Channel Name="Disable" TypeGUID="B2A2CF05-6E12-4B12-AD6E-484715D7E6DB" Identifier="a08e5eff-27c6-4245-8876-6ad3b16ede78" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+								</Section>
+								<Section Name="CH29" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="22ed8d3f-5210-43f2-b1eb-02a305c5facf">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>29</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 129" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="eadcb9a4-7477-497e-83a8-2ff2c3bab696">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>129</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="user.CD.TransferType">
+												<U16>0</U16>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="1501e3ce-d560-4834-8be7-1ab58871d304">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Tx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="2b2fb403-28de-4509-a1bb-52145b737030" RowDim="1" ColDim="1" Units="psi" BitFields="3">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Channel Name="Disable" TypeGUID="B2A2CF05-6E12-4B12-AD6E-484715D7E6DB" Identifier="bd43bbba-fb71-4ef2-b10f-155646c844b7" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+								</Section>
+								<Section Name="CH30" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="315b11fd-4d99-4234-8417-ae904150737d">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>30</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 130" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="579e5156-406a-46fe-b2fb-5dbe4a8869eb">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>130</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="user.CD.TransferType">
+												<U16>0</U16>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="e2eb9d27-db65-488f-8de9-a0cd28a5558e">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Tx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="55e753ef-2a0b-4b0b-835c-94ead20b18bf" RowDim="1" ColDim="1" Units="psi" BitFields="3">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Channel Name="Disable" TypeGUID="B2A2CF05-6E12-4B12-AD6E-484715D7E6DB" Identifier="7ebd8178-dca1-4fe3-8a71-2f9c4f53733d" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+								</Section>
+								<Section Name="CH31" TypeGUID="8F4E2FDB-ABCC-4261-A817-85981E70FAF8" Identifier="db049b94-56ad-4268-8cb2-6d84e4f09579">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Port">
+											<U16>31</U16>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="label 131" TypeGUID="ADB9C5E2-6464-4FCC-92F3-599E637ADE1E" Identifier="bdd7274a-a4e2-468f-813f-d63538efcfe8">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Label">
+												<I32>131</I32>
+											</Property>
+											<Property Name="user.CD.SDIValue">
+												<U16>0</U16>
+											</Property>
+											<Property Name="user.CD.SDI_Enabled">
+												<Boolean>false</Boolean>
+											</Property>
+											<Property Name="user.CD.TransferType">
+												<U16>0</U16>
+											</Property>
+										</Properties>
+										<Errors />
+										<Section Name="Word" TypeGUID="F4424C32-A6E9-4D92-92EF-32D1787FC962" Identifier="c5b546c0-720c-4377-9530-e8bd661fc76b">
+											<Description />
+											<Properties />
+											<Errors />
+											<Channel Name="Altitude_Tx" TypeGUID="C134BE96-2099-43AB-94FA-9B4420FA681F" Identifier="d38e6fda-70b8-4068-b6b6-2811874b6c17" RowDim="1" ColDim="1" Units="psi" BitFields="3">
+												<Description />
+												<Properties>
+													<Property Name="user.CD.Encoding Type">
+														<U16>0</U16>
+													</Property>
+													<Property Name="user.CD.Start Bit">
+														<I32>10</I32>
+													</Property>
+													<Property Name="user.CD.Num Bits">
+														<I32>19</I32>
+													</Property>
+													<Property Name="user.CD.Signed?">
+														<Boolean>true</Boolean>
+													</Property>
+													<Property Name="user.CD.ScaleFac">
+														<Double>1</Double>
+													</Property>
+													<Property Name="user.CD.ScaleOffset">
+														<Double>0</Double>
+													</Property>
+												</Properties>
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Channel Name="Disable" TypeGUID="B2A2CF05-6E12-4B12-AD6E-484715D7E6DB" Identifier="8ca8dda1-6caa-49a9-b938-4e54899e8787" RowDim="1" ColDim="1" Units="" BitFields="3">
+											<Description />
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+								</Section>
+							</Section>
+						</Section>
+					</Section>
+				</Section>
+				<Section Name="Simulation Models" TypeGUID="03D3B937-1485-13A6-5600F2871E269F9A" Identifier="761845a3-1162-41eb-ba40-d84ae8db12bb">
+					<Description />
+					<Properties>
+						<Property Name="ParameterAccess">
+							<I32>1</I32>
+						</Property>
+					</Properties>
+					<Errors />
+					<Section Name="Models" TypeGUID="03D3B976-1485-13A6-5604255F981010CE" Identifier="ac604130-36c9-4440-b570-764ae5bb9bff">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+					<Section Name="Execution Order" TypeGUID="03D3B966-1485-13A6-569CFF8A449BF90A" Identifier="5196cee6-3e94-40aa-93ee-cde8b5f1cd5e">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+				</Section>
+				<Section Name="User Channels" TypeGUID="03D3B6B7-1485-13A6-567BE1E1E0DF999A" Identifier="df23343d-2def-4943-a89a-f98f8c2d2e48">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="Calculated Channels" TypeGUID="03D3B714-1485-13A6-56031C5F1CCB78A9" Identifier="456eedea-14f0-4c82-823f-019259d67728">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="Alarms" TypeGUID="03D3B782-1485-13A6-56F58B35B6CBA484" Identifier="ee0cc576-9ff5-4af7-a360-ee13a03dc388">
+					<Description />
+					<Properties>
+						<Property Name="Alarm Rate">
+							<I32>1</I32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="Procedures" TypeGUID="03D3B7B1-1485-13A6-56649C7783203F22" Identifier="30f8afce-c865-4442-8c42-44b3aa8fa16b">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="XNET Databases" TypeGUID="def5630b-577f-4ae9-9682-5f8ee445ee21" Identifier="b9def2d5-3762-499c-8e9d-34168244b52b">
+					<Description />
+					<Properties>
+						<Property Name="CD Status">
+							<U32>2</U32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="System Channels" TypeGUID="03D3B753-1485-13A6-56B10ED0820CF410" Identifier="742d5ad6-1cd8-4b4b-b45a-4efb0f10db27">
+					<Description />
+					<Properties />
+					<Errors />
+					<Channel Name="Actual Loop Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="d0750ba8-8725-4989-ae1f-cbd8f10526b9" RowDim="1" ColDim="1" Units="Hz" BitFields="1">
+						<Description>The execution rate of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Command Index" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="2c3b1765-a990-4097-91f2-8424f8090709" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Command Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="c44eea51-0955-44c2-837c-34e8a654a799" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The decimation of the Data Processing Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Time" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="9a65cd7e-2e43-4c46-b4f9-9ecce54e9808" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>The relative system time of the VeriStand Engine according to the iteration count and Delta T of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Alarm Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="3917f822-2acf-4767-8df3-f4ca808ab499" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="DAQ Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="a944e821-76de-4e45-906e-492df973a432" RowDim="1" ColDim="1" Units="Error Code" BitFields="3">
+						<Description>The last reported error code from a DAQmx function call. The value zero indicates no error has occurred.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Delta T" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="9bb63f3c-049b-47f1-822b-6f00b68f6ac1" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>The period in seconds of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Compiler Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="8925be47-231d-4091-bbe4-845d5b27f9e3" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 1" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="f0cc17e3-fa69-4025-a0b0-39f5bb366e61" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 2" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="1f9e1bb6-6467-47da-aa04-fe2d3999297d" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 3" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="474e64cc-3201-46f4-bf4c-c86b1452fe72" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Resume Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="fd65a2f6-fd71-4144-a043-1e6f024352c0" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 4" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="8c24cd14-fe22-4616-afae-86f06a81e465" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 5" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="6aa8ee69-34bf-4e29-8033-da1d5aa41550" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 6" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="154fba4d-c532-4e5e-9a7c-96662cdd0b15" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Low Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="5b6a810b-d8a4-481b-a8d6-658cf0dfc533" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Medium Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="ccf364e3-8a0f-4a76-95de-75c602b4a86b" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped High Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="c43a4483-5cd4-41ca-8c45-15d8bb9e8791" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Low Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="f370cb02-6209-43df-b5b5-e48fd345af0c" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Medium Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="9a8ec125-6d59-4add-8972-051bd15447eb" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped High Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="85e430a2-e4b2-4584-8d42-d5101debf9e3" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="RT Engine Build" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="5336b854-73fd-4ae6-b955-4b7f13d9973c" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>A value representing the build number of the NI VeriStand Engine</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Loop Duration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="1639b8ef-0f46-43c8-8551-6c1a58fae0d2" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The duration of the Primary Control Loop in nanoseconds</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Loop Duration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="8c99f6cd-7d95-4633-9c1f-bec20f170511" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The duration of the Data Processing Loop in nanoseconds</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Command" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="23ed1dae-9ec6-4a0f-8db8-fc5913662e78" RowDim="1" ColDim="1" Units="Enum" BitFields="3">
+						<Description>Internally commands the RT system with the following numeric values:
+
+0: None
+1: Restart System
+2: Reset System
+3: Shut Down System
+4: Reboot System</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="None">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Restart System">
+										<Double>1</Double>
+									</Elem>
+									<Elem Key="Reset System">
+										<Double>2</Double>
+									</Elem>
+									<Elem Key="Shut Down System">
+										<Double>3</Double>
+									</Elem>
+									<Elem Key="Reboot System">
+										<Double>4</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Streamed Channel Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="bbe46d0c-c12b-47d0-bc47-b57757a7be95" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of channels that the VeriStand Engine is currently streaming to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Max Streamed Channels" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="372c1679-6535-478a-8f0a-d49e8096bfaf" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The maximum number of channels that the VeriStand Engine can stream to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Model Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="f3d3e26e-6b59-4f23-82cf-5b4cb2f41116" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the models have not completed their execution in time</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Clients" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="121d92ab-a6e1-4c76-98f1-6c86922a8d89" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Maximum GENs" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="0e66e3ea-fc80-497f-9230-456aac33c47a" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Generator Engine State" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="02688f6c-6f56-428d-ae5f-fdad27802499" RowDim="1" ColDim="1" Units="Enum" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="Idle">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Running">
+										<Double>1</Double>
+									</Elem>
+									<Elem Key="Stopped">
+										<Double>2</Double>
+									</Elem>
+									<Elem Key="Paused">
+										<Double>3</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Watchdog Timer" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="1da6bacd-7973-44ef-b192-af4b503cba46" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The amount of time in nanoseconds since the Watchdog Timer Loop last executed. The Watchdog Timer Loop is set to execute at a rate of 10Hz.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HS TCP Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="426b5e73-aaaa-4877-a209-c9e59b78403a" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the streaming data gets overwritten.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Host IP" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="71b6e016-4d55-4d1c-b842-edc887af92d3" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The 32-bit integer IP Address of the connected host. A zero value indicates no host is connected to the VeriStand Engine.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Trace Enabled Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="d5fe4612-8cf2-42aa-8ef6-1b61d49a28aa" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether execution tracing is currently active on the RT Target.  Set to 1 to start tracing.  Set to 0 to stop tracing and send result to host (if no host is present it is logged to disk).  Set to -1 to stop tracing and write result to disk.</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="Stop and Write to Disk">
+										<Double>-1</Double>
+									</Elem>
+									<Elem Key="Stop and Send to Host">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Start Trace">
+										<Double>1</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Detailed Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="bbdf56c8-c9e6-460c-acc4-bad34842c936" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether detailed execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="VI Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="ec62fa64-56d5-4e16-abec-fb5fc4a4d6e0" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether VI execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Trace Buffer Size" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="b1f661a7-bc06-44fa-8130-0153430eaf96" RowDim="1" ColDim="1" Units="Bytes" BitFields="3">
+						<Description>Specifies the size in bytes of the execution trace buffer on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>250000</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Thread Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="920bac1f-882e-47a9-9e59-bb9f669f1caf" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether thread execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Absolute Time" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="0111d6ff-2804-4f8e-9fd4-cd78d3ce8e55" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>Returns the current date and time in seconds relative to 12:00 a.m., Friday, January 1, 1904, Universal Time [01-01-1904 00:00:00]. This value is coerced from a 128-bit value to double precision, which may impact resolution.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Time - Microseconds" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="42cb86a4-121d-48d5-b62d-8d915949f953" RowDim="1" ColDim="1" Units="usec" BitFields="1">
+						<Description>The relative system time in microseconds of the VeriStand Engine according to the iteration count and Delta T of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="ASAM XIL EESPort Trigger" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="83184ef2-27d1-40b5-b683-8b2428938553" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Trigger the next EES Error Set from the EES Error Configuration.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="ASAM XIL EESPort Trigger Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="a4b6a69f-40c5-4673-97c5-cb8cc4c99ec2" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Count the number of EESPort Triggers.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 43" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="8b0b4c41-a877-4da7-88b5-4f8300593b1f" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 44" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="730f3414-6cb4-4e5e-af24-6a437ec4495b" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Iterations" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="8e5d4d1f-5b91-4c78-b689-ee60196058ec" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Min Wait" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="5c29638a-46f9-4c34-9406-d4dd0666dab4" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Actual Wait" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="ba61517d-f5aa-4819-9fe0-bd259380adc4" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Failure Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="7ee8ca34-f536-4c96-84b2-92238a5a0574" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The failure count of current analysis settings</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Analysis State" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="f65c5ca0-408c-43f9-987b-41bf740380a1" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The state of the analysis sub-system on the RT execution host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="TCP Data Packet Loss" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="b79c8090-f460-4f04-b3ba-0c5ac91cef62" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the VeriStand Engine fails to send a data packet to the host. A non-zero number can indicate data loss in logged data. The value is reset every time a Workspace connects to the VeriStand Engine.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="dac88f7e-fb44-4456-ab81-a59babce4bcc" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop attempted to write to a waveform read session within the NI VeriStand engine and timed out.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL TCP Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="c6926b56-a134-48ce-b8b6-4831a4d18d46" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop attempted to write to the TCP loop (for a host waveform stream session) and timed out.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Error Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="33e7fd26-4cbe-45a5-a271-bb734f1ee5c4" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop encountered an error.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Error Code" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="cd867267-9512-4c5d-8b08-acad98d1d587" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The last error code encountered by the waveform processing loop.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Streamed Waveform Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="479d359d-fd83-480e-bb50-a028a2bfdedb" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of waveforms that the VeriStand Engine is currently streaming to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Iteration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="17f7a079-62fc-4add-8e8e-c567c55eaf9e" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The iteration count of the Primary Control Loop.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Last Late Iteration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="a75fe5e0-2f6a-4a35-9204-cbf497711500" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The iteration count of the Primary Control Loop that last recorded a late count. If the Primary Control Loop has not recorded a late count, this value is -1.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 58" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="632f1773-e96c-4761-b67f-0b545812fea9" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 59" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="ee44d4b2-2d58-49ab-aab8-4c1296678448" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Real-Time Sequence Command" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="fb1ca5c5-e52c-4562-b63f-8e93f7227478" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Internally commands the active real-time sequences with the following numeric values:
+
+0: None
+1: Stop All
+2: Abort All</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="None">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Stop All">
+										<Double>1</Double>
+									</Elem>
+									<Elem Key="Abort All">
+										<Double>2</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Real-Time Sequence Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="2ec4c8ea-3049-43ee-bfd4-2b3ce1b51919" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of real-time sequences currently running.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 62" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="955f073b-a31f-4b9f-a8bf-81ab61baa43a" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 63" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="29c56eb2-25eb-4e58-b4fc-a382f6f3ef72" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 64" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="1d7ce19c-aff4-40eb-a41e-2bae45a06078" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 65" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="a3115192-27df-4980-a58b-a28d0aa8707c" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 66" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="f7067ee2-3807-4997-b5d9-9d77fb0ced9e" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 67" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="dadf16ed-383e-4cfe-9db7-575011eaad0d" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 68" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="6bda4e4b-5662-4eb2-8029-3335f17df619" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 69" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="c7a9073e-75d3-4db8-b961-b29bdd2c545f" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 70" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="8d01aa57-062b-4b2a-8eb1-e9c181485a9b" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 71" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="82594e74-6202-4a77-8163-5c8a03f08750" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 72" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="d678ff55-2b6d-4b54-a9e8-f8cd39353af0" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 73" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="a708c602-b99f-47c9-8773-a36df07f7775" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 74" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="8c65acf4-dce1-41e9-b24c-27f64d09a05d" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 75" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="1bd35513-762a-4db2-8b20-2ee703b11a46" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 76" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="0572ff54-1dff-4205-8590-059e24fb9ea9" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 77" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="25837eea-be78-4547-9965-0f95fb040568" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 78" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="87a5e793-a6a5-4713-8011-570cabcd17cf" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 79" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="a30b98a9-9e52-436a-9016-6006400f151e" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 80" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="c5904a29-be45-4532-a6b2-1c827986786c" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 81" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="44a8a8eb-535e-4d3d-a74c-34f36a15a3df" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 82" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="34b3a131-601f-44f6-b834-30bdf9811cf5" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 83" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="09780f6f-8887-42f3-8f75-c13b1ef879b3" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 84" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="3758329a-2dd2-46c6-9d20-de0f535e322a" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 85" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="ad646672-da84-4b05-b5a1-83bcedfe977b" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 86" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="8331b404-f3bb-4d2f-9bae-0ef962930fde" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 87" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="d8c52cac-73f5-4555-bec2-816c2341a05d" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 88" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="e80df563-d77c-4405-86a1-a1fb5cccce87" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 89" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="7aab2799-e524-48d1-8135-0a8e611ac143" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 90" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="1335da4e-4193-45b8-bcb3-ee8fd16e5a6a" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 91" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="d2f629fe-5224-4ea4-97b1-7c8bd980193c" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="AO1 Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="dcdda89f-f142-4d61-8308-3652aaa837f9" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Loop Wakeup Status" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="e00d409d-0092-4528-9b31-c93a32bc5f58" RowDim="1" ColDim="1" Units="Enum" BitFields="1">
+						<Description>The wakeup status of the Primary Control Loop.
+
+0: Normal
+1: Aborted
+2: Asynchronous wakeup
+3: Timing source error
+4: Timed loop error
+5: Timeout</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="Normal">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Aborted">
+										<Double>1</Double>
+									</Elem>
+									<Elem Key="Asynchronous Wakeup">
+										<Double>2</Double>
+									</Elem>
+									<Elem Key="Timing Source Error">
+										<Double>3</Double>
+									</Elem>
+									<Elem Key="Timed Loop Error">
+										<Double>4</Double>
+									</Elem>
+									<Elem Key="Timeout">
+										<Double>5</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HD Free Space" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="973cb07c-d3c3-4c8c-9235-32b668cfe50b" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP-LP Overwrite" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="3bc5d787-676b-494f-8af7-4c7916bc01ed" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Primary Control Loop timed out writing channel data to the Data Processing Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Data Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="c8b3add0-8d55-4c6a-9cb8-ff9b71a58936" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Data Processing Loop timed out writing channel data to the Communication Send Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="8ef3b0af-24da-49d4-a957-b9dfa163864d" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Primary Control Loop reported being late</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="b01e90ac-3f2c-476e-a0e9-747776b6fd2f" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Data Processing Loop reported being late</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Log Status" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" Identifier="1e683bfe-e76f-4e01-8abd-c54a09e52ec5" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The state of the logging sub-system on the RT execution host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+				</Section>
+			</Target>
+		</TargetSections>
+		<Section Name="Aliases" TypeGUID="e11f4519-09e6-4fb0-99df-2967c4313d67" Identifier="e932004c-af81-4123-b2de-a0f033bdef7c">
+			<Description />
+			<Properties>
+				<Property Name="DoNotAllowUnmappedAliases">
+					<Boolean>true</Boolean>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+		<Section Name="Scales" TypeGUID="032c8aec-ce5b-6d40-06c5-5703bbc7ccee" Identifier="bcf77535-d9bb-45de-a02e-e2975f5f06c2">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="System Mappings" TypeGUID="5691ea13-4544-497e-9bda-cf69dc707663" Identifier="9c707ab2-d839-4e25-8a42-57224853b8eb">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="Data Sharing Network" TypeGUID="8288dbb9-8c87-4fda-9c66-acec90c46c03" Identifier="36c4b905-dbd1-486f-a773-372563e7479e">
+			<Description />
+			<Properties>
+				<Property Name="CD Status">
+					<U32>2</U32>
+				</Property>
+				<Property Name="DSN Dynamic Data Size">
+					<I32>30</I32>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+		<Section Name="System Initialization" TypeGUID="773b9311-3758-47fa-842f-b1c1960dabd0" Identifier="8c214490-cbac-4de8-8706-c38dee80573c">
+			<Description />
+			<Properties>
+				<Property Name="Auto Start">
+					<Boolean>false</Boolean>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+	</Root>
+</Document>
