@@ -13,7 +13,7 @@
 		<Type>Action</Type>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Initialization VI.vi</Path>
+			<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Initialization VI.vi</Path>
 		</Item2Launch>
 	</InitializationVI>
 	<CustomDeviceVI>
@@ -22,17 +22,17 @@
 				<SupportedTarget>Windows</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Engine Windows.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Engine Windows.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\AIM ARINC 429\AIM ARINC 429 Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\AIM\ARINC 429\AIM ARINC 429 Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Linux_x64</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\AIM ARINC 429\Linux_x64\AIM ARINC 429 Engine Linux64.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\AIM\ARINC 429\Linux_x64\AIM ARINC 429 Engine Linux64.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\AIM ARINC 429\AIM ARINC 429 Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\AIM\ARINC 429\AIM ARINC 429 Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 		</SourceDistribution>
 	</CustomDeviceVI>
@@ -41,9 +41,9 @@
 			<SupportedTarget>Linux_x64</SupportedTarget>
 			<Source>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Linux_x64\AIM ARINC 429 Engine.lvlibp</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Linux_x64\AIM ARINC 429 Engine.lvlibp</Path>
 			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\AIM ARINC 429\AIM ARINC 429 Engine.lvlibp</RealTimeSystemDestination>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\AIM\ARINC 429\AIM ARINC 429 Engine.lvlibp</RealTimeSystemDestination>
 		</Dependency>
 	</Dependencies>
 	<Pages>
@@ -55,11 +55,11 @@
 			<GUID>2D790D37-75CB-4384-9C8B-614C6F0F16DF</GUID>
 			<Glyph>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\Glyphs\ArincGrey.png</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\Glyphs\ArincGrey.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -72,7 +72,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Export Configuration RTM.vi</Path>
+						<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Export Configuration RTM.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -85,7 +85,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Import Configuration RTM.vi</Path>
+						<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Import Configuration RTM.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
@@ -143,11 +143,11 @@
 			</ButtonList>
 			<ActionVIOnLoad>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\ActionVIOnLoad.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\ActionVIOnLoad.vi</Path>
 			</ActionVIOnLoad>
 			<ActionVIOnCompile>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\ActionVIOnCompile.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\ActionVIOnCompile.vi</Path>
 			</ActionVIOnCompile>
 		</Page>
 		<Page>
@@ -164,7 +164,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -181,7 +181,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -199,7 +199,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -217,7 +217,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -234,7 +234,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -251,7 +251,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -268,7 +268,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -285,7 +285,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -302,7 +302,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -319,7 +319,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -336,7 +336,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -353,7 +353,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -370,7 +370,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -387,7 +387,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -399,11 +399,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -422,7 +422,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -434,11 +434,11 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
+						<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\RunTimeMenu Wrapper.vi</Path>
 					</Item2Launch>
 					<CustomPopulation>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
+						<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\RunTimeMenu Custom Population.vi</Path>
 					</CustomPopulation>
 				</MenuItem>
 			</RunTimeMenu>
@@ -457,7 +457,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\AIM ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
 	</Pages>
