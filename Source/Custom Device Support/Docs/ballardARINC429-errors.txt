@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+https://github.com/ni/niveristand-ballard-arinc429-custom-device/
+</nicomment>
+<nierror code="-732250">
+The hardware configuration file path must not be empty.
+</nierror>
+<nierror code="-732251">
+The parameters configuration file path must not be empty.
+</nierror>
+<nierror code="-732252">
+The parameters XML data is invalid.
+</nierror>
+<nierror code="-732253">
+The hardware configuration file is empty. Use BTIXMLEdit or another utility to generate a valid hardware configuration file and add this configuration file to the system definition.
+</nierror>
+<nierror code="-732254">
+The parameters configuration file has changed on disk. Use the Refresh button in the Configuration Files section to apply changes.
+</nierror>
+<nierror code="-732255">
+The direction of the label must match the direction of the port.
+</nierror>
+</nidocument>
