@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
-		<eng>AIM ARINC 429</eng>
-		<loc>AIM ARINC 429</loc>
+		<eng>NI::AIM ARINC 429</eng>
+		<loc>NI::AIM ARINC 429</loc>
 	</AddMenu>
 	<Version>1.1.0</Version>
 	<Type>Inline HW Interface</Type>
