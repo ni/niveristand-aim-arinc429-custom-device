@@ -122,6 +122,11 @@
 			<Item Name="Ports.mnu" Type="Document" URL="../Scripting/Palettes/Ports.mnu"/>
 			<Item Name="Logging.mnu" Type="Document" URL="../Scripting/Palettes/Logging.mnu"/>
 		</Item>
+		<Item Name="Debug" Type="Folder">
+			<Item Name="Write String to Log File.vi" Type="VI" URL="../Debug/Write String to Log File.vi"/>
+			<Item Name="Log Errors.vi" Type="VI" URL="../Debug/Log Errors.vi"/>
+			<Item Name="Write Device Info.vi" Type="VI" URL="../Debug/Write Device Info.vi"/>
+		</Item>
 		<Item Name="ARINC 429 Import.lvlib" Type="Library" URL="../Import/ARINC 429 Import.lvlib"/>
 		<Item Name="AIM ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/AIM ARINC 429 Engine.lvlib"/>
 		<Item Name="AIM ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/AIM/AIM ARINC 429 Scripting.lvlib"/>
