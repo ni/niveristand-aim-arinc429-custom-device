@@ -104,6 +104,9 @@
 					</Item>
 					<Item Name="Refresh.lvclass" Type="LVClass" URL="../Tests/Unit/Refresh/Refresh.lvclass"/>
 				</Item>
+				<Item Name="Hardware API" Type="Folder">
+					<Item Name="Hardware API.lvclass" Type="LVClass" URL="../Tests/Unit/Hardware API/Hardware API.lvclass"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
