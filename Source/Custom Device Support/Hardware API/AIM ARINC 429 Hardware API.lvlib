@@ -11,9 +11,9 @@
 </Property>
 	<Item Name="Exit Library.vi" Type="VI" URL="../Exit Library.vi"/>
 	<Item Name="Fill Error Details.vi" Type="VI" URL="../Fill Error Details.vi"/>
+	<Item Name="Finalize Hardware.vi" Type="VI" URL="../Finalize Hardware.vi"/>
 	<Item Name="Get Error Description.vi" Type="VI" URL="../Get Error Description.vi"/>
-	<Item Name="Get Library Path.vi" Type="VI" URL="../Get Library Path.vi"/>
-	<Item Name="Global_Library Path.vi" Type="VI" URL="../Global_Library Path.vi"/>
+	<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 	<Item Name="Initialize Library Path.vi" Type="VI" URL="../Initialize Library Path.vi"/>
 	<Item Name="Library Initialize and Exit.vi" Type="VI" URL="../Library Initialize and Exit.vi"/>
 </Library>
