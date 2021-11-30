@@ -46,6 +46,36 @@
 		<Item Name="AIM ARINC 429 System Explorer.lvlib" Type="Library" URL="../System Explorer/AIM ARINC 429 System Explorer.lvlib"/>
 		<Item Name="Custom Device AIM ARINC 429.xml" Type="Document" URL="../Custom Device AIM ARINC 429.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Close.vi"/>
+				<Item Name="Configure All From File.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Configure All From File.vi"/>
+				<Item Name="Configure All From XML.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Configure All From XML.vi"/>
+				<Item Name="Create Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Create Reader.vi"/>
+				<Item Name="Destroy Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Destroy Reader.vi"/>
+				<Item Name="Disable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Disable Scheduled Message.vi"/>
+				<Item Name="Enable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Enable Scheduled Message.vi"/>
+				<Item Name="Get Card Product.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Product.vi"/>
+				<Item Name="Get Card Type.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Type.vi"/>
+				<Item Name="Get Next 429 Record In Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Get Next 429 Record In Reader.vi"/>
+				<Item Name="Get Scheduled Message Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Get Scheduled Message Handle.vi"/>
+				<Item Name="Get Sequential Monitor Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Get Sequential Monitor Status.vi"/>
+				<Item Name="Handle From Channel Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Configure/Handle From Channel Number.vi"/>
+				<Item Name="Initialize By Card Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Card Number and Core Number.vi"/>
+				<Item Name="Initialize By Slot Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Slot Number and Core Number.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Initialize.vi"/>
+				<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Read.vi"/>
+				<Item Name="Reset Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Rx/Data/Reset Reader.vi"/>
+				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Reset.vi"/>
+				<Item Name="Set Scheduled Message Group Data.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Data/Set Scheduled Message Group Data.vi"/>
+				<Item Name="Start All Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Channels.vi"/>
+				<Item Name="Start Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Start Sequential Monitor.vi"/>
+				<Item Name="Start.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Action-Status/Start.vi"/>
+				<Item Name="Stop Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Stop Sequential Monitor.vi"/>
+				<Item Name="Transmit Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Data/Transmit Dynamic.vi"/>
+				<Item Name="Transmit Message Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Tx/Data/Transmit Message Dynamic.vi"/>
+				<Item Name="Write External LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/IO/Action-Status/Write External LED.vi"/>
+				<Item Name="Write LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/IO/Action-Status/Write LED.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -91,6 +121,7 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -98,12 +129,6 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -120,7 +145,6 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="../../../Includes/NIVeriStand_DataServices.dll"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -394,6 +418,36 @@
 		<Item Name="AIM ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/AIM ARINC 429 Engine.lvlib"/>
 		<Item Name="AIM ARINC 429 Shared.lvlib" Type="Library" URL="../Shared/AIM ARINC 429 Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Close.vi"/>
+				<Item Name="Configure All From File.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Configure All From File.vi"/>
+				<Item Name="Configure All From XML.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Configure All From XML.vi"/>
+				<Item Name="Create Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Create Reader.vi"/>
+				<Item Name="Destroy Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Destroy Reader.vi"/>
+				<Item Name="Disable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Disable Scheduled Message.vi"/>
+				<Item Name="Enable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Enable Scheduled Message.vi"/>
+				<Item Name="Get Card Product.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Product.vi"/>
+				<Item Name="Get Card Type.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Card/Data/Get Card Type.vi"/>
+				<Item Name="Get Next 429 Record In Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Get Next 429 Record In Reader.vi"/>
+				<Item Name="Get Scheduled Message Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Get Scheduled Message Handle.vi"/>
+				<Item Name="Get Sequential Monitor Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Get Sequential Monitor Status.vi"/>
+				<Item Name="Handle From Channel Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Configure/Handle From Channel Number.vi"/>
+				<Item Name="Initialize By Card Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Card Number and Core Number.vi"/>
+				<Item Name="Initialize By Slot Number and Core Number.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/Initialize By Slot Number and Core Number.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Initialize.vi"/>
+				<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Read.vi"/>
+				<Item Name="Reset Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Rx/Data/Reset Reader.vi"/>
+				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Reset.vi"/>
+				<Item Name="Set Scheduled Message Group Data.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Data/Set Scheduled Message Group Data.vi"/>
+				<Item Name="Start All Channels.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Core/Action-Status/Start All Channels.vi"/>
+				<Item Name="Start Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Start Sequential Monitor.vi"/>
+				<Item Name="Start.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Action-Status/Start.vi"/>
+				<Item Name="Stop Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Stop Sequential Monitor.vi"/>
+				<Item Name="Transmit Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Data/Transmit Dynamic.vi"/>
+				<Item Name="Transmit Message Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Tx/Data/Transmit Message Dynamic.vi"/>
+				<Item Name="Write External LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Private/IO/Action-Status/Write External LED.vi"/>
+				<Item Name="Write LED.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/IO/Action-Status/Write LED.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -425,6 +479,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -436,8 +491,6 @@
 				<Item Name="AIM ARINC 429 System Explorer.lvlib" Type="Library" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/System Explorer/Implementation/System Explorer/AIM ARINC 429 System Explorer.lvlib"/>
 				<Item Name="ARINC 429 Scripting.lvlib" Type="Library" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/Scripting/ARINC 429/ARINC 429 Scripting.lvlib"/>
 				<Item Name="Asynchronous Process Parameters.ctl" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/Engine/Custom Device/Asynchronous Process Parameters.ctl"/>
-				<Item Name="BTI429LV.lvlib" Type="Library" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/instr.lib/BTI429Lib/BTI429LV.lvlib"/>
-				<Item Name="BTICardLV.lvlib" Type="Library" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/instr.lib/BTICardLib/BTICardLV.lvlib"/>
 				<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/Shared/Build Linux Log File Path.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Check Special Tags.vi"/>
@@ -485,7 +538,7 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Map of Identifiers to Indexes.ctl" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/Shared/Map of Identifiers to Indexes.ctl"/>
 				<Item Name="Map of Values Indexes to Channel and Label Indexes.ctl" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/Shared/Map of Values Indexes to Channel and Label Indexes.ctl"/>
-				<Item Name="Messaging.lvlib" Type="Library" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI/VeriStand Custom Device Messaging/Messaging.lvlib"/>
+				<Item Name="Messaging.lvlib" Type="Library" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI VeriStand/VeriStand Custom Device Messaging/Messaging.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Parameter Definition.ctl" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/Shared/Parameter Definition.ctl"/>
@@ -496,7 +549,6 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Three Button Dialog.vi"/>
@@ -505,12 +557,6 @@
 				<Item Name="Verify File Exists and Not Empty.vi" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/Shared/Verify File Exists and Not Empty.vi"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="../../../Includes/AIM ARINC 429 Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
