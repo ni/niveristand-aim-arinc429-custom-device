@@ -73,7 +73,6 @@
 				<Item Name="Single Core Complex Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Complex Loopback/Single Core Complex Loopback.lvclass"/>
 				<Item Name="Single Core Acyclic Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Core (P2--P3) Acyclic Loopback/Single Core Acyclic Loopback.lvclass"/>
 				<Item Name="Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Logging Loopback/Logging Loopback.lvclass"/>
-				<Item Name="AIM Deployment.lvclass" Type="LVClass" URL="../Tests/System/Deployment/AIM Deployment.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Execution" Type="Folder">
@@ -641,7 +640,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
