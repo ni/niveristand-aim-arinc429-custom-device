@@ -37,7 +37,6 @@
 			<Item Name="Get Static Channel Reference for Frame.vi" Type="VI" URL="../Shared/Get Static Channel Reference for Frame.vi"/>
 			<Item Name="Get Status Error Channel Data References.vi" Type="VI" URL="../Shared/Get Status Error Channel Data References.vi"/>
 			<Item Name="Get Tx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Tx Hardware Channel Data.vi"/>
-			<Item Name="Initialization Method.ctl" Type="VI" URL="../../../../niveristand-ballard-milStd1553-custom-device/Source/Custom Device Support/Shared/Initialization Method.ctl"/>
 			<Item Name="Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi"/>
 			<Item Name="Initialize Channel Parameter (Discrete).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (Discrete).vi"/>
 			<Item Name="Label Properties.ctl" Type="VI" URL="../Shared/Label Properties.ctl"/>
@@ -641,7 +640,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
