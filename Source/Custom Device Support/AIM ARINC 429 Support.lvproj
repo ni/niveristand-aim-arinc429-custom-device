@@ -37,7 +37,6 @@
 			<Item Name="Get Static Channel Reference for Frame.vi" Type="VI" URL="../Shared/Get Static Channel Reference for Frame.vi"/>
 			<Item Name="Get Status Error Channel Data References.vi" Type="VI" URL="../Shared/Get Status Error Channel Data References.vi"/>
 			<Item Name="Get Tx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Tx Hardware Channel Data.vi"/>
-			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi"/>
 			<Item Name="Initialize Channel Parameter (Discrete).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (Discrete).vi"/>
 			<Item Name="Label Properties.ctl" Type="VI" URL="../Shared/Label Properties.ctl"/>
@@ -133,13 +132,68 @@
 		<Item Name="AIM ARINC 429 System Explorer.lvlib" Type="Library" URL="../System Explorer/Implementation/System Explorer/AIM ARINC 429 System Explorer.lvlib"/>
 		<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		<Item Name="ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/ARINC 429/ARINC 429 Scripting.lvlib"/>
-		<Item Name="Messaging.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/VeriStand Custom Device Messaging/Messaging.lvlib"/>
+		<Item Name="Messaging.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/VeriStand Custom Device Messaging/Messaging.lvlib"/>
 		<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Encoding and Decoding/Encoding and Decoding.lvlib"/>
 		<Item Name="AIM ARINC 429 Hardware API.lvlib" Type="Library" URL="../Hardware API/AIM ARINC 429 Hardware API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="BTI429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI429Lib/BTI429LV.lvlib"/>
-				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
+				<Item Name="AIM429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_AIM 429/AIM429LV.lvlib"/>
+				<Item Name="GlobalDLLPath.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/GlobalDLLPath.vi"/>
+				<Item Name="Api429RxLabelBufferRead" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RxLabelBufferRead"/>
+				<Item Name="ErrorHandler.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/ErrorHandler.vi"/>
+				<Item Name="A429WordHandling.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_AIM 429/Helpers/A429_WordHandling/A429WordHandling.lvlib"/>
+				<Item Name="Api429RxLabelStatusGet" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RxLabelStatusGet"/>
+				<Item Name="Api429LibInit.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429LibInit.vi"/>
+				<Item Name="Api429LibExit.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429LibExit.vi"/>
+				<Item Name="Api429BoardOpen.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429BoardOpen.vi"/>
+				<Item Name="Api429BoardReset.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429BoardReset.vi"/>
+				<Item Name="Api429RxInit.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RxInit.vi"/>
+				<Item Name="Api429RxLabelConfigure.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RxLabelConfigure.vi"/>
+				<Item Name="Api429RmCreate.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmCreate.vi"/>
+				<Item Name="Api429RmLabelConfigure.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmLabelConfigure.vi"/>
+				<Item Name="Api429TxInit.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxInit.vi"/>
+				<Item Name="Api429TxXferDelete.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxXferDelete.vi"/>
+				<Item Name="Api429TxXferRateAdd.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxXferRateAdd.vi"/>
+				<Item Name="Api429TxXferRateShow.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxXferRateShow.vi"/>
+				<Item Name="Api429TxXferRateRemove.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxXferRateRemove.vi"/>
+				<Item Name="Api429TxXferBufferWrite.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxXferBufferWrite.vi"/>
+				<Item Name="Api429TxXferCreate.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxXferCreate.vi"/>
+				<Item Name="Api429TxFifoWrite.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxFifoWrite.vi"/>
+				<Item Name="Api429TxFifoDataWordsWrite.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxFifoDataWordsWrite.vi"/>
+				<Item Name="Api429RxLabelBufferOffsetGet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RxLabelBufferOffsetGet.vi"/>
+				<Item Name="Api429RmResume.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmResume.vi"/>
+				<Item Name="Api429RmSuspend.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmSuspend.vi"/>
+				<Item Name="Api429RmDataRead.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmDataRead.vi"/>
+				<Item Name="Api429RmStatusGet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmStatusGet.vi"/>
+				<Item Name="Api429RmInfoGet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmInfoGet.vi"/>
+				<Item Name="Api429TxPrepareFraming.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxPrepareFraming.vi"/>
+				<Item Name="Api429TxAcycFrameCreate.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxAcycFrameCreate.vi"/>
+				<Item Name="Api429TxMajorFrameCreate.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxMajorFrameCreate.vi"/>
+				<Item Name="Api429TxMinorFrameCreate.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxMinorFrameCreate.vi"/>
+				<Item Name="Api429TxAcycFrameDelete.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxAcycFrameDelete.vi"/>
+				<Item Name="Api429TxMajorFrameDelete.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxMajorFrameDelete.vi"/>
+				<Item Name="Api429TxMinorFrameDelete.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxMinorFrameDelete.vi"/>
+				<Item Name="Api429TxAcycFrameSend.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxAcycFrameSend.vi"/>
+				<Item Name="Api429TxRepetitionCountSet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxRepetitionCountSet.vi"/>
+				<Item Name="Api429TxFrameTimeSet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxFrameTimeSet.vi"/>
+				<Item Name="Api429ChannelSpeedSet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429ChannelSpeedSet.vi"/>
+				<Item Name="Api429ChannelStart.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429ChannelStart.vi"/>
+				<Item Name="Api429ChannelHalt.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429ChannelHalt.vi"/>
+				<Item Name="Api429ChannelClear.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429ChannelClear.vi"/>
+				<Item Name="Api429BoardInfoGet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429BoardInfoGet.vi"/>
+				<Item Name="Api429TxStatusGet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxStatusGet.vi"/>
+				<Item Name="Api429RxStatusGet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RxStatusGet.vi"/>
+				<Item Name="Api429BoardClose.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429BoardClose.vi"/>
+				<Item Name="Start Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Start Sequential Monitor.vi"/>
+				<Item Name="Get Sequential Monitor Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Get Sequential Monitor Status.vi"/>
+				<Item Name="Get Next 429 Record In Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Get Next 429 Record In Reader.vi"/>
+				<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Read.vi"/>
+				<Item Name="Get Scheduled Message Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Get Scheduled Message Handle.vi"/>
+				<Item Name="Set Scheduled Message Group Data.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Data/Set Scheduled Message Group Data.vi"/>
+				<Item Name="Disable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Disable Scheduled Message.vi"/>
+				<Item Name="Enable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Enable Scheduled Message.vi"/>
+				<Item Name="Transmit Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Data/Transmit Dynamic.vi"/>
+				<Item Name="Transmit Message Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Tx/Data/Transmit Message Dynamic.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
@@ -553,12 +607,6 @@
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
-			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -716,7 +764,7 @@
 				<Property Name="Destination[2].destName" Type="Str">Top Level</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/Scripting</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A02D0312-7AD8-4FFE-B38C-98E6BE6EBDA8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EC4037E4-4835-4028-96AF-088019BF8070}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AIM ARINC 429 Scripting.lvlib</Property>
@@ -821,8 +869,63 @@
 		<Item Name="AIM ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/AIM ARINC 429 Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="BTI429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTI429Lib/BTI429LV.lvlib"/>
-				<Item Name="BTICardLV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/BTICardLib/BTICardLV.lvlib"/>
+				<Item Name="A429WordHandling.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_AIM 429/Helpers/A429_WordHandling/A429WordHandling.lvlib"/>
+				<Item Name="AIM429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/_AIM 429/AIM429LV.lvlib"/>
+				<Item Name="Api429BoardClose.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429BoardClose.vi"/>
+				<Item Name="Api429BoardInfoGet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429BoardInfoGet.vi"/>
+				<Item Name="Api429BoardOpen.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429BoardOpen.vi"/>
+				<Item Name="Api429BoardReset.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429BoardReset.vi"/>
+				<Item Name="Api429ChannelClear.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429ChannelClear.vi"/>
+				<Item Name="Api429ChannelHalt.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429ChannelHalt.vi"/>
+				<Item Name="Api429ChannelSpeedSet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429ChannelSpeedSet.vi"/>
+				<Item Name="Api429ChannelStart.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429ChannelStart.vi"/>
+				<Item Name="Api429LibExit.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429LibExit.vi"/>
+				<Item Name="Api429LibInit.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429LibInit.vi"/>
+				<Item Name="Api429RmCreate.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmCreate.vi"/>
+				<Item Name="Api429RmDataRead.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmDataRead.vi"/>
+				<Item Name="Api429RmInfoGet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmInfoGet.vi"/>
+				<Item Name="Api429RmLabelConfigure.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmLabelConfigure.vi"/>
+				<Item Name="Api429RmResume.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmResume.vi"/>
+				<Item Name="Api429RmStatusGet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmStatusGet.vi"/>
+				<Item Name="Api429RmSuspend.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RmSuspend.vi"/>
+				<Item Name="Api429RxInit.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RxInit.vi"/>
+				<Item Name="Api429RxLabelBufferOffsetGet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RxLabelBufferOffsetGet.vi"/>
+				<Item Name="Api429RxLabelBufferRead" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RxLabelBufferRead"/>
+				<Item Name="Api429RxLabelConfigure.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RxLabelConfigure.vi"/>
+				<Item Name="Api429RxLabelStatusGet" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RxLabelStatusGet"/>
+				<Item Name="Api429RxStatusGet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429RxStatusGet.vi"/>
+				<Item Name="Api429TxAcycFrameCreate.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxAcycFrameCreate.vi"/>
+				<Item Name="Api429TxAcycFrameDelete.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxAcycFrameDelete.vi"/>
+				<Item Name="Api429TxAcycFrameSend.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxAcycFrameSend.vi"/>
+				<Item Name="Api429TxFifoDataWordsWrite.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxFifoDataWordsWrite.vi"/>
+				<Item Name="Api429TxFifoWrite.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxFifoWrite.vi"/>
+				<Item Name="Api429TxFrameTimeSet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxFrameTimeSet.vi"/>
+				<Item Name="Api429TxInit.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxInit.vi"/>
+				<Item Name="Api429TxMajorFrameCreate.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxMajorFrameCreate.vi"/>
+				<Item Name="Api429TxMajorFrameDelete.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxMajorFrameDelete.vi"/>
+				<Item Name="Api429TxMinorFrameCreate.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxMinorFrameCreate.vi"/>
+				<Item Name="Api429TxMinorFrameDelete.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxMinorFrameDelete.vi"/>
+				<Item Name="Api429TxPrepareFraming.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxPrepareFraming.vi"/>
+				<Item Name="Api429TxRepetitionCountSet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxRepetitionCountSet.vi"/>
+				<Item Name="Api429TxStatusGet.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxStatusGet.vi"/>
+				<Item Name="Api429TxXferBufferWrite.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxXferBufferWrite.vi"/>
+				<Item Name="Api429TxXferCreate.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxXferCreate.vi"/>
+				<Item Name="Api429TxXferDelete.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxXferDelete.vi"/>
+				<Item Name="Api429TxXferRateAdd.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxXferRateAdd.vi"/>
+				<Item Name="Api429TxXferRateRemove.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxXferRateRemove.vi"/>
+				<Item Name="Api429TxXferRateShow.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/Api429TxXferRateShow.vi"/>
+				<Item Name="Disable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Disable Scheduled Message.vi"/>
+				<Item Name="Enable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Enable Scheduled Message.vi"/>
+				<Item Name="ErrorHandler.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/ErrorHandler.vi"/>
+				<Item Name="Get Next 429 Record In Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Get Next 429 Record In Reader.vi"/>
+				<Item Name="Get Scheduled Message Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Get Scheduled Message Handle.vi"/>
+				<Item Name="Get Sequential Monitor Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Get Sequential Monitor Status.vi"/>
+				<Item Name="GlobalDLLPath.vi" Type="VI" URL="/&lt;instrlib&gt;/_AIM 429/GlobalDLLPath.vi"/>
+				<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Read.vi"/>
+				<Item Name="Set Scheduled Message Group Data.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Data/Set Scheduled Message Group Data.vi"/>
+				<Item Name="Start Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Start Sequential Monitor.vi"/>
+				<Item Name="Transmit Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Data/Transmit Dynamic.vi"/>
+				<Item Name="Transmit Message Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Tx/Data/Transmit Message Dynamic.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -857,7 +960,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
-				<Item Name="Messaging.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/VeriStand Custom Device Messaging/Messaging.lvlib"/>
+				<Item Name="Messaging.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/VeriStand Custom Device Messaging/Messaging.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="NIVeristand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/data/NIVeristand_DataServices.dll"/>
@@ -867,7 +970,6 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -875,17 +977,12 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="AIM ARINC 429 Hardware API.lvlib" Type="Library" URL="../Hardware API/AIM ARINC 429 Hardware API.lvlib"/>
 			<Item Name="AIM ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/AIM/AIM ARINC 429 Scripting.lvlib"/>
 			<Item Name="AIM ARINC 429 System Explorer.lvlib" Type="Library" URL="../System Explorer/Implementation/System Explorer/AIM ARINC 429 System Explorer.lvlib"/>
 			<Item Name="ARINC 429 Import.lvlib" Type="Library" URL="../Import/ARINC 429 Import.lvlib"/>
 			<Item Name="ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/ARINC 429/ARINC 429 Scripting.lvlib"/>
 			<Item Name="Asynchronous Process Parameters.ctl" Type="VI" URL="../Engine/Custom Device/Asynchronous Process Parameters.ctl"/>
-			<Item Name="BTI429LV.dll" Type="Document" URL="BTI429LV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="BTICardLV.dll" Type="Document" URL="BTICardLV.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../Shared/Build Linux Log File Path.vi"/>
 			<Item Name="Conditionally Add Parity Parameter.vi" Type="VI" URL="../Shared/Conditionally Add Parity Parameter.vi"/>
 			<Item Name="Conditionally Add SDI Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SDI Parameter.vi"/>
@@ -913,7 +1010,6 @@
 			<Item Name="Get Static Channel Reference for Frame.vi" Type="VI" URL="../Shared/Get Static Channel Reference for Frame.vi"/>
 			<Item Name="Get Status Error Channel Data References.vi" Type="VI" URL="../Shared/Get Status Error Channel Data References.vi"/>
 			<Item Name="Get Tx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Tx Hardware Channel Data.vi"/>
-			<Item Name="Initialization Method.ctl" Type="VI" URL="../Shared/Initialization Method.ctl"/>
 			<Item Name="Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi"/>
 			<Item Name="Initialize Channel Parameter (Discrete).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (Discrete).vi"/>
 			<Item Name="Label Properties.ctl" Type="VI" URL="../Shared/Label Properties.ctl"/>
@@ -942,7 +1038,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Transfer Type.ctl" Type="VI" URL="../Shared/Transfer Type.ctl"/>
-			<Item Name="Verify File Exists and Not Empty.vi" Type="VI" URL="../Shared/Verify File Exists and Not Empty.vi"/>
 			<Item Name="VS Channel Definition for Parameter.ctl" Type="VI" URL="../Shared/VS Channel Definition for Parameter.ctl"/>
 			<Item Name="VS Channels Definition for All Labels on Hardware Channel.ctl" Type="VI" URL="../Shared/VS Channels Definition for All Labels on Hardware Channel.ctl"/>
 			<Item Name="VS Channels Definition for Label.ctl" Type="VI" URL="../Shared/VS Channels Definition for Label.ctl"/>
