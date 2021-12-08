@@ -16,5 +16,4 @@
 	<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 	<Item Name="Initialize Library.vi" Type="VI" URL="../Initialize Library.vi"/>
 	<Item Name="Library Initialize and Exit.vi" Type="VI" URL="../Library Initialize and Exit.vi"/>
-	<Item Name="Time Tag to Time Stamp.vi" Type="VI" URL="../Time Tag to Time Stamp.vi"/>
 </Library>
