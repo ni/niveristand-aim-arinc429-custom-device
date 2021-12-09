@@ -1,23 +1,21 @@
-# Ballard ARINC 429 Custom Device
+# AIM ARINC 429 Custom Device
 
-The **Ballard ARINC 429 Custom Device** allows use of [Astronics ARINC 429 PXIe Modules with Ballard Technology](http://www.ni.com/en-ca/shop/select/pxi-arinc-429-interface-module) in VeriStand. The custom device targets one **core** of a Ballard ARINC 429 PXIe module. To target multiple modules or multiple cores on the same module, use multiple instances of this custom device.
+The **AIM ARINC 429 Custom Device** allows use of [AIM ARINC 429 PXIe Modules](https://www.aim-online.com/products/ace429-3u-x/) in VeriStand. The custom device targets exactly one AIM ARINC 429 PXIe module. To target multiple modules, use multiple instances of this custom device.
 
 The custom device supports the following functionality:
-- Import configuration files via scripting and System Explorer
+- Import configuration file via scripting and System Explorer
 - LabVIEW scripting of the custom device configuration
 - Viewing read-only configuration in System Explorer
 - Transmit and Receive configured labels
    - Scheduled and Acyclic labels
    - Multiple parameters per label
    - Multiple labels per channel
-   - Multiple Rx and Tx channels per core
+   - Multiple Rx and Tx channels per module
 
 ## Requirements
 
 - PXI Linux RT Controller
-- Supported Ballard ARINC 429 PXI Module
-
-**Note**: Only NI-keyed PXI modules are supported by the custom device. The part number should have the form `LV-222-###-###`, were `###` stands for the core configuration. **441** and **442** core models are supported. See the mapping between NI and Ballard part numbers on [ni.com](https://www.ni.com/en-us/support/documentation/supplemental/17/astronics-ballard-and-national-instruments-part-number-mapping.html).
+- Supported AIM ARINC 429 PXIe Module
 
 ## Getting Started Documentation
 
@@ -33,13 +31,13 @@ LabVIEW 2020
 ### Running the custom device
 
 - [VeriStand 2020 or later](https://www.ni.com/ro-ro/support/downloads/software-products/download.veristand.html#382072)
-- Optional: [Astronics Ballard Avionics Driver](https://www.ni.com/en-us/support/downloads/drivers/download.astronics-ballard-avionics-driver.html#370805)
+- AIM ARINC 429 BSP
 
 ### Developing or building from source
 
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
 - [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
-- [Astronics Ballard Avionics Driver and LabVIEW API](https://www.ni.com/en-us/support/downloads/drivers/download.astronics-ballard-avionics-driver.html#370805)
+- AIM ARINC 429 BSP and LabVIEW API
 
 ## Git History & Rebasing Policy
 
@@ -49,4 +47,4 @@ Branch rebasing and other history modifications will be listed here, with severa
 
 ## License
 
-This Ballard ARINC 429 custom device is licensed under an MIT-style license (see LICENSE). Other incorporated projects may be licensed under different licenses. All licenses allow for non-commercial and commercial use.
+This AIM ARINC 429 custom device is licensed under an MIT-style license (see LICENSE). Other incorporated projects may be licensed under different licenses. All licenses allow for non-commercial and commercial use.
