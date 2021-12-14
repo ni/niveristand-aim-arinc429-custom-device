@@ -10,13 +10,16 @@
 				<String>HardwareLoopback</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.6</String>
+				<String>1.0.0.7</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
 			</Property>
 			<Property Name="Creation Date">
 				<Double>3600957293.3245616</Double>
+			</Property>
+			<Property Name="ChannelDiagrams">
+				<BinaryString>77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxTb3VyY2VGaWxlIENoZWNrc3VtPSIzNDQ2MkVERjM2MEZDODNDNThGQTQzMzgzQkZCNzhEMjBFOTZEMTEzNUNDMEU1MkNENTI2QjBCRTU0REUxQkVCQUI1RjAyOTZBQzk1QkE1NTQ3MTQxRkJDQjhCODVERUM3QUQyREU3QzRFRjhFODIyODJGNTU3NjU5QjNGMDlBMyIgVGltZXN0YW1wPSIxRDdFRDhERERDRDBEMTAiIHhtbG5zPSJodHRwOi8vd3d3Lm5pLmNvbS9QbGF0Zm9ybUZyYW1ld29yayI+DQoJPFNvdXJjZU1vZGVsRmVhdHVyZVNldD4NCgkJPFBhcnNhYmxlTmFtZXNwYWNlIEFzc2VtYmx5RmlsZVZlcnNpb249IjkuMS4wLjUwMzU4IiBGZWF0dXJlU2V0TmFtZT0iRWRpdG9yIiBOYW1lPSJodHRwOi8vd3d3Lm5pLmNvbS9QbGF0Zm9ybUZyYW1ld29yayIgT2xkZXN0Q29tcGF0aWJsZVZlcnNpb249IjguMS4wLjQ5MTUyIiBWZXJzaW9uPSI4LjEuMC40OTE1MiIgLz4NCgkJPFBhcnNhYmxlTmFtZXNwYWNlIEFzc2VtYmx5RmlsZVZlcnNpb249IjkuMS4wLjUwMzU4IiBGZWF0dXJlU2V0TmFtZT0iVmVyaVN0YW5kIENvcmUgQ29tcG9uZW50cyIgTmFtZT0iaHR0cDovL3d3dy5uaS5jb20vVmVyaVN0YW5kIiBPbGRlc3RDb21wYXRpYmxlVmVyc2lvbj0iOS4wLjAuNDkxNTIiIFZlcnNpb249IjkuMC4wLjQ5MTUyIiAvPg0KCQk8QXBwbGljYXRpb25WZXJzaW9uSW5mbyBCdWlsZD0iOC42LjAuNTAzNTgiIE5hbWU9IlZlcmlTdGFuZCIgVmVyc2lvbj0iOS4xLjAuNTAzNTgiIC8+DQoJPC9Tb3VyY2VNb2RlbEZlYXR1cmVTZXQ+DQoJPFN5c3RlbURlZmluaXRpb24geG1sbnM9Imh0dHA6Ly93d3cubmkuY29tL1ZlcmlTdGFuZCI+DQoJCTxCYXNlTm9kZVRvQ29udGVudFRhYmxlMj4NCgkJCTxwLlRhYmxlPiZsdDs/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9InV0Zi04Ij8mZ3Q7DQombHQ7ZGljdGlvbmFyeSZndDsNCgkmbHQ7aXRlbSZndDsNCgkJJmx0O2tleSZndDsNCgkJCSZsdDtzdHJpbmcmZ3Q7YzgzZTc5N2YtMjIyMy00ZDEzLTg0YzEtOWVkOTI0MzJlYzkyJmx0Oy9zdHJpbmcmZ3Q7DQoJCSZsdDsva2V5Jmd0Ow0KCQkmbHQ7dmFsdWUmZ3Q7DQoJCQkmbHQ7c3RyaW5nJmd0OzM0NjEwNDlhZGExNjRkZjliMmFkMDViNjNhNWI5NDE1Jmx0Oy9zdHJpbmcmZ3Q7DQoJCSZsdDsvdmFsdWUmZ3Q7DQoJJmx0Oy9pdGVtJmd0Ow0KJmx0Oy9kaWN0aW9uYXJ5Jmd0OzwvcC5UYWJsZT4NCgkJPC9CYXNlTm9kZVRvQ29udGVudFRhYmxlMj4NCgk8L1N5c3RlbURlZmluaXRpb24+DQoJPEVudm95TWFuYWdlckZpbGUgSWQ9ImJhOTgzNmM4MDljMDRjOWRiNmUzYjE4NjM3NTQxM2FiIiB4bWxucz0iaHR0cDovL3d3dy5uaS5jb20vUGxhdGZvcm1GcmFtZXdvcmsiPg0KCQk8RW52b3lNYW5hZ2VyUm9vdEVudm95IElkPSIzZjM4ZGIyOTk5NDA0MjFiODRkMjAyMzkwYmIyODUwYSIgTW9kZWxEZWZpbml0aW9uVHlwZT0iRW52b3lNYW5hZ2VyUm9vdEVudm95IiBOYW1lPSJSb290RW52b3kiIC8+DQoJCTxOYW1lU2NvcGluZ0Vudm95IEF1dG9tYXRpY2FsbHlSZXNvbHZlVXA9IlRydWUiIElkPSIzY2E4NWFkYWY3YzQ0YjY1ODczNzljOTY4OTdjNWIxMSIgTmFtZT0iSGFyZHdhcmVMb29wYmFjay5uaXZzc2RmIiBOYW1lVHJhY2tzRmlsZU5hbWU9IlRydWUiPg0KCQkJPEVtYmVkZGVkRGVmaW5pdGlvblJlZmVyZW5jZSBJZD0iOGY3ODljNTNiYzAzNGQ3MDg4YTkwMzRjMzk3ZWMwYTUiIE1vZGVsRGVmaW5pdGlvblR5cGU9IntodHRwOi8vd3d3Lm5pLmNvbS9WZXJpU3RhbmR9VGFyZ2V0RGVmaW5pdGlvbiIgTmFtZT0iQ29udHJvbGxlciI+DQoJCQkJPFRhcmdldERlZmluaXRpb24gSWQ9ImMzMmEwYWRlODAzNTQ0N2NiMjgzMGE4NzI1YjhmNjIzIiBUYXJnZXROYW1lPSJDb250cm9sbGVyIiB4bWxucz0iaHR0cDovL3d3dy5uaS5jb20vVmVyaVN0YW5kIj4NCgkJCQkJPEJhc2VOb2RlV3JhcHBlciBCYXNlTm9kZUlkZW50aWZpZXI9IntjODNlNzk3Zi0yMjIzLTRkMTMtODRjMS05ZWQ5MjQzMmVjOTJ9IiBJZD0iMzQ2MTA0OWFkYTE2NGRmOWIyYWQwNWI2M2E1Yjk0MTUiIE5vZGVQYXRoPSJUYXJnZXRzL0NvbnRyb2xsZXIiIC8+DQoJCQkJCTxDaGFubmVsTWFwcGluZ0RpYWdyYW0gSWQ9ImU5MTg2ZTA3NTJkNDQzNGI5OWVjNDI2NTc0YTVhZDVhIj4NCgkJCQkJCTxCYXNlTm9kZVRvQ29udGVudFRhYmxlMj4NCgkJCQkJCQk8cC5UYWJsZT4mbHQ7P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJ1dGYtOCI/Jmd0Ow0KJmx0O2RpY3Rpb25hcnkmZ3Q7DQoJJmx0O2l0ZW0mZ3Q7DQoJCSZsdDtrZXkmZ3Q7DQoJCQkmbHQ7c3RyaW5nJmd0OzVkZWYxZDk2LTMxODUtNDUxOC1hZDc3LTNlYTczM2U5YWZlOCZsdDsvc3RyaW5nJmd0Ow0KCQkmbHQ7L2tleSZndDsNCgkJJmx0O3ZhbHVlJmd0Ow0KCQkJJmx0O3N0cmluZyZndDs1OTIyNWMwZTgwNTg0OWY5OTIyMGFiYWQzYzhlZmI1ZiZsdDsvc3RyaW5nJmd0Ow0KCQkmbHQ7L3ZhbHVlJmd0Ow0KCSZsdDsvaXRlbSZndDsNCgkmbHQ7aXRlbSZndDsNCgkJJmx0O2tleSZndDsNCgkJCSZsdDtzdHJpbmcmZ3Q7NDlmN2FlNTUtMjM2Mi00OTZmLWJlZmMtMzAyMGM1MDgxYTAwJmx0Oy9zdHJpbmcmZ3Q7DQoJCSZsdDsva2V5Jmd0Ow0KCQkmbHQ7dmFsdWUmZ3Q7DQoJCQkmbHQ7c3RyaW5nJmd0OzJkYTU1MTUxNmE2YjQ0ODhhMTc5NDMyN2Y3NGVlOTIxJmx0Oy9zdHJpbmcmZ3Q7DQoJCSZsdDsvdmFsdWUmZ3Q7DQoJJmx0Oy9pdGVtJmd0Ow0KCSZsdDtpdGVtJmd0Ow0KCQkmbHQ7a2V5Jmd0Ow0KCQkJJmx0O3N0cmluZyZndDs0ZWJhYjg5Mi1jYmIxLTQ0YWEtYTUxYS00OGJjYmFlMWQwNTYmbHQ7L3N0cmluZyZndDsNCgkJJmx0Oy9rZXkmZ3Q7DQoJCSZsdDt2YWx1ZSZndDsNCgkJCSZsdDtzdHJpbmcmZ3Q7Yzc5OWQ3NTJmMmI1NDFlYzkzNTAxZWQ5ODQ3YmE2M2QmbHQ7L3N0cmluZyZndDsNCgkJJmx0Oy92YWx1ZSZndDsNCgkmbHQ7L2l0ZW0mZ3Q7DQoJJmx0O2l0ZW0mZ3Q7DQoJCSZsdDtrZXkmZ3Q7DQoJCQkmbHQ7c3RyaW5nJmd0OzNhYTJkMzYyLWQ4MmUtNDQ5Zi05ZjdkLTE4ZGJmZmU0NGZhOSZsdDsvc3RyaW5nJmd0Ow0KCQkmbHQ7L2tleSZndDsNCgkJJmx0O3ZhbHVlJmd0Ow0KCQkJJmx0O3N0cmluZyZndDs2YTQ4ZmY3OWY1YTU0ZmMyODM1OGQ4MWQ1Y2E5YmQ1ZSZsdDsvc3RyaW5nJmd0Ow0KCQkmbHQ7L3ZhbHVlJmd0Ow0KCSZsdDsvaXRlbSZndDsNCiZsdDsvZGljdGlvbmFyeSZndDs8L3AuVGFibGU+DQoJCQkJCQk8L0Jhc2VOb2RlVG9Db250ZW50VGFibGUyPg0KCQkJCQkJPFVzZXJDaGFubmVsc01hcHBpbmdOb2RlIEJvdW5kcz0iMCA1NSAxNzIgNTAiIElkPSI1YzY2OTc2MzFjY2E0ZGU4YWYzNDAwYTU4ZDNlNTUxYyIgTmFtZT0iVXNlciBDaGFubmVscyIgVGVtcGxhdGU9Ikxpc3QiIFR5cGVHdWlkPSIwM0QzQjZCNy0xNDg1LTEzQTYtNTY3QkUxRTFFMERGOTk5QSI+DQoJCQkJCQkJPEJhc2VOb2RlV3JhcHBlciBCYXNlTm9kZUlkZW50aWZpZXI9Ins0OWY3YWU1NS0yMzYyLTQ5NmYtYmVmYy0zMDIwYzUwODFhMDB9IiBJZD0iMmRhNTUxNTE2YTZiNDQ4OGExNzk0MzI3Zjc0ZWU5MjEiIE5vZGVQYXRoPSJUYXJnZXRzL0NvbnRyb2xsZXIvVXNlciBDaGFubmVscyIgLz4NCgkJCQkJCTwvVXNlckNoYW5uZWxzTWFwcGluZ05vZGU+DQoJCQkJCQk8QmFzaWNNYXBwaW5nRGlhZ3JhbU5vZGUgQm91bmRzPSIwIDExMCAxOTEgNTAiIElkPSI1MjQ3NzFmMDBhZDU0OTFiYmQxZDJhMjdlZmQxNTFlYiIgTmFtZT0iU3lzdGVtIENoYW5uZWxzIiBUZW1wbGF0ZT0iTGlzdCIgVHlwZUd1aWQ9IjAzRDNCNzUzLTE0ODUtMTNBNi01NkIxMEVEMDgyMENGNDEwIj4NCgkJCQkJCQk8QmFzZU5vZGVXcmFwcGVyIEJhc2VOb2RlSWRlbnRpZmllcj0iezRlYmFiODkyLWNiYjEtNDRhYS1hNTFhLTQ4YmNiYWUxZDA1Nn0iIElkPSJjNzk5ZDc1MmYyYjU0MWVjOTM1MDFlZDk4NDdiYTYzZCIgTm9kZVBhdGg9IlRhcmdldHMvQ29udHJvbGxlci9TeXN0ZW0gQ2hhbm5lbHMiIC8+DQoJCQkJCQk8L0Jhc2ljTWFwcGluZ0RpYWdyYW1Ob2RlPg0KCQkJCQkJPEFsaWFzTWFwcGluZ05vZGUgQm91bmRzPSIwIDE2NSAxMjMgNTAiIElkPSI2Y2E4M2VmY2Y0NmI0ZDIwYWQzYTgxY2I0ZTE5NmI4NSIgTmFtZT0iQWxpYXNlcyIgVGVtcGxhdGU9Ikxpc3QiIFR5cGVHdWlkPSJlMTFmNDUxOS0wOWU2LTRmYjAtOTlkZi0yOTY3YzQzMTNkNjciPg0KCQkJCQkJCTxCYXNlTm9kZVdyYXBwZXIgQmFzZU5vZGVJZGVudGlmaWVyPSJ7M2FhMmQzNjItZDgyZS00NDlmLTlmN2QtMThkYmZmZTQ0ZmE5fSIgSWQ9IjZhNDhmZjc5ZjVhNTRmYzI4MzU4ZDgxZDVjYTliZDVlIiBOb2RlUGF0aD0iQWxpYXNlcyIgLz4NCgkJCQkJCTwvQWxpYXNNYXBwaW5nTm9kZT4NCgkJCQkJCTxDdXN0b21EZXZpY2UgQm91bmRzPSIzMjAgMCAxODIgNTAiIElkPSJmMjZlZWFjZjYzODA0YTEzYWRjNDk0ZWJmNTM4MTNlYyIgTmFtZT0iQUlNIEFSSU5DLTQyOSIgVGVtcGxhdGU9Ikxpc3QiIFR5cGVHdWlkPSIyRDc5MEQzNy03NUNCLTQzODQtOUM4Qi02MTRDNkYwRjE2REYiPg0KCQkJCQkJCTxCYXNlTm9kZVdyYXBwZXIgQmFzZU5vZGVJZGVudGlmaWVyPSJ7NWRlZjFkOTYtMzE4NS00NTE4LWFkNzctM2VhNzMzZTlhZmU4fSIgSWQ9IjU5MjI1YzBlODA1ODQ5Zjk5MjIwYWJhZDNjOGVmYjVmIiBOb2RlUGF0aD0iVGFyZ2V0cy9Db250cm9sbGVyL0N1c3RvbSBEZXZpY2VzL0FJTSBBUklOQy00MjkiIC8+DQoJCQkJCQk8L0N1c3RvbURldmljZT4NCgkJCQkJPC9DaGFubmVsTWFwcGluZ0RpYWdyYW0+DQoJCQkJPC9UYXJnZXREZWZpbml0aW9uPg0KCQkJPC9FbWJlZGRlZERlZmluaXRpb25SZWZlcmVuY2U+DQoJCTwvTmFtZVNjb3BpbmdFbnZveT4NCgk8L0Vudm95TWFuYWdlckZpbGU+DQo8L1NvdXJjZUZpbGU+</BinaryString>
 			</Property>
 		</Properties>
 		<Errors />
@@ -145,6 +148,9 @@
 								<Property Name="Driver VI Exec Mode">
 									<U32>1</U32>
 								</Property>
+								<Property Name="user.CD.Version">
+									<U32>1</U32>
+								</Property>
 							</Properties>
 							<Errors />
 							<Section Name="CAN" TypeGUID="6c5bb91f-0da7-407d-aefc-acbe49c768df" Identifier="6d5be80a-3c4e-4137-a4f5-6cf52a192232">
@@ -183,7 +189,7 @@
 					<Description />
 					<Properties />
 					<Errors />
-					<Section Name="Ballard - Arinc-429" TypeGUID="123EAA23-BADA-4DDC-980E-A4FC910D5182" Identifier="ac2a3342-8f41-4ed3-8ef6-378c7e3cad69">
+					<Section Name="AIM ARINC-429" TypeGUID="2D790D37-75CB-4384-9C8B-614C6F0F16DF" Identifier="5def1d96-3185-4518-ad77-3ea733e9afe8">
 						<Description />
 						<Properties>
 							<Property Name="CD Status">
@@ -193,895 +199,125 @@
 								<U32>1</U32>
 							</Property>
 							<Property Name="Driver VI Path_0">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Ballard\ARINC 429\Linux_x64\Ballard ARINC 429 Engine Linux64.llb\RT Driver VI.vi">
-									<Version>1.9.2</Version>
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\AIM\ARINC 429\Linux_x64\AIM ARINC 429 Engine Linux64.llb\RT Driver VI.vi">
+									<Version>1.1.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard\ARINC 429\Ballard ARINC 429 Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\AIM\ARINC 429\AIM ARINC 429 Engine Linux64.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
 									<MD5 />
 								</DependentFile>
 							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Engine Windows.llb\RT Driver VI.vi">
+									<Version>1.1.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\AIM\ARINC 429\AIM ARINC 429 Engine Windows.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
 							<Property Name="Version">
-								<String>1.9.2</String>
+								<String>1.1.0</String>
 							</Property>
-							<Property Name="user.CD.Initialization Method">
-								<U16>0</U16>
-							</Property>
-							<Property Name="user.CD.PXI Slot Number">
-								<I32>2</I32>
+							<Property Name="Dependency_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\AIM\ARINC 429\Linux_x64\AIM ARINC 429 Engine.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\AIM\ARINC 429\AIM ARINC 429 Engine.lvlibp</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5>e9c855695069e123034dc2fff22f79cf</MD5>
+								</DependentFile>
 							</Property>
 							<Property Name="user.CD.card number">
 								<I32>0</I32>
 							</Property>
-							<Property Name="user.CD.core number">
-								<I32>0</I32>
-							</Property>
-							<Property Name="user.CD.Initialization Method_card number_core number_LastTimeDuplicateReported">
-								<Double>3695839742.2905927</Double>
-							</Property>
 						</Properties>
 						<Errors />
-						<Section Name="Databases" TypeGUID="5F9EF1FD-304F-4EA9-BDF8-DC215A306754" Identifier="54f97363-55d2-4026-bffc-0731e8e3871a">
-							<Description />
-							<Properties>
-								<Property Name="user.CD.DBHash">
-									<BinaryString>YTE1ZDM5NTkyZDc1NTViMmQwOTk4ZjRjNTU2MDE2MmE=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Win File Path">
-									<String>Physical_Loopback_hw.xml</String>
-								</Property>
-								<Property Name="user.CD.Hardware Configuration File">
-									<DependentFile Type="Relative" Path="Physical_Loopback_hw.xml">
-										<Version>1.0</Version>
-										<ForceDownload>false</ForceDownload>
-										<RTDestination>c:\ni-rt\VeriStand\Custom Devices\Ballard - Arinc-429\Board_0__Core_0__.xml</RTDestination>
-										<SupportedTarget>Linux_x64</SupportedTarget>
-										<MD5>a15d39592d7555b2d0998f4c5560162a</MD5>
-									</DependentFile>
-								</Property>
-								<Property Name="user.CD.ParametersFileHash">
-									<BinaryString>YTg5YWQyZTAwNWQ2NDI4MzE1YTg3NDFmMmUyOGVmNjI=</BinaryString>
-								</Property>
-								<Property Name="user.CD.Win Parameters File Path">
-									<String>Physical_Loopback_param.xml</String>
-								</Property>
-							</Properties>
-							<Errors />
-						</Section>
-						<Section Name="Ports" TypeGUID="879B7DAF-C156-4E60-80C7-980946E79B26" Identifier="54f97363-55d2-4026-bffc-0731e8e3871b">
+						<Section Name="Status" TypeGUID="8E884AA6-4EB7-4451-9366-671B1F80E122" Identifier="819972b0-7c6d-43c2-add4-99c15254b84a">
 							<Description />
 							<Properties />
 							<Errors />
-							<Section Name="Inputs - Rx" TypeGUID="3098426F-4C09-481E-8916-57E537FEC0AE" Identifier="54f97363-55d2-4026-bffc-0731e8e38719">
+							<Channel Name="Receiving Error Count" TypeGUID="F1643FA0-1C8B-4412-B885-8686A95466A9" Identifier="88f39510-2ec1-4b45-b6a4-4dd01ddd57c9" RowDim="1" ColDim="1" Units="" BitFields="1">
 								<Description />
 								<Properties />
 								<Errors />
-								<Section Name="CH0" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="31522798-f82c-4157-93fd-e81189dfc5b0">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Port">
-											<U16>0</U16>
-										</Property>
-									</Properties>
-									<Errors />
-									<Section Name="label 134" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="64ea2b1e-50d1-424d-adeb-26593777d146">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Label">
-												<U32>134</U32>
-											</Property>
-											<Property Name="user.CD.transferPeriod">
-												<U32>0</U32>
-											</Property>
-											<Property Name="user.CD.txRate">
-												<Double>0</Double>
-											</Property>
-											<Property Name="user.CD.SDI_Enabled">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="user.CD.SDIValue">
-												<Variant>
-													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-													<Data>AAAAICAAgAAAAAABAA9ABQAIU0RJVmFsdWUAAAEAAAAAAAAA</Data>
-												</Variant>
-											</Property>
-											<Property Name="user.CD.xmlName">
-												<BinaryString>MTM0</BinaryString>
-											</Property>
-											<Property Name="user.CD.TransferType">
-												<U16>0</U16>
-											</Property>
-											<Property Name="user.CD.WordInitialRawValue">
-												<U32>0</U32>
-											</Property>
-										</Properties>
-										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="9222de55-dc33-4f22-94de-ae131e732a60">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Altitude_Rx" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="abd593b5-3865-4a2e-99a5-78fe13970f9d" RowDim="1" ColDim="1" Units="psi" BitFields="5">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.Encoding Type">
-														<U16>0</U16>
-													</Property>
-													<Property Name="user.CD.Start Bit">
-														<I32>18</I32>
-													</Property>
-													<Property Name="user.CD.Num Bits">
-														<I32>10</I32>
-													</Property>
-													<Property Name="user.CD.ScaleFac">
-														<Double>16</Double>
-													</Property>
-													<Property Name="user.CD.ScaleOffset">
-														<Double>0</Double>
-													</Property>
-													<Property Name="user.CD.Signed?">
-														<Boolean>true</Boolean>
-													</Property>
-													<Property Name="user.CD.RawData Bits">
-														<U32>0</U32>
-													</Property>
-													<Property Name="user.CD.Unit">
-														<BinaryString>cHNp</BinaryString>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="label 134 SSM" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="25326572-f724-46d5-a037-12811cac4fbf" RowDim="1" ColDim="1" Units="" BitFields="5">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.Encoding Type">
-														<U16>0</U16>
-													</Property>
-													<Property Name="user.CD.Start Bit">
-														<I32>29</I32>
-													</Property>
-													<Property Name="user.CD.Num Bits">
-														<I32>2</I32>
-													</Property>
-													<Property Name="user.CD.ScaleFac">
-														<Double>1</Double>
-													</Property>
-													<Property Name="user.CD.ScaleOffset">
-														<Double>0</Double>
-													</Property>
-													<Property Name="user.CD.Signed?">
-														<Boolean>false</Boolean>
-													</Property>
-													<Property Name="user.CD.RawData Bits">
-														<U32>0</U32>
-													</Property>
-													<Property Name="user.CD.Unit">
-														<BinaryString />
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-									</Section>
-								</Section>
-								<Section Name="CH2" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="1c283a7e-80db-4d23-87be-caf825eebb43">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Port">
-											<U16>2</U16>
-										</Property>
-									</Properties>
-									<Errors />
-									<Section Name="label 135" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="d7ca7c41-6737-496c-a860-8146371c7289">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Label">
-												<U32>135</U32>
-											</Property>
-											<Property Name="user.CD.transferPeriod">
-												<U32>0</U32>
-											</Property>
-											<Property Name="user.CD.txRate">
-												<Double>0</Double>
-											</Property>
-											<Property Name="user.CD.SDI_Enabled">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="user.CD.SDIValue">
-												<Variant>
-													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-													<Data>AAAAICAAgAAAAAABAA9ABQAIU0RJVmFsdWUAAAEAAAAAAAAA</Data>
-												</Variant>
-											</Property>
-											<Property Name="user.CD.xmlName">
-												<BinaryString>MTM1</BinaryString>
-											</Property>
-											<Property Name="user.CD.TransferType">
-												<U16>0</U16>
-											</Property>
-											<Property Name="user.CD.WordInitialRawValue">
-												<U32>0</U32>
-											</Property>
-										</Properties>
-										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="da724220-a2cb-4380-9dee-41d1e8fff988">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Altitude_Rx" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="b4efb532-85c2-4caa-be34-6d687aa925e7" RowDim="1" ColDim="1" Units="psi" BitFields="5">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.Encoding Type">
-														<U16>1</U16>
-													</Property>
-													<Property Name="user.CD.Start Bit">
-														<I32>10</I32>
-													</Property>
-													<Property Name="user.CD.Num Bits">
-														<I32>19</I32>
-													</Property>
-													<Property Name="user.CD.ScaleFac">
-														<Double>1</Double>
-													</Property>
-													<Property Name="user.CD.ScaleOffset">
-														<Double>0</Double>
-													</Property>
-													<Property Name="user.CD.Signed?">
-														<Boolean>true</Boolean>
-													</Property>
-													<Property Name="user.CD.RawData Bits">
-														<U32>0</U32>
-													</Property>
-													<Property Name="user.CD.Unit">
-														<BinaryString>cHNp</BinaryString>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="label 135 SSM" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="93e61630-4de0-4166-91ca-e1b896ca8d1d" RowDim="1" ColDim="1" Units="" BitFields="5">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.Encoding Type">
-														<U16>0</U16>
-													</Property>
-													<Property Name="user.CD.Start Bit">
-														<I32>29</I32>
-													</Property>
-													<Property Name="user.CD.Num Bits">
-														<I32>2</I32>
-													</Property>
-													<Property Name="user.CD.ScaleFac">
-														<Double>1</Double>
-													</Property>
-													<Property Name="user.CD.ScaleOffset">
-														<Double>0</Double>
-													</Property>
-													<Property Name="user.CD.Signed?">
-														<Boolean>false</Boolean>
-													</Property>
-													<Property Name="user.CD.RawData Bits">
-														<U32>0</U32>
-													</Property>
-													<Property Name="user.CD.Unit">
-														<BinaryString />
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-									</Section>
-								</Section>
-								<Section Name="CH4" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="c5923a5a-c086-4ef1-a6c4-7737401f0349">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Port">
-											<U16>4</U16>
-										</Property>
-									</Properties>
-									<Errors />
-									<Section Name="label 136" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="24c7568c-d513-496d-803b-4e426b1fc7b6">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Label">
-												<U32>136</U32>
-											</Property>
-											<Property Name="user.CD.transferPeriod">
-												<U32>0</U32>
-											</Property>
-											<Property Name="user.CD.txRate">
-												<Double>0</Double>
-											</Property>
-											<Property Name="user.CD.SDI_Enabled">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="user.CD.SDIValue">
-												<Variant>
-													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-													<Data>AAAAICAAgAAAAAABAA9ABQAIU0RJVmFsdWUAAAEAAAAAAAAA</Data>
-												</Variant>
-											</Property>
-											<Property Name="user.CD.xmlName">
-												<BinaryString>MTM2</BinaryString>
-											</Property>
-											<Property Name="user.CD.TransferType">
-												<U16>0</U16>
-											</Property>
-											<Property Name="user.CD.WordInitialRawValue">
-												<U32>0</U32>
-											</Property>
-										</Properties>
-										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="3436c901-af64-4f1e-b315-7be1cf4b68fa">
-											<Description />
-											<Properties />
-											<Errors />
-											<Channel Name="Altitude_Rx" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="b83a588e-9504-4d8c-aeea-5963f9a917ed" RowDim="1" ColDim="1" Units="psi" BitFields="5">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.Encoding Type">
-														<U16>0</U16>
-													</Property>
-													<Property Name="user.CD.Start Bit">
-														<I32>13</I32>
-													</Property>
-													<Property Name="user.CD.Num Bits">
-														<I32>16</I32>
-													</Property>
-													<Property Name="user.CD.ScaleFac">
-														<Double>1</Double>
-													</Property>
-													<Property Name="user.CD.ScaleOffset">
-														<Double>0</Double>
-													</Property>
-													<Property Name="user.CD.Signed?">
-														<Boolean>true</Boolean>
-													</Property>
-													<Property Name="user.CD.RawData Bits">
-														<U32>0</U32>
-													</Property>
-													<Property Name="user.CD.Unit">
-														<BinaryString>cHNp</BinaryString>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Valid_Rx" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="b83a588e-9504-4d8c-aeea-5963f9a917ed" RowDim="1" ColDim="1" Units="psi" BitFields="5">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.Encoding Type">
-														<U16>2</U16>
-													</Property>
-													<Property Name="user.CD.Start Bit">
-														<I32>10</I32>
-													</Property>
-													<Property Name="user.CD.Num Bits">
-														<I32>1</I32>
-													</Property>
-													<Property Name="user.CD.ScaleFac">
-														<Double>1</Double>
-													</Property>
-													<Property Name="user.CD.ScaleOffset">
-														<Double>0</Double>
-													</Property>
-													<Property Name="user.CD.Signed?">
-														<Boolean>false</Boolean>
-													</Property>
-													<Property Name="user.CD.RawData Bits">
-														<U32>0</U32>
-													</Property>
-													<Property Name="user.CD.Unit">
-														<BinaryString>cHNp</BinaryString>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="current_Rx" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="b83a588e-9504-4d8c-aeea-5963f9a917ed" RowDim="1" ColDim="1" Units="psi" BitFields="5">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.Encoding Type">
-														<U16>2</U16>
-													</Property>
-													<Property Name="user.CD.Start Bit">
-														<I32>11</I32>
-													</Property>
-													<Property Name="user.CD.Num Bits">
-														<I32>1</I32>
-													</Property>
-													<Property Name="user.CD.ScaleFac">
-														<Double>1</Double>
-													</Property>
-													<Property Name="user.CD.ScaleOffset">
-														<Double>0</Double>
-													</Property>
-													<Property Name="user.CD.Signed?">
-														<Boolean>false</Boolean>
-													</Property>
-													<Property Name="user.CD.RawData Bits">
-														<U32>0</U32>
-													</Property>
-													<Property Name="user.CD.Unit">
-														<BinaryString>cHNp</BinaryString>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="label 136 SSM" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="115ac8bd-b7a0-437a-8acb-18091450e593" RowDim="1" ColDim="1" Units="" BitFields="5">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.Encoding Type">
-														<U16>0</U16>
-													</Property>
-													<Property Name="user.CD.Start Bit">
-														<I32>29</I32>
-													</Property>
-													<Property Name="user.CD.Num Bits">
-														<I32>2</I32>
-													</Property>
-													<Property Name="user.CD.ScaleFac">
-														<Double>1</Double>
-													</Property>
-													<Property Name="user.CD.ScaleOffset">
-														<Double>0</Double>
-													</Property>
-													<Property Name="user.CD.Signed?">
-														<Boolean>false</Boolean>
-													</Property>
-													<Property Name="user.CD.RawData Bits">
-														<U32>0</U32>
-													</Property>
-													<Property Name="user.CD.Unit">
-														<BinaryString />
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-									</Section>
-								</Section>
-							</Section>
-							<Section Name="Outputs - Tx" TypeGUID="7D7F8E01-8E02-4E6A-8E22-BF1B7D107645" Identifier="c7f6fea8-aa9e-4772-bcdc-0b6e3ef9ce9f">
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Gap Error Count" TypeGUID="F1643FA0-1C8B-4412-B885-8686A95466A9" Identifier="bf4d4ba4-7e01-4c5c-83a7-0315e9f32872" RowDim="1" ColDim="1" Units="" BitFields="1">
 								<Description />
 								<Properties />
 								<Errors />
-								<Section Name="CH17" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="33d8ecf9-a504-4916-a21b-0edc7e7281a5">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Port">
-											<U16>17</U16>
-										</Property>
-									</Properties>
-									<Errors />
-									<Section Name="label 134" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="3de8db57-284d-4d55-9158-60733e777cc1">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Label">
-												<U32>134</U32>
-											</Property>
-											<Property Name="user.CD.transferPeriod">
-												<U32>1000</U32>
-											</Property>
-											<Property Name="user.CD.txRate">
-												<Double>1000</Double>
-											</Property>
-											<Property Name="user.CD.SDI_Enabled">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="user.CD.SDIValue">
-												<Variant>
-													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-													<Data>AAAAICAAgAAAAAABAA9ABQAIU0RJVmFsdWUAAAEAAAAAAAAA</Data>
-												</Variant>
-											</Property>
-											<Property Name="user.CD.xmlName">
-												<BinaryString>MTM0</BinaryString>
-											</Property>
-											<Property Name="user.CD.TransferType">
-												<U16>0</U16>
-											</Property>
-											<Property Name="user.CD.WordInitialRawValue">
-												<U32>2863311530</U32>
-											</Property>
-										</Properties>
-										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="254141c2-1df5-4861-acac-1ca174277a2a">
-											<Description>Raw Data Value: AAAAAAAA (Hex), 2863311530 (Decimal)
-SDI: 10 (Binary)
-Bits (10-30): 010101010101010101010 (Binary), 699050 (Decimal)
-
-NOTE: actual  SDI content may differ based on Label Settings.</Description>
-											<Properties />
-											<Errors />
-											<Channel Name="Altitude_Tx" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="c65d1229-d9be-49e0-98ae-040525005171" RowDim="1" ColDim="1" Units="psi" BitFields="7">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.Encoding Type">
-														<U16>0</U16>
-													</Property>
-													<Property Name="user.CD.Start Bit">
-														<I32>18</I32>
-													</Property>
-													<Property Name="user.CD.Num Bits">
-														<I32>10</I32>
-													</Property>
-													<Property Name="user.CD.ScaleFac">
-														<Double>16</Double>
-													</Property>
-													<Property Name="user.CD.ScaleOffset">
-														<Double>0</Double>
-													</Property>
-													<Property Name="user.CD.Signed?">
-														<Boolean>true</Boolean>
-													</Property>
-													<Property Name="user.CD.RawData Bits">
-														<U32>0</U32>
-													</Property>
-													<Property Name="user.CD.Unit">
-														<BinaryString>cHNp</BinaryString>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Channel Name="Disable" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="f3126917-0a1e-46ca-8d1c-2b900a2cd26e" RowDim="1" ColDim="1" Units="" BitFields="3">
-											<Description />
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
-								</Section>
-								<Section Name="CH19" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="648a0f10-ce8f-4daa-9406-cdf4b845747d">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Port">
-											<U16>19</U16>
-										</Property>
-									</Properties>
-									<Errors />
-									<Section Name="label 135" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="928d46dc-c727-48f8-8f47-ee46ca641808">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Label">
-												<U32>135</U32>
-											</Property>
-											<Property Name="user.CD.transferPeriod">
-												<U32>1000</U32>
-											</Property>
-											<Property Name="user.CD.txRate">
-												<Double>1000</Double>
-											</Property>
-											<Property Name="user.CD.SDI_Enabled">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="user.CD.SDIValue">
-												<Variant>
-													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-													<Data>AAAAICAAgAAAAAABAA9ABQAIU0RJVmFsdWUAAAEAAAAAAAAA</Data>
-												</Variant>
-											</Property>
-											<Property Name="user.CD.xmlName">
-												<BinaryString>MTM1</BinaryString>
-											</Property>
-											<Property Name="user.CD.TransferType">
-												<U16>0</U16>
-											</Property>
-											<Property Name="user.CD.WordInitialRawValue">
-												<U32>2863311530</U32>
-											</Property>
-										</Properties>
-										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="9212dab9-1f27-4233-bd93-fcf8d1b9272c">
-											<Description>Raw Data Value: AAAAAAAA (Hex), 2863311530 (Decimal)
-SDI: 10 (Binary)
-Bits (10-30): 010101010101010101010 (Binary), 699050 (Decimal)
-
-NOTE: actual  SDI content may differ based on Label Settings.</Description>
-											<Properties />
-											<Errors />
-											<Channel Name="Altitude_Tx" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="47b29aaf-c32f-41de-b8b6-de8c14d78d74" RowDim="1" ColDim="1" Units="psi" BitFields="7">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.Encoding Type">
-														<U16>1</U16>
-													</Property>
-													<Property Name="user.CD.Start Bit">
-														<I32>10</I32>
-													</Property>
-													<Property Name="user.CD.Num Bits">
-														<I32>19</I32>
-													</Property>
-													<Property Name="user.CD.ScaleFac">
-														<Double>1</Double>
-													</Property>
-													<Property Name="user.CD.ScaleOffset">
-														<Double>0</Double>
-													</Property>
-													<Property Name="user.CD.Signed?">
-														<Boolean>true</Boolean>
-													</Property>
-													<Property Name="user.CD.RawData Bits">
-														<U32>0</U32>
-													</Property>
-													<Property Name="user.CD.Unit">
-														<BinaryString>cHNp</BinaryString>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Channel Name="Disable" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="876c4d80-df6d-4d73-ba70-15534ac0bc60" RowDim="1" ColDim="1" Units="" BitFields="3">
-											<Description />
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
-								</Section>
-								<Section Name="CH21" TypeGUID="4344CD5A-2266-4D64-A775-8F5615E9A1AD" Identifier="a87094bb-88d3-4401-a0a8-7296b896d75e">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Port">
-											<U16>21</U16>
-										</Property>
-									</Properties>
-									<Errors />
-									<Section Name="label 136" TypeGUID="8CE6E51F-BC83-4569-865F-9C808FB30A26" Identifier="4232338d-b92e-4474-877f-c3ea548e0749">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Label">
-												<U32>136</U32>
-											</Property>
-											<Property Name="user.CD.transferPeriod">
-												<U32>1000</U32>
-											</Property>
-											<Property Name="user.CD.txRate">
-												<Double>1000</Double>
-											</Property>
-											<Property Name="user.CD.SDI_Enabled">
-												<Boolean>false</Boolean>
-											</Property>
-											<Property Name="user.CD.SDIValue">
-												<Variant>
-													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-													<Data>AAAAICAAgAAAAAABAA9ABQAIU0RJVmFsdWUAAAEAAAAAAAAA</Data>
-												</Variant>
-											</Property>
-											<Property Name="user.CD.xmlName">
-												<BinaryString>MTM2</BinaryString>
-											</Property>
-											<Property Name="user.CD.TransferType">
-												<U16>0</U16>
-											</Property>
-											<Property Name="user.CD.WordInitialRawValue">
-												<U32>2863311530</U32>
-											</Property>
-										</Properties>
-										<Errors />
-										<Section Name="Word" TypeGUID="f906cc29-2aac-40b2-844c-3debd55d7c10" Identifier="e5124695-8051-4725-82fc-20e4a71dedd3">
-											<Description>Raw Data Value: AAAAAAAA (Hex), 2863311530 (Decimal)
-SDI: 10 (Binary)
-Bits (10-30): 010101010101010101010 (Binary), 699050 (Decimal)
-
-NOTE: actual  SDI content may differ based on Label Settings.</Description>
-											<Properties />
-											<Errors />
-											<Channel Name="Altitude_Tx" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="5fb8cee7-06a6-40ac-89ec-6737d1894400" RowDim="1" ColDim="1" Units="psi" BitFields="7">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.Encoding Type">
-														<U16>0</U16>
-													</Property>
-													<Property Name="user.CD.Start Bit">
-														<I32>13</I32>
-													</Property>
-													<Property Name="user.CD.Num Bits">
-														<I32>16</I32>
-													</Property>
-													<Property Name="user.CD.ScaleFac">
-														<Double>1</Double>
-													</Property>
-													<Property Name="user.CD.ScaleOffset">
-														<Double>0</Double>
-													</Property>
-													<Property Name="user.CD.Signed?">
-														<Boolean>true</Boolean>
-													</Property>
-													<Property Name="user.CD.RawData Bits">
-														<U32>0</U32>
-													</Property>
-													<Property Name="user.CD.Unit">
-														<BinaryString>cHNp</BinaryString>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="Valid_Tx" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="b83a588e-9504-4d8c-aeea-5963f9a917ed" RowDim="1" ColDim="1" Units="psi" BitFields="5">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.Encoding Type">
-														<U16>2</U16>
-													</Property>
-													<Property Name="user.CD.Start Bit">
-														<I32>10</I32>
-													</Property>
-													<Property Name="user.CD.Num Bits">
-														<I32>1</I32>
-													</Property>
-													<Property Name="user.CD.ScaleFac">
-														<Double>1</Double>
-													</Property>
-													<Property Name="user.CD.ScaleOffset">
-														<Double>0</Double>
-													</Property>
-													<Property Name="user.CD.Signed?">
-														<Boolean>false</Boolean>
-													</Property>
-													<Property Name="user.CD.RawData Bits">
-														<U32>0</U32>
-													</Property>
-													<Property Name="user.CD.Unit">
-														<BinaryString>cHNp</BinaryString>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-											<Channel Name="current_Tx" TypeGUID="7862A4D1-00AD-42C2-8A9F-4C525861A8AC" Identifier="b83a588e-9504-4d8c-aeea-5963f9a917ed" RowDim="1" ColDim="1" Units="psi" BitFields="5">
-												<Description />
-												<Properties>
-													<Property Name="user.CD.Encoding Type">
-														<U16>2</U16>
-													</Property>
-													<Property Name="user.CD.Start Bit">
-														<I32>11</I32>
-													</Property>
-													<Property Name="user.CD.Num Bits">
-														<I32>1</I32>
-													</Property>
-													<Property Name="user.CD.ScaleFac">
-														<Double>1</Double>
-													</Property>
-													<Property Name="user.CD.ScaleOffset">
-														<Double>0</Double>
-													</Property>
-													<Property Name="user.CD.Signed?">
-														<Boolean>false</Boolean>
-													</Property>
-													<Property Name="user.CD.RawData Bits">
-														<U32>0</U32>
-													</Property>
-													<Property Name="user.CD.Unit">
-														<BinaryString>cHNp</BinaryString>
-													</Property>
-												</Properties>
-												<Errors />
-												<DefaultValue>
-													<Elem>0</Elem>
-												</DefaultValue>
-											</Channel>
-										</Section>
-										<Channel Name="Disable" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="07467f0c-b9c0-442f-869c-e9cdd643861e" RowDim="1" ColDim="1" Units="" BitFields="3">
-											<Description />
-											<Properties />
-											<Errors />
-											<DefaultValue>
-												<Elem>0</Elem>
-											</DefaultValue>
-										</Channel>
-									</Section>
-								</Section>
-							</Section>
-							<Section Name="Status" TypeGUID="d3f909f4-31dd-4b46-b0c0-188c355fd2ae" Identifier="7300bb74-ba0c-45a9-b99c-351dd2f0ae0b">
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Parity Error Count" TypeGUID="F1643FA0-1C8B-4412-B885-8686A95466A9" Identifier="5d4b1114-c59b-44ca-a727-d370a092a885" RowDim="1" ColDim="1" Units="" BitFields="1">
 								<Description />
 								<Properties />
 								<Errors />
-								<Channel Name="Inline Error Code" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="edda7164-8a21-4a34-99ef-aa8b73bc5d50" RowDim="1" ColDim="1" Units="" BitFields="1">
-									<Description />
-									<Properties />
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Receiving Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="11ab6368-5de9-4b55-b9cb-b31d8b9d8e43" RowDim="1" ColDim="1" Units="" BitFields="1">
-									<Description>This Channel is incremented as soon as one of the errors (Gap Error, Parity Error, Long Word Error or Bit Timing Error) happens in one of the Channels defined in Rx.
-
-It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defined in Rx. If Terminal Count (TC) is reached (0xFFFFFFFF), then value rolls off to 0.</Description>
-									<Properties />
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Gap Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="f3125a69-f169-4567-a40e-c6e60a93114e" RowDim="1" ColDim="1" Units="" BitFields="1">
-									<Description>This Channel is incremented as soon as Gap Error happens in one of the Channels defined in Rx. A Gap Error is when a gap of less than four bit times preceded the word. 
-
-It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defined in Rx. If Terminal Count (TC) is reached (0xFFFFFFFF), then value rolls off to 0.</Description>
-									<Properties />
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Parity Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="93840c8b-ca0b-4780-8605-73022f26b31a" RowDim="1" ColDim="1" Units="" BitFields="1">
-									<Description>This Channel is incremented as soon as Parity Error happens in one of the Channels defined in Rx. A Parity Error is when a parity error was detected in the word. 
-
-It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defined in Rx. If Terminal Count (TC) is reached (0xFFFFFFFF), then value rolls off to 0.</Description>
-									<Properties />
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Long Word Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="db631f73-14be-472d-ac31-674e11c3ab3a" RowDim="1" ColDim="1" Units="" BitFields="1">
-									<Description>This Channel is incremented as soon as Long Word Error happens in one of the Channels defined in Rx. A Long Word Error is when a word of more than 32-bits was detected in the word. 
-
-It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defined in Rx. If Terminal Count (TC) is reached (0xFFFFFFFF), then value rolls off to 0.</Description>
-									<Properties />
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Bit Timing Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="b2d6253b-a995-4350-becf-aee3ab6b7e43" RowDim="1" ColDim="1" Units="" BitFields="1">
-									<Description>This Channel is incremented as soon as Bit Timing Error happens in one of the Channels defined in Rx. A Bit Timing Error is when an error occured while decoding the bits of the word: short bits or long bits. 
-
-It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defined in Rx. If Terminal Count (TC) is reached (0xFFFFFFFF), then value rolls off to 0.</Description>
-									<Properties />
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Timeout Error Count" TypeGUID="0ceacc7e-2a0c-4161-94e4-a05224c7d47b" Identifier="b2d6253b-a995-4350-becf-aee3ab6b7e43" RowDim="1" ColDim="1" Units="" BitFields="1">
-									<Description>This Channel is incremented as soon as Timeout Error happens in one of the Channels defined in Rx. A Timeout Error is when an error occured while decoding the bits of the word: short bits or long bits. 
-
-It's a U32 (Unsigned 32 Bits) counter shared between all Channels from Core defined in Rx. If Terminal Count (TC) is reached (0xFFFFFFFF), then value rolls off to 0.</Description>
-									<Properties />
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Long Word Error Count" TypeGUID="F1643FA0-1C8B-4412-B885-8686A95466A9" Identifier="0b03cabe-bc15-445c-b59f-05a012d2406e" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Bit Timing Error Count" TypeGUID="F1643FA0-1C8B-4412-B885-8686A95466A9" Identifier="22becce0-d55b-48dc-96ab-4e1868420250" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Timeout Error Count" TypeGUID="F1643FA0-1C8B-4412-B885-8686A95466A9" Identifier="ecc84bee-7b60-4b7a-8bcd-37849dab05e6" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description />
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+						<Section Name="Ports" TypeGUID="758B4561-0065-41D8-A3C5-EE4D6DBA4B41" Identifier="12a4f3eb-aa76-4ec8-a114-3423e374e810">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="Incoming" TypeGUID="D51C55E8-15D6-4FA2-852D-BCEC3384A3F2" Identifier="5206ef07-2b1e-4a73-bfdf-7ac829e16f0c">
+								<Description />
+								<Properties />
+								<Errors />
 							</Section>
+							<Section Name="Outgoing" TypeGUID="4820ED19-BA5E-4F93-B9FD-0537F273FAE4" Identifier="9024fe3d-7f76-4061-a313-72ed1694024a">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="Configuration Files" TypeGUID="9CC1718D-5483-4E02-9349-BDEBD161B45E" Identifier="8d811979-0307-4318-a771-290e8b982f76">
+							<Description />
+							<Properties>
+								<Property Name="user.CD.Parameters File Needed">
+									<Boolean>true</Boolean>
+								</Property>
+							</Properties>
+							<Errors>
+								<Error Key="error_key_parameters_config_file" IsError="true" Code="-732251">
+									<Message>The Parameters Configuration File path must not be empty.</Message>
+								</Error>
+							</Errors>
+						</Section>
+						<Section Name="Logging" TypeGUID="A7E97344-F434-4F0B-98D8-9CD4B5E268FA" Identifier="1fda8cd6-af1a-4803-8828-f856e60dc136">
+							<Description />
+							<Properties />
+							<Errors />
 						</Section>
 					</Section>
 				</Section>
