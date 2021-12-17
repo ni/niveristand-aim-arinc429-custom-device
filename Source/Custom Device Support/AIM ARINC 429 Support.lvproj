@@ -138,10 +138,6 @@
 		<Item Name="AIM ARINC 429 Hardware API.lvlib" Type="Library" URL="../Hardware API/AIM ARINC 429 Hardware API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Start Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Start Sequential Monitor.vi"/>
-				<Item Name="Get Sequential Monitor Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Get Sequential Monitor Status.vi"/>
-				<Item Name="Get Next 429 Record In Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Get Next 429 Record In Reader.vi"/>
-				<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Read.vi"/>
 				<Item Name="Get Scheduled Message Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Get Scheduled Message Handle.vi"/>
 				<Item Name="Set Scheduled Message Group Data.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Data/Set Scheduled Message Group Data.vi"/>
 				<Item Name="Disable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Disable Scheduled Message.vi"/>
@@ -831,13 +827,9 @@
 				<Item Name="Channel Interrupt Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Channel Interrupt Info.ctl"/>
 				<Item Name="Disable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Disable Scheduled Message.vi"/>
 				<Item Name="Enable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Enable Scheduled Message.vi"/>
-				<Item Name="Get Next 429 Record In Reader.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Get Next 429 Record In Reader.vi"/>
 				<Item Name="Get Scheduled Message Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Get Scheduled Message Handle.vi"/>
-				<Item Name="Get Sequential Monitor Status.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Get Sequential Monitor Status.vi"/>
-				<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Data/Read.vi"/>
 				<Item Name="Replay Config.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Replay Config.ctl"/>
 				<Item Name="Set Scheduled Message Group Data.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Data/Set Scheduled Message Group Data.vi"/>
-				<Item Name="Start Sequential Monitor.vi" Type="VI" URL="/&lt;instrlib&gt;/BTICardLib/Public/Sequential Monitor/Action-Status/Start Sequential Monitor.vi"/>
 				<Item Name="Transmit Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Data/Transmit Dynamic.vi"/>
 				<Item Name="Transmit Message Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Tx/Data/Transmit Message Dynamic.vi"/>
 			</Item>
