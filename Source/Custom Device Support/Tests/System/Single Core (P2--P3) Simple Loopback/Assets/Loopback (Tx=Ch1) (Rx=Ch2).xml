@@ -14,48 +14,7 @@
 				<name>Altitude_Rx</name>
 				<scale>1</scale>
 				<offset>0</offset>
-				<unit>psi</unit>
-			</parameter>
-		</label>
-		<label>
-			<labelDecimal>125</labelDecimal>
-			<parameter>
-				<encoding>BNR</encoding>
-				<signed>true</signed>
-				<startBit>10</startBit>
-				<numberOfBits>19</numberOfBits>
-				<name>Temp_Rx</name>
-				<scale>1</scale>
-				<offset>0</offset>
-				<unit>psi</unit>
-				<defaultValue>0</defaultValue>
-			</parameter>
-		</label>
-		<label>
-			<labelDecimal>134</labelDecimal>
-			<parameter>
-				<encoding>BNR</encoding>
-				<signed>true</signed>
-				<startBit>10</startBit>
-				<numberOfBits>19</numberOfBits>
-				<name>Lat_Rx</name>
-				<scale>1</scale>
-				<offset>0</offset>
-				<unit>psi</unit>
-			</parameter>
-		</label>
-		<label>
-			<labelDecimal>135</labelDecimal>
-			<parameter>
-				<encoding>BNR</encoding>
-				<signed>true</signed>
-				<startBit>10</startBit>
-				<numberOfBits>19</numberOfBits>
-				<name>Long_Rx</name>
-				<scale>1</scale>
-				<offset>0</offset>
-				<unit>psi</unit>
-				<defaultValue>0</defaultValue>
+				<unit>m</unit>
 			</parameter>
 		</label>
 	</channel>
@@ -73,48 +32,7 @@
 				<name>Altitude_Tx</name>
 				<scale>1</scale>
 				<offset>0</offset>
-				<unit>psi</unit>
-			</parameter>
-		</label>
-		<label>
-			<labelDecimal>125</labelDecimal>
-			<parameter>
-				<encoding>BNR</encoding>
-				<signed>true</signed>
-				<startBit>10</startBit>
-				<numberOfBits>19</numberOfBits>
-				<name>Temp_Tx</name>
-				<scale>1</scale>
-				<offset>0</offset>
-				<unit>psi</unit>
-				<defaultValue>0</defaultValue>
-			</parameter>
-		</label>
-		<label>
-			<labelDecimal>134</labelDecimal>
-			<parameter>
-				<encoding>BNR</encoding>
-				<signed>true</signed>
-				<startBit>10</startBit>
-				<numberOfBits>19</numberOfBits>
-				<name>Lat_Tx</name>
-				<scale>1</scale>
-				<offset>0</offset>
-				<unit>psi</unit>
-			</parameter>
-		</label>
-		<label>
-			<labelDecimal>135</labelDecimal>
-			<parameter>
-				<encoding>BNR</encoding>
-				<signed>true</signed>
-				<startBit>10</startBit>
-				<numberOfBits>19</numberOfBits>
-				<name>Long_Tx</name>
-				<scale>1</scale>
-				<offset>0</offset>
-				<unit>psi</unit>
-				<defaultValue>0</defaultValue>
+				<unit>m</unit>
 			</parameter>
 		</label>
 	</channel>
