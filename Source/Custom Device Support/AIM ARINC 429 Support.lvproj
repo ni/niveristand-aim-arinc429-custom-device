@@ -140,9 +140,6 @@
 		<Item Name="AIM ARINC 429 Hardware API.lvlib" Type="Library" URL="../Hardware API/AIM ARINC 429 Hardware API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Set Scheduled Message Group Data.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Data/Set Scheduled Message Group Data.vi"/>
-				<Item Name="Disable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Disable Scheduled Message.vi"/>
-				<Item Name="Enable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Enable Scheduled Message.vi"/>
 				<Item Name="Transmit Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Data/Transmit Dynamic.vi"/>
 				<Item Name="Transmit Message Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Tx/Data/Transmit Message Dynamic.vi"/>
 				<Item Name="AIM429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/AIM429LV.lvlib"/>
@@ -826,10 +823,7 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="AIM429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/AIM429LV.lvlib"/>
 				<Item Name="Channel Interrupt Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Channel Interrupt Info.ctl"/>
-				<Item Name="Disable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Disable Scheduled Message.vi"/>
-				<Item Name="Enable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Enable Scheduled Message.vi"/>
 				<Item Name="Replay Config.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Replay Config.ctl"/>
-				<Item Name="Set Scheduled Message Group Data.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Data/Set Scheduled Message Group Data.vi"/>
 				<Item Name="Transmit Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Data/Transmit Dynamic.vi"/>
 				<Item Name="Transmit Message Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Tx/Data/Transmit Message Dynamic.vi"/>
 			</Item>
