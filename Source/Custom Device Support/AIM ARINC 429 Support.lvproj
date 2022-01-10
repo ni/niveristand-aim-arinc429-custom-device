@@ -59,6 +59,7 @@
 			<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../Shared/Build Linux Log File Path.vi"/>
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
 			<Item Name="Transfer Speed.ctl" Type="VI" URL="../Shared/Transfer Speed.ctl"/>
+			<Item Name="Build Transfer ID.vi" Type="VI" URL="../Shared/Build Transfer ID.vi"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="ballardARINC429-errors.txt" Type="Document" URL="../Docs/ballardARINC429-errors.txt"/>
@@ -139,10 +140,6 @@
 		<Item Name="AIM ARINC 429 Hardware API.lvlib" Type="Library" URL="../Hardware API/AIM ARINC 429 Hardware API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Get Scheduled Message Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Get Scheduled Message Handle.vi"/>
-				<Item Name="Set Scheduled Message Group Data.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Data/Set Scheduled Message Group Data.vi"/>
-				<Item Name="Disable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Disable Scheduled Message.vi"/>
-				<Item Name="Enable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Enable Scheduled Message.vi"/>
 				<Item Name="Transmit Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Data/Transmit Dynamic.vi"/>
 				<Item Name="Transmit Message Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Tx/Data/Transmit Message Dynamic.vi"/>
 				<Item Name="AIM429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/AIM429LV.lvlib"/>
@@ -826,11 +823,7 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="AIM429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/AIM429LV.lvlib"/>
 				<Item Name="Channel Interrupt Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Channel Interrupt Info.ctl"/>
-				<Item Name="Disable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Disable Scheduled Message.vi"/>
-				<Item Name="Enable Scheduled Message.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Enable Scheduled Message.vi"/>
-				<Item Name="Get Scheduled Message Handle.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Configure/Get Scheduled Message Handle.vi"/>
 				<Item Name="Replay Config.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Replay Config.ctl"/>
-				<Item Name="Set Scheduled Message Group Data.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Core/Data/Set Scheduled Message Group Data.vi"/>
 				<Item Name="Transmit Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Public/Tx/Data/Transmit Dynamic.vi"/>
 				<Item Name="Transmit Message Dynamic.vi" Type="VI" URL="/&lt;instrlib&gt;/BTI429Lib/Private/Tx/Data/Transmit Message Dynamic.vi"/>
 			</Item>
@@ -892,6 +885,7 @@
 			<Item Name="ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/ARINC 429/ARINC 429 Scripting.lvlib"/>
 			<Item Name="Asynchronous Process Parameters.ctl" Type="VI" URL="../Engine/Custom Device/Asynchronous Process Parameters.ctl"/>
 			<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../Shared/Build Linux Log File Path.vi"/>
+			<Item Name="Build Transfer ID.vi" Type="VI" URL="../Shared/Build Transfer ID.vi"/>
 			<Item Name="Conditionally Add Parity Parameter.vi" Type="VI" URL="../Shared/Conditionally Add Parity Parameter.vi"/>
 			<Item Name="Conditionally Add SDI Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SDI Parameter.vi"/>
 			<Item Name="Conditionally Add SSM Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SSM Parameter.vi"/>
