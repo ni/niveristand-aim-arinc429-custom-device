@@ -60,6 +60,10 @@
 		<Item Name="Port To Labels.vi" Type="VI" URL="../Label/Port To Labels.vi"/>
 		<Item Name="Remove Label.vi" Type="VI" URL="../Label/Remove Label.vi"/>
 		<Item Name="Remove Timestamp Channel.vi" Type="VI" URL="../Label/Remove Timestamp Channel.vi"/>
+		<Item Name="Get Label Properties.vi" Type="VI" URL="../../ARINC 429/Label/Get Label Properties.vi"/>
+		<Item Name="Get Transfer Type.vi" Type="VI" URL="../../ARINC 429/Label/Get Transfer Type.vi"/>
+		<Item Name="Set Label Properties.vi" Type="VI" URL="../../ARINC 429/Label/Set Label Properties.vi"/>
+		<Item Name="Set Transfer Type.vi" Type="VI" URL="../../ARINC 429/Label/Set Transfer Type.vi"/>
 	</Item>
 	<Item Name="Logging" Type="Folder">
 		<Item Name="Add Logging Section.vi" Type="VI" URL="../Logging/Add Logging Section.vi"/>
@@ -80,6 +84,15 @@
 		<Item Name="Find Parameter by Name.vi" Type="VI" URL="../Parameter/Find Parameter by Name.vi"/>
 		<Item Name="Label To Parameters.vi" Type="VI" URL="../Parameter/Label To Parameters.vi"/>
 		<Item Name="Remove Parameter.vi" Type="VI" URL="../Parameter/Remove Parameter.vi"/>
+		<Item Name="Get Parameter Bit Encoding.vi" Type="VI" URL="../../ARINC 429/Parameter/Get Parameter Bit Encoding.vi"/>
+		<Item Name="Get Parameter Default Value.vi" Type="VI" URL="../../ARINC 429/Parameter/Get Parameter Default Value.vi"/>
+		<Item Name="Get Parameter Definition.vi" Type="VI" URL="../../ARINC 429/Parameter/Get Parameter Definition.vi"/>
+		<Item Name="Get Parameter Name.vi" Type="VI" URL="../../ARINC 429/Parameter/Get Parameter Name.vi"/>
+		<Item Name="Get Parameter Scaling.vi" Type="VI" URL="../../ARINC 429/Parameter/Get Parameter Scaling.vi"/>
+		<Item Name="Get Parameter Unit.vi" Type="VI" URL="../../ARINC 429/Parameter/Get Parameter Unit.vi"/>
+		<Item Name="Set Parameter Bit Encoding.vi" Type="VI" URL="../../ARINC 429/Parameter/Set Parameter Bit Encoding.vi"/>
+		<Item Name="Set Parameter Definition.vi" Type="VI" URL="../../ARINC 429/Parameter/Set Parameter Definition.vi"/>
+		<Item Name="Set Parameter Scaling.vi" Type="VI" URL="../../ARINC 429/Parameter/Set Parameter Scaling.vi"/>
 	</Item>
 	<Item Name="Port" Type="Folder">
 		<Item Name="Add Port.vi" Type="VI" URL="../Port/Add Port.vi"/>
@@ -97,6 +110,8 @@
 		<Item Name="Set Port Speed.vi" Type="VI" URL="../Port/Set Port Speed.vi"/>
 		<Item Name="Get Active Channels.vi" Type="VI" URL="../Port/Get Active Channels.vi"/>
 		<Item Name="Get Port Properties.vi" Type="VI" URL="../Port/Get Port Properties.vi"/>
+		<Item Name="Get Port Number.vi" Type="VI" URL="../../ARINC 429/Port/Get Port Number.vi"/>
+		<Item Name="Set Port Number.vi" Type="VI" URL="../../ARINC 429/Port/Set Port Number.vi"/>
 	</Item>
 	<Item Name="Status" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
@@ -105,6 +120,11 @@
 		<Item Name="Add Status Section.vi" Type="VI" URL="../Status/Add Status Section.vi"/>
 		<Item Name="Get Rx Error Channel References.vi" Type="VI" URL="../Status/Get Rx Error Channel References.vi"/>
 		<Item Name="Get Status Section Reference.vi" Type="VI" URL="../Status/Get Status Section Reference.vi"/>
+	</Item>
+	<Item Name="Word" Type="Folder">
+		<Item Name="Get Default Word.vi" Type="VI" URL="../../ARINC 429/Word/Get Default Word.vi"/>
+		<Item Name="Get Parameters in Word.vi" Type="VI" URL="../../ARINC 429/Word/Get Parameters in Word.vi"/>
+		<Item Name="Set Default Word.vi" Type="VI" URL="../../ARINC 429/Word/Set Default Word.vi"/>
 	</Item>
 	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 </Library>
