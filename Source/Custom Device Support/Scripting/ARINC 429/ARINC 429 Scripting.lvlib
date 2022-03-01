@@ -33,5 +33,4 @@
 		<Item Name="Get Parameters in Word.vi" Type="VI" URL="../Word/Get Parameters in Word.vi"/>
 		<Item Name="Set Default Word.vi" Type="VI" URL="../Word/Set Default Word.vi"/>
 	</Item>
-	<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 </Library>
