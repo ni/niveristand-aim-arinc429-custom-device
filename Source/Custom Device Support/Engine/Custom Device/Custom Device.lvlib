@@ -8,34 +8,22 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="Init" Type="Folder">
-			<Item Name="Create Map from Identifiers to Indexes.vi" Type="VI" URL="../Create Map from Identifiers to Indexes.vi"/>
-			<Item Name="Create Map from Values Indexes to Channel and Label Indexes.vi" Type="VI" URL="../Create Map from Values Indexes to Channel and Label Indexes.vi"/>
-			<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 			<Item Name="Initialize Inline Execution Units.vi" Type="VI" URL="../Initialize Inline Execution Units.vi"/>
-			<Item Name="Initialize Logging.vi" Type="VI" URL="../Initialize Logging.vi"/>
-			<Item Name="Initialize Rx HW Channels for RT.vi" Type="VI" URL="../Initialize Rx HW Channels for RT.vi"/>
 			<Item Name="Initialize Shared Resources.vi" Type="VI" URL="../Initialize Shared Resources.vi"/>
 			<Item Name="Launch Asynchronous Execution Units.vi" Type="VI" URL="../Launch Asynchronous Execution Units.vi"/>
 			<Item Name="Start Inline Execution Units.vi" Type="VI" URL="../Start Inline Execution Units.vi"/>
-			<Item Name="Start Shared Resources.vi" Type="VI" URL="../Start Shared Resources.vi"/>
 			<Item Name="Unflatten Asynchronous Execution Units.vi" Type="VI" URL="../Unflatten Asynchronous Execution Units.vi"/>
 			<Item Name="Unflatten Compiled Data.vi" Type="VI" URL="../Unflatten Compiled Data.vi"/>
 			<Item Name="Unflatten Inline Execution Units.vi" Type="VI" URL="../Unflatten Inline Execution Units.vi"/>
 			<Item Name="Unflatten Shared Resources.vi" Type="VI" URL="../Unflatten Shared Resources.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
-			<Item Name="Compute RT Index from Label and SDI.vi" Type="VI" URL="../Compute RT Index from Label and SDI.vi"/>
-			<Item Name="Execute.Async.vi" Type="VI" URL="../Execute.Async.vi"/>
-			<Item Name="Get RT Label Settings for Message.vi" Type="VI" URL="../Get RT Label Settings for Message.vi"/>
-			<Item Name="Increment Error Counts.vi" Type="VI" URL="../Increment Error Counts.vi"/>
+			<Item Name="Execution Unit.Async.vi" Type="VI" URL="../Execution Unit.Async.vi"/>
 			<Item Name="Initialize VeriStand Globals.vi" Type="VI" URL="../Initialize VeriStand Globals.vi"/>
-			<Item Name="Process Records.vi" Type="VI" URL="../Process Records.vi"/>
 			<Item Name="Read from Inline Execution Units.vi" Type="VI" URL="../Read from Inline Execution Units.vi"/>
-			<Item Name="Write Error to System Log.vi" Type="VI" URL="../Write Error to System Log.vi"/>
 			<Item Name="Write to Inline Execution Units.vi" Type="VI" URL="../Write to Inline Execution Units.vi"/>
 		</Item>
 		<Item Name="Shut Down" Type="Folder">
-			<Item Name="Close Hardware Session.vi" Type="VI" URL="../Close Hardware Session.vi"/>
 			<Item Name="Finalize Inline Execution Units.vi" Type="VI" URL="../Finalize Inline Execution Units.vi"/>
 			<Item Name="Finalize Shared Resources.vi" Type="VI" URL="../Finalize Shared Resources.vi"/>
 		</Item>
@@ -43,13 +31,10 @@
 	<Item Name="Types" Type="Folder">
 		<Item Name="Asynchronous Execution Unit Compiled Information.ctl" Type="VI" URL="../Asynchronous Execution Unit Compiled Information.ctl"/>
 		<Item Name="Asynchronous Execution Unit Runtime Information.ctl" Type="VI" URL="../Asynchronous Execution Unit Runtime Information.ctl"/>
+		<Item Name="Asynchronous Process Parameters.ctl" Type="VI" URL="../Asynchronous Process Parameters.ctl"/>
 		<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
-		<Item Name="Device Information.ctl" Type="VI" URL="../Device Information.ctl"/>
-		<Item Name="Hardware Direction and Channels.ctl" Type="VI" URL="../Hardware Direction and Channels.ctl"/>
-		<Item Name="Hardware Handles.ctl" Type="VI" URL="../Hardware Handles.ctl"/>
 		<Item Name="Inline Execution Unit Compiled Information.ctl" Type="VI" URL="../Inline Execution Unit Compiled Information.ctl"/>
 		<Item Name="Inline Execution Unit Runtime Information.ctl" Type="VI" URL="../Inline Execution Unit Runtime Information.ctl"/>
-		<Item Name="Logging Configuration.ctl" Type="VI" URL="../Logging Configuration.ctl"/>
 		<Item Name="RTStateVariables.ctl" Type="VI" URL="../RTStateVariables.ctl"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
