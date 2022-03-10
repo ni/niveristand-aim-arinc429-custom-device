@@ -17,6 +17,8 @@
 	<Item Name="Finalize Hardware.vi" Type="VI" URL="../Finalize Hardware.vi"/>
 	<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 	<Item Name="Initialize Label Buffers.vi" Type="VI" URL="../Initialize Label Buffers.vi"/>
+	<Item Name="Initialize Rx Channel.vi" Type="VI" URL="../Initialize Rx Channel.vi"/>
+	<Item Name="Initialize Tx Channel.vi" Type="VI" URL="../Initialize Tx Channel.vi"/>
 	<Item Name="Library Initialize and Exit.vi" Type="VI" URL="../Library Initialize and Exit.vi"/>
 	<Item Name="Parse Rx Label Buffer Read Outputs.vi" Type="VI" URL="../Parse Rx Label Buffer Read Outputs.vi"/>
 	<Item Name="Start Channels if Not Active.vi" Type="VI" URL="../Start Channels if Not Active.vi"/>
