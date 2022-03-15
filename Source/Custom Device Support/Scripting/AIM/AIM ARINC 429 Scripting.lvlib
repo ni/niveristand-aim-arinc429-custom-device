@@ -54,15 +54,17 @@
 		<Item Name="Add Word.vi" Type="VI" URL="../Word/Add Word.vi"/>
 		<Item Name="Find Label by Name.vi" Type="VI" URL="../Label/Find Label by Name.vi"/>
 		<Item Name="Find Label.vi" Type="VI" URL="../Label/Find Label.vi"/>
+		<Item Name="Get Label Properties.vi" Type="VI" URL="../Label/Get Label Properties.vi"/>
 		<Item Name="Get Parameters in Label.vi" Type="VI" URL="../Label/Get Parameters in Label.vi"/>
 		<Item Name="Get Timestamp Reference.vi" Type="VI" URL="../Label/Get Timestamp Reference.vi"/>
+		<Item Name="Get Transmit Rate.vi" Type="VI" URL="../Label/Get Transmit Rate.vi"/>
+		<Item Name="Get Transfer Type.vi" Type="VI" URL="../Label/Get Transfer Type.vi"/>
 		<Item Name="Get Word Section.vi" Type="VI" URL="../Label/Get Word Section.vi"/>
 		<Item Name="Port To Labels.vi" Type="VI" URL="../Label/Port To Labels.vi"/>
 		<Item Name="Remove Label.vi" Type="VI" URL="../Label/Remove Label.vi"/>
 		<Item Name="Remove Timestamp Channel.vi" Type="VI" URL="../Label/Remove Timestamp Channel.vi"/>
-		<Item Name="Get Label Properties.vi" Type="VI" URL="../Label/Get Label Properties.vi"/>
-		<Item Name="Get Transfer Type.vi" Type="VI" URL="../Label/Get Transfer Type.vi"/>
 		<Item Name="Set Label Properties.vi" Type="VI" URL="../Label/Set Label Properties.vi"/>
+		<Item Name="Set Transmit Rate.vi" Type="VI" URL="../Label/Set Transmit Rate.vi"/>
 		<Item Name="Set Transfer Type.vi" Type="VI" URL="../Label/Set Transfer Type.vi"/>
 	</Item>
 	<Item Name="Logging" Type="Folder">
