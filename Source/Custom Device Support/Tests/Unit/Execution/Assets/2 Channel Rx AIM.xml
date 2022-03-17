@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--***************************************	Rx Channels ***************************************-->
+	<channel>
+		<hardwareChannel>3</hardwareChannel>
+		<direction>incoming</direction>
+		<label>
+			<labelDecimal>124</labelDecimal>
+			<createSSMChannel>true</createSSMChannel>
+			<parameter>
+				<encoding>BNR</encoding>
+				<signed>true</signed>
+				<startBit>10</startBit>
+				<numberOfBits>19</numberOfBits>
+				<name>Altitude_Rx</name>
+				<scale>1</scale>
+				<offset>0</offset>
+				<unit>psi</unit>
+			</parameter>
+		</label>
+	</channel>
+	<channel>
+		<hardwareChannel>4</hardwareChannel>
+		<direction>incoming</direction>
+		<label>
+			<labelDecimal>125</labelDecimal>
+			<createSSMChannel>true</createSSMChannel>
+			<parameter>
+				<encoding>BNR</encoding>
+				<signed>true</signed>
+				<startBit>10</startBit>
+				<numberOfBits>19</numberOfBits>
+				<name>Altitude_Rx</name>
+				<scale>1</scale>
+				<offset>0</offset>
+				<unit>psi</unit>
+			</parameter>
+		</label>
+	</channel>
+<!--***************************************	Tx Channels ***************************************-->
+</parameters>
