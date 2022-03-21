@@ -21,6 +21,7 @@
 		<Item Name="Read Tag Element (I32).vi" Type="VI" URL="../Read Tag Element (I32).vi"/>
 		<Item Name="Read Tag Element (String).vi" Type="VI" URL="../Read Tag Element (String).vi"/>
 		<Item Name="Read Tag Element (U16).vi" Type="VI" URL="../Read Tag Element (U16).vi"/>
+		<Item Name="Read Tag Element (U32).vi" Type="VI" URL="../Read Tag Element (U32).vi"/>
 		<Item Name="Read Tag Element.vi" Type="VI" URL="../Read Tag Element.vi"/>
 	</Item>
 	<Item Name="Parse Parameters File.vi" Type="VI" URL="../Parse Parameters File.vi"/>
