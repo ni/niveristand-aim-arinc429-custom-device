@@ -27,9 +27,12 @@
 	<!-- ++++++++++++++++++++++++++++ Rx Channels ++++++++++++++++++++++++++++ -->
 	<channel>
 		<hardwareChannel>0</hardwareChannel>
+		<direction>incoming</direction>
 		<label>
 			<labelDecimal>134</labelDecimal>
+			<createTimestampChannel>true</createTimestampChannel>
 			<createSSMChannel>true</createSSMChannel>
+			<createParityChannel>true</createParityChannel>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
@@ -44,6 +47,7 @@
 	</channel>
 		<channel>
 		<hardwareChannel>2</hardwareChannel>
+		<direction>incoming</direction>
 		<label>
 			<labelDecimal>135</labelDecimal>
 			<createSSMChannel>true</createSSMChannel>
@@ -61,6 +65,7 @@
 	</channel>
 	<channel>
 		<hardwareChannel>4</hardwareChannel>
+		<direction>incoming</direction>
 		<label>
 			<labelDecimal>136</labelDecimal>
 			<createSSMChannel>true</createSSMChannel>
@@ -99,8 +104,11 @@
 <!-- +++++++++++++++++++++++++ Tx Channels +++++++++++++++++++++++++ -->
 	<channel>
 		<hardwareChannel>17</hardwareChannel>
+		<direction>outgoing</direction>
 		<label>
 			<labelDecimal>134</labelDecimal>
+			<transferType>0</transferType>
+			<transmitRate>20</transmitRate>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
@@ -116,8 +124,11 @@
 	</channel>
 	<channel>
 		<hardwareChannel>19</hardwareChannel>
+		<direction>outgoing</direction>
 		<label>
 			<labelDecimal>135</labelDecimal>
+			<transferType>0</transferType>
+			<transmitRate>50</transmitRate>
 			<parameter>
 				<encoding>BCD</encoding>
 				<signed>true</signed>
@@ -133,8 +144,10 @@
 	</channel>
 	<channel>
 		<hardwareChannel>21</hardwareChannel>
+		<direction>outgoing</direction>
 		<label>
 			<labelDecimal>136</labelDecimal>
+			<transferType>1</transferType>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
