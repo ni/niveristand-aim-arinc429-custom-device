@@ -76,14 +76,15 @@
 				<Item Name="AIM Deployment.lvclass" Type="LVClass" URL="../Tests/System/Deployment/AIM Deployment.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
+				<Item Name="Common Assets" Type="Folder">
+					<Item Name="Params For Import.xml" Type="Document" URL="../Tests/Unit/Common Assets/Params For Import.xml"/>
+				</Item>
 				<Item Name="Execution" Type="Folder">
 					<Item Name="Engine.lvclass" Type="LVClass" URL="../Tests/Unit/Execution/Engine/Engine.lvclass"/>
 				</Item>
 				<Item Name="Scripting" Type="Folder">
 					<Item Name="Assets" Type="Folder">
 						<Item Name="HardwareLoopback.nivssdf" Type="Document" URL="../Tests/Unit/Scripting/Assets/HardwareLoopback.nivssdf"/>
-						<Item Name="Physical_Loopback_hw.xml" Type="Document" URL="../Tests/Unit/Scripting/Assets/Physical_Loopback_hw.xml"/>
-						<Item Name="Physical_Loopback_param.xml" Type="Document" URL="../Tests/Unit/Scripting/Assets/Physical_Loopback_param.xml"/>
 					</Item>
 					<Item Name="Scripting.lvclass" Type="LVClass" URL="../Tests/Unit/Scripting/Scripting.lvclass"/>
 				</Item>
@@ -93,7 +94,6 @@
 				</Item>
 				<Item Name="Import" Type="Folder">
 					<Item Name="Assets" Type="Folder">
-						<Item Name="Physical_Loopback_param.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Physical_Loopback_param.xml"/>
 						<Item Name="Physical_Loopback_param_NoDirection.xml" Type="Document" URL="../Tests/Unit/Import/Assets/Physical_Loopback_param_NoDirection.xml"/>
 					</Item>
 					<Item Name="Import.lvclass" Type="LVClass" URL="../Tests/Unit/Import/Import.lvclass"/>
@@ -895,7 +895,10 @@
 			<Item Name="Error Test Start Bit Value.vi" Type="VI" URL="../Shared/Error Test Start Bit Value.vi"/>
 			<Item Name="Error Word Bits Checker for All Parameters on Label.vi" Type="VI" URL="../Shared/Error Word Bits Checker for All Parameters on Label.vi"/>
 			<Item Name="Error Word Bits Checker.vi" Type="VI" URL="../Shared/Error Word Bits Checker.vi"/>
+			<Item Name="Get Label Settings for RT.vi" Type="VI" URL="../Shared/Get Label Settings for RT.vi"/>
 			<Item Name="Get MD5 For File.vi" Type="VI" URL="../Shared/Get MD5 For File.vi"/>
+			<Item Name="Get Rx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Rx Hardware Channel Data.vi"/>
+			<Item Name="Get Status Error Channel Data References.vi" Type="VI" URL="../Shared/Get Status Error Channel Data References.vi"/>
 			<Item Name="Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi"/>
 			<Item Name="Initialize Channel Parameter (Discrete).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (Discrete).vi"/>
 			<Item Name="Label Properties.ctl" Type="VI" URL="../Shared/Label Properties.ctl"/>
