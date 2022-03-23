@@ -26,7 +26,8 @@
 		<label>
 			<labelDecimal>82</labelDecimal>
 			<transferType>0</transferType>
-			<parameter>
+			<transmitRate>20</transmitRate>
+         <parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
 				<startBit>10</startBit>
@@ -45,7 +46,7 @@
 		<label>
 			<labelDecimal>83</labelDecimal>
 			<transferType>1</transferType>
-			<parameter>
+         <parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
 				<startBit>10</startBit>
@@ -64,7 +65,8 @@
 		<label>
 			<labelDecimal>84</labelDecimal>
 			<transferType>0</transferType>
-			<parameter>
+			<transmitRate>40</transmitRate>
+         <parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
 				<startBit>10</startBit>
