@@ -61,8 +61,8 @@
 			<Item Name="Build Transfer ID.vi" Type="VI" URL="../Shared/Build Transfer ID.vi"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
-			<Item Name="ballardARINC429-errors.txt" Type="Document" URL="../Docs/ballardARINC429-errors.txt"/>
-			<Item Name="Ballard-API-errors.txt" Type="Document" URL="../Docs/Ballard-API-errors.txt"/>
+			<Item Name="AIM-API-errors.txt" Type="Document" URL="../Docs/AIM-API-errors.txt"/>
+			<Item Name="aimARINC429-errors.txt" Type="Document" URL="../Docs/aimARINC429-errors.txt"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="System" Type="Folder">
@@ -113,6 +113,7 @@
 			<Item Name="Copy PPLs to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy PPLs to NI VeriStand dir.vi"/>
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Utility/Post-Build Action.vi"/>
 			<Item Name="Post-Build Action Scripting.vi" Type="VI" URL="../Utility/Post-Build Action Scripting.vi"/>
+			<Item Name="Generate AIM API Errors.vi" Type="VI" URL="../Utility/Generate AIM API Errors.vi"/>
 		</Item>
 		<Item Name="Palettes" Type="Folder">
 			<Item Name="dir.mnu" Type="Document" URL="../Scripting/Palettes/dir.mnu"/>
@@ -590,7 +591,6 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Create Map from Identifiers to Indexes.vi" Type="VI" URL="../Engine/Custom Device/Create Map from Identifiers to Indexes.vi"/>
 			<Item Name="Create Map from Values Indexes to Channel and Label Indexes.vi" Type="VI" URL="../Engine/Custom Device/Create Map from Values Indexes to Channel and Label Indexes.vi"/>
-			<Item Name="Process Records.vi" Type="VI" URL="../Engine/Custom Device/Process Records.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -654,7 +654,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Errors</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3A5F0203-1305-4933-8447-C414677617E6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{853136DB-1588-4A4E-8CEA-CC48F2B27214}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AIM ARINC 429 Engine.lvlib</Property>
@@ -673,12 +673,16 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Support Files/ballardARINC429-errors.txt</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Support Files/Ballard-API-errors.txt</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Support Files/AIM-API-errors.txt</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Support Files/aimARINC429-errors.txt</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Communication Bus Engine</Property>
 				<Property Name="TgtF_internalName" Type="Str">Communication Bus Engine</Property>
@@ -882,6 +886,7 @@
 			<Item Name="Conditionally Add SDI Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SDI Parameter.vi"/>
 			<Item Name="Conditionally Add SSM Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SSM Parameter.vi"/>
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
+			<Item Name="Decode Parameter (DBL) from Word.vim" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vim"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">

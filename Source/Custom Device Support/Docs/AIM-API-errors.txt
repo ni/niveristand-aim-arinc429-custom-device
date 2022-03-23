@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+Errors generated from AIM429LV.lilb:Error Converter (ErrCode or Status).vi.
+https://github.com/ni/niveristand-aim-arinc429-custom-device/
+</nicomment>
+<nierror code="404021">
+Unable to access board
+</nierror>
+<nierror code="404022">
+Target incorrectly returned ACK without data
+</nierror>
+<nierror code="404023">
+Target incorrectly returned ACK2 with data
+</nierror>
+<nierror code="404024">
+Target reports generic error
+</nierror>
+<nierror code="404025">
+Host to target communication error
+</nierror>
+<nierror code="404026">
+IOCTL error invalid driver handle
+</nierror>
+<nierror code="404027">
+IOCTL timeout
+</nierror>
+<nierror code="404028">
+IOCTL driver error
+</nierror>
+<nierror code="404029">
+Function is not implemented
+</nierror>
+<nierror code="404030">
+Host to target command has invalid size
+</nierror>
+<nierror code="404031">
+Invalid Xfer ID
+</nierror>
+<nierror code="404032">
+Invalid minor frame ID
+</nierror>
+<nierror code="404033">
+Not enough onboard memory available
+</nierror>
+<nierror code="404034">
+Invalid size
+</nierror>
+<nierror code="404035">
+Board does not support this command
+</nierror>
+<nierror code="404036">
+Invalid pollution block ID
+</nierror>
+<nierror code="404037">
+SDI out of range
+</nierror>
+<nierror code="404038">
+Invalid Channel
+</nierror>
+<nierror code="404039">
+Invalid mode
+</nierror>
+<nierror code="404040">
+Null pointer used as parameter
+</nierror>
+<nierror code="404041">
+Invalid ID
+</nierror>
+<nierror code="404042">
+Unable to connect to server
+</nierror>
+<nierror code="404043">
+Module handle is invalid
+</nierror>
+<nierror code="404044">
+Invalid module number
+</nierror>
+<nierror code="404045">
+MyMon Error
+</nierror>
+<nierror code="404046">
+A Parameter is out of range
+</nierror>
+<nierror code="404047">
+On channels configured for Dyntags the buffer size has to be '1'
+</nierror>
+<nierror code="404048">
+Host to target acknowledge has invalid size
+</nierror>
+<nierror code="404049">
+Timeout within the target software
+</nierror>
+<nierror code="404050">
+Buffer is out of range. 32Bit Label Transfer required
+</nierror>
+<nierror code="404051">
+Buffer is too small
+</nierror>
+<nierror code="404052">
+Network command failure
+</nierror>
+<nierror code="404053">
+Channels can not be connected due to hardware constraints
+</nierror>
+<nierror code="404054">
+Firmware requires update
+</nierror>
+<nierror code="404055">
+Unable to create framing with the given rates
+</nierror>
+<nierror code="404056">
+The channel is still active
+</nierror>
+<nierror code="404057">
+The channel configuration is fix and cannot be changed
+</nierror>
+<nierror code="404058">
+The channel set-up does not match expected mode
+</nierror>
+<nierror code="404059">
+Framing error
+</nierror>
+<nierror code="404060">
+Internal error
+</nierror>
+<nierror code="404061">
+Target requires update
+</nierror>
+<nierror code="404062">
+Answer to the Ultimate Question of Life, The Universe, and Everything
+</nierror>
+<nierror code="404063">
+Connection to incompatible remote server failed
+</nierror>
+<nierror code="404064">
+The operation can not be applied due to mismatching discrete channel configuration
+</nierror>
+<nierror code="404065">
+Function not implemented on Embedded board types
+</nierror>
+<nierror code="404066">
+Transmit Inhibit option is activated
+</nierror>
+<nierror code="404067">
+Not enough memory on host
+</nierror>
+</nidocument>
