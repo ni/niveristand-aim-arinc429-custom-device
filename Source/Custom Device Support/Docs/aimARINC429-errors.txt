@@ -3,22 +3,19 @@
 <nicomment>
 https://github.com/ni/niveristand-ballard-arinc429-custom-device/
 </nicomment>
-<nierror code="-732250">
-The hardware configuration file path must not be empty.
-</nierror>
-<nierror code="-732251">
+<nierror code="-732500">
 The parameters configuration file path must not be empty.
 </nierror>
-<nierror code="-732252">
+<nierror code="-732501">
 The parameters XML data is invalid.
 </nierror>
-<nierror code="-732253">
-The hardware configuration file is empty. Use BTIXMLEdit or another utility to generate a valid hardware configuration file and add this configuration file to the system definition.
-</nierror>
-<nierror code="-732254">
+<nierror code="-732502">
 The parameters configuration file has changed on disk. Use the Refresh button in the Configuration Files section to apply changes.
 </nierror>
-<nierror code="-732255">
+<nierror code="-732503">
 The direction of the label must match the direction of the port.
+</nierror>
+<nierror code="-732504">
+The hardware module in the desired PXI slot is not a valid AIM ARINC-429 module.
 </nierror>
 </nidocument>
