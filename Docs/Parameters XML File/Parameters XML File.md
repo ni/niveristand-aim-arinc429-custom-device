@@ -42,6 +42,7 @@ The code snippet below is an example of BCD Parameters.
 	<label>
 		<labelDecimal>28</labelDecimal>
 		<transferType>0</transferType>
+		<period>10000</period>
 		<parameter>
 			<encoding>BCD</encoding>
 			<signed>true</signed>
@@ -83,6 +84,7 @@ The code snippet below is an example of Discrete Parameters.
 <label>
 	<labelDecimal>23</labelDecimal>
 	<transferType>0</transferType>
+	<period>20000</period>
 	<parameter>
 		<encoding>Discrete</encoding>
 		<startBit>10</startBit>
@@ -110,7 +112,7 @@ The following table describes the XML elements, or tags, you can use in a Parame
 |→→`<labelOctal>`|No<sup>1</sup>|xs:int|0/1|Specifies the label (octal). Range is: [0:377].|
 |→→`<sdi>`|No|xs:string|0/1|Specifies whether these Label settings apply to all SDI variants or a specific one. Supported values: <br/>All (default) - Pastes by creating a new instance of the item.<br/>00 - Pastes only if an item with the same GUID does not already exist.<br/>01 - Pastes only if an item with the same name does not already exist.<br/>10 - Pastes by replacing an item.<br/>11 - Prompts the operator with a dialog before pasting.|
 |→→`<transferType>`|No|xs:int|0/1|Specifies the transfer type for a Tx message. Use 0 for a scheduled label; use 1 for an acyclic label. Default Value (if XML element is absent) is 0 (Scheduled).|
-|→→`<period>`|No|xs:double|0/1|Specifies the period, in microseconds, for a scheduled Tx label. Default Value (if XML element is absent) is 1000.|
+|→→`<period>`|No|xs:int|0/1|Specifies the period, in microseconds, for a scheduled Tx label. Default Value (if XML element is absent) is 1000.|
 |→→`<createTimestampChannel>`|No|xs:boolean|0/1|Specifies whether a VeriStand Channel should be created for the label timestamp. This property is supported only for a receive (Rx) label, not for a transmit (Tx) label. Default Value (if XML element is absent) is false.|
 |→→`<createSDIChannel>`|No|xs:boolean|0/1|Specifies whether a VeriStand Channel should be created for the Label SDI Bits. Default Value (if XML element is absent) is false.|
 |→→`<createSSMChannel>`|No|xs:boolean|0/1|Specifies whether a VeriStand Channel should be created for the Label SSM Bits. Default Value (if XML element is absent) is false.|
