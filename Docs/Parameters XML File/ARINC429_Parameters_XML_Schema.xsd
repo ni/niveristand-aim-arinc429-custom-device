@@ -68,7 +68,7 @@
                                     </xs:restriction>
                                  </xs:simpleType>
                               </xs:element>
-                              <xs:element name="transferType"  maxOccurs="1" minOccurs="0" default="0">
+                              <xs:element name="transferType" maxOccurs="1" minOccurs="0" default="0">
                                  <xs:annotation>
                                     <xs:documentation>Value of 0 specifies a scheduled label. Value of 1 specifies an acyclic label. This tag is ignored for Rx labels.</xs:documentation>
                                  </xs:annotation>
