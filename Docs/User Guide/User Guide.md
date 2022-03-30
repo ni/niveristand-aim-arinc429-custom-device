@@ -50,7 +50,7 @@ The files are configured with two ARINC 429 channels each containing the same tw
 		<label>
 			<labelDecimal>23</labelDecimal>
 			<transferType>0</transferType>
-			<transmitRate>10</transmitRate>
+			<period>10000.0</period>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>

@@ -79,9 +79,9 @@
                                     </xs:restriction>
                                  </xs:simpleType>
                               </xs:element>
-                              <xs:element type="xs:double" name="transmitRate" default="100.0" maxOccurs="1" minOccurs="0">
+                              <xs:element type="xs:double" name="period" default="1000.0" maxOccurs="1" minOccurs="0">
                                  <xs:annotation>
-                                    <xs:documentation>Periodic rate (in ms) at which scheduled Tx labels are continuously transmitted. This tag is ignored for Rx labels.</xs:documentation>
+                                    <xs:documentation>Period (in microseconds) at which scheduled Tx labels are continuously transmitted. This tag is ignored for Rx labels.</xs:documentation>
                                  </xs:annotation>
                               </xs:element>
                               <xs:element type="xs:boolean" name="createTimestampChannel" maxOccurs="1" minOccurs="0" default="false"/>
