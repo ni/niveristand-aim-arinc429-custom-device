@@ -14,9 +14,11 @@
 	<Item Name="Channel Manager.vi" Type="VI" URL="../Channel Manager.vi"/>
 	<Item Name="Channel Status.ctl" Type="VI" URL="../Channel Status.ctl"/>
 	<Item Name="Configure Rx Channel.vi" Type="VI" URL="../Configure Rx Channel.vi"/>
+	<Item Name="Configure Scheduled Tx Channel.vi" Type="VI" URL="../Configure Scheduled Tx Channel.vi"/>
 	<Item Name="Data to Label and Time Tag and Buffer Report Word.vi" Type="VI" URL="../Data to Label and Time Tag and Buffer Report Word.vi"/>
 	<Item Name="Finalize Channel.vi" Type="VI" URL="../Finalize Channel.vi"/>
 	<Item Name="Finalize Hardware.vi" Type="VI" URL="../Finalize Hardware.vi"/>
+	<Item Name="Get Transfer Identifier.vi" Type="VI" URL="../Get Transfer Identifier.vi"/>
 	<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 	<Item Name="Initialize Label Buffers.vi" Type="VI" URL="../Initialize Label Buffers.vi"/>
 	<Item Name="Initialize Rx Channel.vi" Type="VI" URL="../Initialize Rx Channel.vi"/>
@@ -25,4 +27,5 @@
 	<Item Name="Parse Rx Label Buffer Read Outputs.vi" Type="VI" URL="../Parse Rx Label Buffer Read Outputs.vi"/>
 	<Item Name="Read Rx Channel.vi" Type="VI" URL="../Read Rx Channel.vi"/>
 	<Item Name="Start Channel.vi" Type="VI" URL="../Start Channel.vi"/>
+	<Item Name="Write Scheduled Tx Channel.vi" Type="VI" URL="../Write Scheduled Tx Channel.vi"/>
 </Library>
