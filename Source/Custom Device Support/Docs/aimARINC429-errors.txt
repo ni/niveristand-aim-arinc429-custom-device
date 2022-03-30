@@ -18,4 +18,13 @@ The direction of the label must match the direction of the port.
 <nierror code="-732504">
 The hardware module in the desired PXI slot is not a valid AIM ARINC-429 module.
 </nierror>
+<nierror code="-732505">
+The maximum allowed number of transfer IDs has been exceeded.
+</nierror>
+<nierror code="-732506">
+An attempt was made to add a transfer ID for a label in a channel, but a transfer ID for that label/channel already exists.
+</nierror>
+<nierror code="-732507">
+A unique transfer ID was not found for a label.
+</nierror>
 </nidocument>
