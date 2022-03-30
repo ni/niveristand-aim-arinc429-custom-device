@@ -108,7 +108,7 @@
 		<label>
 			<labelDecimal>134</labelDecimal>
 			<transferType>0</transferType>
-			<period>20000</period>
+			<period>20000.0</period>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
@@ -128,7 +128,7 @@
 		<label>
 			<labelDecimal>135</labelDecimal>
 			<transferType>0</transferType>
-			<period>50000</period>
+			<period>50000.0</period>
 			<parameter>
 				<encoding>BCD</encoding>
 				<signed>true</signed>
