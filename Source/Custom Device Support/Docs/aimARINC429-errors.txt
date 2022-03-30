@@ -18,4 +18,7 @@ The direction of the label must match the direction of the port.
 <nierror code="-732504">
 The hardware module in the desired PXI slot is not a valid AIM ARINC-429 module.
 </nierror>
+<nierror code="-732505">
+The desired label transmit period is outside the valid range. The fastest supported period is 1000 microseconds.
+</nierror>
 </nidocument>
