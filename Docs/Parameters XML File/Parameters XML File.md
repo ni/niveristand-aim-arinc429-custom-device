@@ -39,6 +39,7 @@ The code snippet below is an example of BCD Parameters.
 <channel>
 	<hardwareChannel>26</hardwareChannel>
 	<direction>outgoing</direction>
+	<speed>high</speed>
 	<label>
 		<labelDecimal>28</labelDecimal>
 		<transferType>0</transferType>
