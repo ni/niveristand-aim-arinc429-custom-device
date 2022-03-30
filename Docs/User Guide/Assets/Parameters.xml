@@ -4,6 +4,8 @@
 	<!-- ++++++++++++++++++++++++++++ Rx Channels ++++++++++++++++++++++++++++ -->
 	<channel>
 		<hardwareChannel>0</hardwareChannel>
+		<direction>incoming</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>07</labelDecimal>
 			<parameter>
@@ -36,6 +38,8 @@
 	<!-- +++++++++++++++++++++++++ Tx Channels +++++++++++++++++++++++++ -->
 	<channel>
 		<hardwareChannel>16</hardwareChannel>
+		<direction>outgoing</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>07</labelDecimal>
 			<transferType>1</transferType>
@@ -55,6 +59,7 @@
 		<label>
 			<labelDecimal>23</labelDecimal>
 			<transferType>0</transferType>
+			<transmitRate>10</transmitRate>
 			<parameter>
 				<direction>outgoing</direction>
 				<encoding>BNR</encoding>
