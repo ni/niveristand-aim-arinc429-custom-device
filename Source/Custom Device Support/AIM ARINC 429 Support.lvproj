@@ -137,18 +137,9 @@
 		<Item Name="AIM ARINC 429 Hardware API.lvlib" Type="Library" URL="../Hardware API/AIM ARINC 429 Hardware API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Api429Rx Label Configure.vi" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/Rx/Api429Rx Label Configure.vi"/>
-				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/subvi/Error Converter (ErrCode or Status).vi"/>
-				<Item Name="Get Library Path.vi" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/subvi/Get Library Path.vi"/>
-				<Item Name="Api429Lib Error Desc Get.vi" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/Library/Api429Lib Error Desc Get.vi"/>
-				<Item Name="Get Error Number Offset.vi" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/subvi/Get Error Number Offset.vi"/>
-				<Item Name="rx_stack_entry.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/Controls/rx_stack_entry.ctl"/>
-				<Item Name="TimeTagToTimeStamp.vi" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/Helpers/StatusParsers/TimeTagToTimeStamp.vi"/>
-				<Item Name="api429_rx_label_setup.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/Session/controls/api429_rx_label_setup.ctl"/>
-				<Item Name="api429_board_info.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/Session/controls/api429_board_info.ctl"/>
-				<Item Name="AIM429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/AIM GmbH/_ARINC-429/AIM429LV.lvlib"/>
-				<Item Name="Replay Config.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/_ARINC-429/VIs/TypeDefinitions/Replay Config.ctl"/>
-				<Item Name="Channel Interrupt Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/_ARINC-429/VIs/TypeDefinitions/Channel Interrupt Info.ctl"/>
+				<Item Name="AIM429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/AIM429LV.lvlib"/>
+				<Item Name="Channel Interrupt Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Channel Interrupt Info.ctl"/>
+				<Item Name="Replay Config.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Replay Config.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>
@@ -560,10 +551,11 @@
 				<Item Name="cfis_Reverse Scan From String For Integer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/cfis_Reverse Scan From String For Integer.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="Get Bits Per Digit from Base.vim" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Encoding and Decoding/Get Bits Per Digit from Base.vim"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
-				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -597,9 +589,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="AIM429LV.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/instr.lib/AIM GmbH/ARINC-429/AIM429LV.lvlib"/>
-			<Item Name="Channel Interrupt Info.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/instr.lib/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Channel Interrupt Info.ctl"/>
-			<Item Name="Replay Config.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/instr.lib/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Replay Config.ctl"/>
+			<Item Name="Create Map from Identifiers to Indexes.vi" Type="VI" URL="../Engine/Custom Device/Create Map from Identifiers to Indexes.vi"/>
+			<Item Name="Create Map from Values Indexes to Channel and Label Indexes.vi" Type="VI" URL="../Engine/Custom Device/Create Map from Values Indexes to Channel and Label Indexes.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -832,19 +823,11 @@
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="AIM ARINC 429 Engine.lvlib" Type="Library" URL="../Engine/AIM ARINC 429 Engine.lvlib"/>
-		<Item Name="AIM429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/AIM GmbH/_ARINC-429/AIM429LV.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="api429_rx_label_setup.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/Session/controls/api429_rx_label_setup.ctl"/>
-				<Item Name="Api429Lib Error Desc Get.vi" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/Library/Api429Lib Error Desc Get.vi"/>
-				<Item Name="Api429Rx Label Configure.vi" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/Rx/Api429Rx Label Configure.vi"/>
-				<Item Name="Channel Interrupt Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/_ARINC-429/VIs/TypeDefinitions/Channel Interrupt Info.ctl"/>
-				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/subvi/Error Converter (ErrCode or Status).vi"/>
-				<Item Name="Get Error Number Offset.vi" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/subvi/Get Error Number Offset.vi"/>
-				<Item Name="Get Library Path.vi" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/subvi/Get Library Path.vi"/>
-				<Item Name="Replay Config.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/_ARINC-429/VIs/TypeDefinitions/Replay Config.ctl"/>
-				<Item Name="rx_stack_entry.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/Controls/rx_stack_entry.ctl"/>
-				<Item Name="TimeTagToTimeStamp.vi" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/Helpers/StatusParsers/TimeTagToTimeStamp.vi"/>
+				<Item Name="AIM429LV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/AIM429LV.lvlib"/>
+				<Item Name="Channel Interrupt Info.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Channel Interrupt Info.ctl"/>
+				<Item Name="Replay Config.ctl" Type="VI" URL="/&lt;instrlib&gt;/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Replay Config.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -865,7 +848,6 @@
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
@@ -880,7 +862,6 @@
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="Messaging.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/VeriStand Custom Device Messaging/Messaging.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
@@ -891,7 +872,6 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -901,11 +881,7 @@
 			</Item>
 			<Item Name="AIM ARINC 429 Hardware API.lvlib" Type="Library" URL="../Hardware API/AIM ARINC 429 Hardware API.lvlib"/>
 			<Item Name="AIM ARINC 429 Scripting.lvlib" Type="Library" URL="../Scripting/AIM/AIM ARINC 429 Scripting.lvlib"/>
-			<Item Name="AIM ARINC 429 System Explorer.lvlib" Type="Library" URL="../System Explorer/Implementation/System Explorer/AIM ARINC 429 System Explorer.lvlib"/>
-			<Item Name="AIM429LV.lvlib" Type="Library" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/instr.lib/AIM GmbH/ARINC-429/AIM429LV.lvlib"/>
 			<Item Name="ARINC 429 Import.lvlib" Type="Library" URL="../Import/ARINC 429 Import.lvlib"/>
-			<Item Name="Build Linux Log File Path.vi" Type="VI" URL="../Shared/Build Linux Log File Path.vi"/>
-			<Item Name="Channel Interrupt Info.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/instr.lib/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Channel Interrupt Info.ctl"/>
 			<Item Name="Conditionally Add Parity Parameter.vi" Type="VI" URL="../Shared/Conditionally Add Parity Parameter.vi"/>
 			<Item Name="Conditionally Add SDI Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SDI Parameter.vi"/>
 			<Item Name="Conditionally Add SSM Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SSM Parameter.vi"/>
@@ -916,7 +892,6 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Encode Parameter and Update Word (32-bit).vi" Type="VI" URL="../Shared/Encode Parameter and Update Word (32-bit).vi"/>
 			<Item Name="Error Test Channel Number.vi" Type="VI" URL="../Shared/Error Test Channel Number.vi"/>
 			<Item Name="Error Test Label Count.vi" Type="VI" URL="../Shared/Error Test Label Count.vi"/>
 			<Item Name="Error Test Label Name.vi" Type="VI" URL="../Shared/Error Test Label Name.vi"/>
@@ -928,9 +903,7 @@
 			<Item Name="Get Label Settings for RT.vi" Type="VI" URL="../Shared/Get Label Settings for RT.vi"/>
 			<Item Name="Get MD5 For File.vi" Type="VI" URL="../Shared/Get MD5 For File.vi"/>
 			<Item Name="Get Rx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Rx Hardware Channel Data.vi"/>
-			<Item Name="Get Static Channel Reference for Frame.vi" Type="VI" URL="../Shared/Get Static Channel Reference for Frame.vi"/>
 			<Item Name="Get Status Error Channel Data References.vi" Type="VI" URL="../Shared/Get Status Error Channel Data References.vi"/>
-			<Item Name="Get Tx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Tx Hardware Channel Data.vi"/>
 			<Item Name="Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi"/>
 			<Item Name="Initialize Channel Parameter (Discrete).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (Discrete).vi"/>
 			<Item Name="Label Properties.ctl" Type="VI" URL="../Shared/Label Properties.ctl"/>
@@ -949,7 +922,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Parameter Definition.ctl" Type="VI" URL="../Shared/Parameter Definition.ctl"/>
-			<Item Name="Replay Config.ctl" Type="VI" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2021/instr.lib/AIM GmbH/ARINC-429/VIs/TypeDefinitions/Replay Config.ctl"/>
 			<Item Name="RT Hardware Channel Settings.ctl" Type="VI" URL="../Shared/RT Hardware Channel Settings.ctl"/>
 			<Item Name="RT Label Settings.ctl" Type="VI" URL="../Shared/RT Label Settings.ctl"/>
 			<Item Name="RT Parameters.ctl" Type="VI" URL="../Shared/RT Parameters.ctl"/>
