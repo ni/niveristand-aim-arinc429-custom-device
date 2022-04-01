@@ -19,6 +19,7 @@
 		<Item Name="Read Tag Element (DBL).vi" Type="VI" URL="../Read Tag Element (DBL).vi"/>
 		<Item Name="Read Tag Element (Direction).vi" Type="VI" URL="../Read Tag Element (Direction).vi"/>
 		<Item Name="Read Tag Element (I32).vi" Type="VI" URL="../Read Tag Element (I32).vi"/>
+		<Item Name="Read Tag Element (Speed).vi" Type="VI" URL="../Read Tag Element (Speed).vi"/>
 		<Item Name="Read Tag Element (String).vi" Type="VI" URL="../Read Tag Element (String).vi"/>
 		<Item Name="Read Tag Element (U16).vi" Type="VI" URL="../Read Tag Element (U16).vi"/>
 		<Item Name="Read Tag Element (U32).vi" Type="VI" URL="../Read Tag Element (U32).vi"/>
