@@ -27,7 +27,4 @@ An attempt was made to add a transfer ID for a label in a channel, but a transfe
 <nierror code="-732507">
 A unique transfer ID was not found for a label.
 </nierror>
-<nierror code="-732508">
-The desired label transmit period is outside the valid range. The fastest supported period is 1000 microseconds.
-</nierror>
 </nidocument>
