@@ -21,6 +21,7 @@
 				<Item Name="Error Test Number Of Bits.vi" Type="VI" URL="../Shared/Error Test Number Of Bits.vi"/>
 				<Item Name="Error Test Parameter Name.vi" Type="VI" URL="../Shared/Error Test Parameter Name.vi"/>
 				<Item Name="Error Test Start Bit Value.vi" Type="VI" URL="../Shared/Error Test Start Bit Value.vi"/>
+				<Item Name="Error Test Transmit Period.vi" Type="VI" URL="../Shared/Error Test Transmit Period.vi"/>
 				<Item Name="Error Word Bits Checker for All Parameters on Label.vi" Type="VI" URL="../Shared/Error Word Bits Checker for All Parameters on Label.vi"/>
 				<Item Name="Error Word Bits Checker.vi" Type="VI" URL="../Shared/Error Word Bits Checker.vi"/>
 			</Item>

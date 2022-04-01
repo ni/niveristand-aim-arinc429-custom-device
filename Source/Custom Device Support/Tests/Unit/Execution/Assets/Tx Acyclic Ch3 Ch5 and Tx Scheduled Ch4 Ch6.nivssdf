@@ -353,8 +353,8 @@
 											<Property Name="user.CD.TransferType">
 												<U16>1</U16>
 											</Property>
-											<Property Name="user.CD.txRate">
-												<U32>0</U32>
+											<Property Name="user.CD.Transmit Period">
+												<U32>1000</U32>
 											</Property>
 										</Properties>
 										<Errors />
@@ -423,8 +423,8 @@
 											<Property Name="user.CD.TransferType">
 												<U16>0</U16>
 											</Property>
-											<Property Name="user.CD.txRate">
-												<U32>20</U32>
+											<Property Name="user.CD.Transmit Period">
+												<U32>20000</U32>
 											</Property>
 										</Properties>
 										<Errors />
@@ -493,8 +493,8 @@
 											<Property Name="user.CD.TransferType">
 												<U16>1</U16>
 											</Property>
-											<Property Name="user.CD.txRate">
-												<U32>0</U32>
+											<Property Name="user.CD.Transmit Period">
+												<U32>1000</U32>
 											</Property>
 										</Properties>
 										<Errors />
@@ -563,8 +563,8 @@
 											<Property Name="user.CD.TransferType">
 												<U16>0</U16>
 											</Property>
-											<Property Name="user.CD.txRate">
-												<U32>40</U32>
+											<Property Name="user.CD.Transmit Period">
+												<U32>40000</U32>
 											</Property>
 										</Properties>
 										<Errors />
