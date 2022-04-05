@@ -26,7 +26,6 @@
 	<Item Name="Initialize Tx Channel.vi" Type="VI" URL="../Initialize Tx Channel.vi"/>
 	<Item Name="Library Initialize and Exit.vi" Type="VI" URL="../Library Initialize and Exit.vi"/>
 	<Item Name="Parse Rx Label Buffer Read Outputs.vi" Type="VI" URL="../Parse Rx Label Buffer Read Outputs.vi"/>
-	<Item Name="Prepare Acyclic Tx Framing.vi" Type="VI" URL="../Prepare Acyclic Tx Framing.vi"/>
 	<Item Name="Read Rx Channel.vi" Type="VI" URL="../Read Rx Channel.vi"/>
 	<Item Name="Start Channel.vi" Type="VI" URL="../Start Channel.vi"/>
 	<Item Name="Write Acyclic Tx Channel.vi" Type="VI" URL="../Write Acyclic Tx Channel.vi"/>
