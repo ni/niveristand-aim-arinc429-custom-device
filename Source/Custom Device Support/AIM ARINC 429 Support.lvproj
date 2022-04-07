@@ -70,7 +70,7 @@
 				<Item Name="Shared" Type="Folder">
 					<Item Name="Script Custom Device.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Script Custom Device.vi"/>
 				</Item>
-				<Item Name="Single Board 1Ch Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Board (CH2--CH3) Loopback/Single Board 1Ch Loopback.lvclass"/>
+				<Item Name="Single Board Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Board Loopback/Single Board Loopback.lvclass"/>
 				<Item Name="Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Logging Loopback/Logging Loopback.lvclass"/>
 				<Item Name="AIM Deployment.lvclass" Type="LVClass" URL="../Tests/System/Deployment/AIM Deployment.lvclass"/>
 			</Item>
