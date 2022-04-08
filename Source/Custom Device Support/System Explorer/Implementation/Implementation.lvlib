@@ -55,6 +55,7 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Check For MD5 Change.vi" Type="VI" URL="../System Explorer/Check For MD5 Change.vi"/>
 		<Item Name="Compare Parameters With Refresh Dialog.vi" Type="VI" URL="../System Explorer/Compare Parameters With Refresh Dialog.vi"/>
+		<Item Name="Display Transmit Period.vi" Type="VI" URL="../System Explorer/Display Transmit Period.vi"/>
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
 		<Item Name="Mutate System Definition.vi" Type="VI" URL="../System Explorer/Mutate System Definition.vi"/>
 		<Item Name="On Compile - Get Asynchronous Channels Status Block Refs.vi" Type="VI" URL="../System Explorer/On Compile - Get Asynchronous Channels Status Block Refs.vi"/>
