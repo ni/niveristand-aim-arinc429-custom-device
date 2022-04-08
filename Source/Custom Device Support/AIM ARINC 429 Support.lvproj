@@ -26,7 +26,7 @@
 				<Item Name="Error Word Bits Checker.vi" Type="VI" URL="../Shared/Error Word Bits Checker.vi"/>
 			</Item>
 			<Item Name="Create ARINC 429 Word (U32) from Label (U8).vi" Type="VI" URL="../Shared/Create ARINC 429 Word (U32) from Label (U8).vi"/>
-			<Item Name="Decode Parameter (DBL) from Word.vim" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vim"/>
+			<Item Name="Decode Parameter (DBL) from Word.vi" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vi"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction Capability.ctl" Type="VI" URL="../Shared/Direction Capability.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
@@ -887,7 +887,7 @@
 			<Item Name="Conditionally Add SDI Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SDI Parameter.vi"/>
 			<Item Name="Conditionally Add SSM Parameter.vi" Type="VI" URL="../Shared/Conditionally Add SSM Parameter.vi"/>
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
-			<Item Name="Decode Parameter (DBL) from Word.vim" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vim"/>
+			<Item Name="Decode Parameter (DBL) from Word.vi" Type="VI" URL="../Shared/Decode Parameter (DBL) from Word.vi"/>
 			<Item Name="Device Parameters.ctl" Type="VI" URL="../Shared/Device Parameters.ctl"/>
 			<Item Name="Direction.ctl" Type="VI" URL="../Shared/Direction.ctl"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
