@@ -588,6 +588,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Monitor Data.ctl" Type="VI" URL="../Hardware API/Monitor Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -907,13 +908,13 @@
 			<Item Name="Get MD5 For File.vi" Type="VI" URL="../Shared/Get MD5 For File.vi"/>
 			<Item Name="Get Rx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Rx Hardware Channel Data.vi"/>
 			<Item Name="Get Static Channel Reference for Frame.vi" Type="VI" URL="../Shared/Get Static Channel Reference for Frame.vi"/>
-			<Item Name="Get Status Error Channel Data References.vi" Type="VI" URL="../Shared/Get Status Error Channel Data References.vi"/>
 			<Item Name="Get Tx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Tx Hardware Channel Data.vi"/>
 			<Item Name="Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi"/>
 			<Item Name="Initialize Channel Parameter (Discrete).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (Discrete).vi"/>
 			<Item Name="Label Properties.ctl" Type="VI" URL="../Shared/Label Properties.ctl"/>
 			<Item Name="Label.ctl" Type="VI" URL="../Shared/Label.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="Monitor Data.ctl" Type="VI" URL="../Hardware API/Monitor Data.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

@@ -7,25 +7,30 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="NI_IconEditor" Type="Str">50 48 48 48 56 48 49 49 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 4 48 1 100 0 0 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 3 189 0 0 0 0 0 0 0 0 0 0 3 162 0 40 0 0 3 156 0 0 3 96 0 0 0 0 0 9 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 0 0 0 0 0 0 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 0 0 0 0 0 0 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 0 0 0 0 0 0 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 0 0 0 0 0 0 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 0 0 0 0 0 0 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 0 0 0 0 0 0 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 255 128 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 7 86 73 32 73 99 111 110 100 1 0 0 0 0 0 7 65 73 77 32 52 50 57 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 8 1 1
 
 </Property>
 	<Item Name="Channel Action.ctl" Type="VI" URL="../Channel Action.ctl"/>
+	<Item Name="Data Word with Trigger.ctl" Type="VI" URL="../Data Word with Trigger.ctl"/>
+	<Item Name="Monitor Data.ctl" Type="VI" URL="../Monitor Data.ctl"/>
 	<Item Name="Channel Manager.vi" Type="VI" URL="../Channel Manager.vi"/>
 	<Item Name="Channel Status.ctl" Type="VI" URL="../Channel Status.ctl"/>
 	<Item Name="Configure Rx Channel.vi" Type="VI" URL="../Configure Rx Channel.vi"/>
 	<Item Name="Configure Tx Channel.vi" Type="VI" URL="../Configure Tx Channel.vi"/>
 	<Item Name="Data to Label and Time Tag and Buffer Report Word.vi" Type="VI" URL="../Data to Label and Time Tag and Buffer Report Word.vi"/>
-	<Item Name="Data Word with Trigger.ctl" Type="VI" URL="../Data Word with Trigger.ctl"/>
+	<Item Name="Enable Monitoring All Labels on Channel.vi" Type="VI" URL="../Enable Monitoring All Labels on Channel.vi"/>
 	<Item Name="Finalize Channel.vi" Type="VI" URL="../Finalize Channel.vi"/>
 	<Item Name="Finalize Hardware.vi" Type="VI" URL="../Finalize Hardware.vi"/>
 	<Item Name="Get Transfer Identifier.vi" Type="VI" URL="../Get Transfer Identifier.vi"/>
 	<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 	<Item Name="Initialize Label Buffers.vi" Type="VI" URL="../Initialize Label Buffers.vi"/>
+	<Item Name="Initialize Monitors.vi" Type="VI" URL="../Initialize Monitors.vi"/>
 	<Item Name="Initialize Rx Channel.vi" Type="VI" URL="../Initialize Rx Channel.vi"/>
 	<Item Name="Initialize Tx Channel.vi" Type="VI" URL="../Initialize Tx Channel.vi"/>
 	<Item Name="Library Initialize and Exit.vi" Type="VI" URL="../Library Initialize and Exit.vi"/>
 	<Item Name="Parse Rx Label Buffer Read Outputs.vi" Type="VI" URL="../Parse Rx Label Buffer Read Outputs.vi"/>
+	<Item Name="Read Monitor Channel.vi" Type="VI" URL="../Read Monitor Channel.vi"/>
 	<Item Name="Read Rx Channel.vi" Type="VI" URL="../Read Rx Channel.vi"/>
 	<Item Name="Start Channel.vi" Type="VI" URL="../Start Channel.vi"/>
 	<Item Name="Write Acyclic Tx Channel.vi" Type="VI" URL="../Write Acyclic Tx Channel.vi"/>
