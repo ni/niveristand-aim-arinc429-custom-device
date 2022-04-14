@@ -3,7 +3,7 @@
 
 	<!-- ++++++++++++++++++++++++++++ Rx Channels ++++++++++++++++++++++++++++ -->
 	<channel>
-		<hardwareChannel>0</hardwareChannel>
+		<hardwareChannel>1</hardwareChannel>
 		<direction>incoming</direction>
 		<speed>high</speed>
 		<label>
@@ -35,7 +35,7 @@
 	</channel>
 	<!-- +++++++++++++++++++++++++ Tx Channels +++++++++++++++++++++++++ -->
 	<channel>
-		<hardwareChannel>16</hardwareChannel>
+		<hardwareChannel>2</hardwareChannel>
 		<direction>outgoing</direction>
 		<speed>high</speed>
 		<label>
