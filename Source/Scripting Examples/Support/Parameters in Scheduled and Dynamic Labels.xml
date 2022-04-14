@@ -2,7 +2,7 @@
 <parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  -->
 <!-- 			Notes														   -->
-<!-- "hardwareChannel" is 0-Based, range accepted is: 0-31					   -->
+<!-- "hardwareChannel" is 1-Based, range accepted is: 1-32					   -->
 <!-- "labelDecimal" is 0-Based, range is 0-255								   -->
 <!-- "encoding": accepted values: BNR, BCD or Discrete						   -->
 <!-- "startBit" is 0-Based, range accepted is: 0-31	for Rx Labels, 8-31 for Tx -->
@@ -25,8 +25,9 @@
 
 	<!-- ++++++++++++++++++++++++++++ Rx Channels ++++++++++++++++++++++++++++ -->
 	<channel>
-		<hardwareChannel>0</hardwareChannel>
+		<hardwareChannel>1</hardwareChannel>
 		<direction>incoming</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>07</labelDecimal>
 			<parameter>
@@ -83,8 +84,9 @@
 
 	<!-- +++++++++++++++++++++++++ Tx Channels +++++++++++++++++++++++++ -->
 	<channel>
-		<hardwareChannel>24</hardwareChannel>
+		<hardwareChannel>2</hardwareChannel>
 		<direction>outgoing</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>07</labelDecimal>
 			<transferType>1</transferType>
@@ -118,6 +120,7 @@
 		<label>
 			<labelDecimal>23</labelDecimal>
 			<transferType>0</transferType>
+			<period>10000</period>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
@@ -133,6 +136,7 @@
 		<label>
 			<labelDecimal>24</labelDecimal>
 			<transferType>0</transferType>
+			<period>10000</period>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
