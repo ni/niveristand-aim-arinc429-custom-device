@@ -19,6 +19,13 @@ target = 'My Computer'
 build_spec = 'Scripting API'
 
 [[build.steps]]
+name = 'Scripting Examples'
+type = 'lvBuildSpec'
+project = '{scripting_examples}'
+target = 'My Computer'
+build_spec = 'Examples'
+
+[[build.steps]]
 name = 'System Explorer PPL'
 type = 'lvBuildSpec'
 project = '{support}'
