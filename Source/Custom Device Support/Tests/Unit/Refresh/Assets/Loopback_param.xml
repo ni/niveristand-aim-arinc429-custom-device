@@ -26,12 +26,13 @@
 
 	<!-- ++++++++++++++++++++++++++++ Rx Channels ++++++++++++++++++++++++++++ -->
 	<channel>
-		<hardwareChannel>0</hardwareChannel>
-      <direction>incoming</direction>
+		<hardwareChannel>1</hardwareChannel>
+		<direction>incoming</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>134</labelDecimal>
 			<createSSMChannel>true</createSSMChannel>
-         <sdi>10</sdi>
+			<sdi>10</sdi>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
@@ -41,16 +42,17 @@
 				<scale>16</scale>
 				<offset>0.0</offset>
 				<unit>psi</unit>
-       	</parameter>
+			</parameter>
 		</label>
 	</channel>
 	<channel>
 		<hardwareChannel>2</hardwareChannel>
-      <direction>incoming</direction>
+		<direction>incoming</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>135</labelDecimal>
 			<createSSMChannel>true</createSSMChannel>
-         <sdi>11</sdi>
+			<sdi>11</sdi>
 			<parameter>
 				<encoding>BCD</encoding>
 				<signed>true</signed>
@@ -60,16 +62,17 @@
 				<scale>1</scale>
 				<offset>0.0</offset>
 				<unit>ft</unit>
-        	</parameter>
+			</parameter>
 		</label>
 	</channel>
 	<channel>
 		<hardwareChannel>4</hardwareChannel>
-      <direction>incoming</direction>
+		<direction>incoming</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>136</labelDecimal>
 			<createSSMChannel>true</createSSMChannel>
-         <sdi>All</sdi>
+			<sdi>All</sdi>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
@@ -79,7 +82,7 @@
 				<scale>1</scale>
 				<offset>0.0</offset>
 				<unit>m</unit>
-         </parameter>
+			</parameter>
 			<parameter>
 				<encoding>Discrete</encoding>
 				<signed>false</signed>
@@ -89,7 +92,7 @@
 				<scale>1</scale>
 				<offset>0.0</offset>
 				<unit></unit>
-        	</parameter>
+			</parameter>
 			<parameter>
 				<encoding>Discrete</encoding>
 				<signed>false</signed>
@@ -99,17 +102,19 @@
 				<scale>1</scale>
 				<offset>0.0</offset>
 				<unit></unit>
-        	</parameter>
+			</parameter>
 		</label>
 	</channel>
 <!-- +++++++++++++++++++++++++ Tx Channels +++++++++++++++++++++++++ -->
 	<channel>
 		<hardwareChannel>17</hardwareChannel>
-      <direction>outgoing</direction>
+		<direction>outgoing</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>134</labelDecimal>
-         <transferType>0</transferType>
-         <parameter>
+			<transferType>0</transferType>
+			<period>1000</period>
+			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
 				<startBit>18</startBit>
@@ -119,16 +124,18 @@
 				<offset>0.0</offset>
 				<unit>psi</unit>
 				<defaultValue>0</defaultValue>
-         </parameter>
+			</parameter>
 		</label>
 	</channel>
 	<channel>
 		<hardwareChannel>19</hardwareChannel>
-      <direction>outgoing</direction>
+		<direction>outgoing</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>135</labelDecimal>
-         <transferType>0</transferType>
-         <parameter>
+			<transferType>0</transferType>
+			<period>1000</period>
+			<parameter>
 				<encoding>BCD</encoding>
 				<signed>true</signed>
 				<startBit>8</startBit>
@@ -143,11 +150,13 @@
 	</channel>
 	<channel>
 		<hardwareChannel>21</hardwareChannel>
-      <direction>outgoing</direction>
+		<direction>outgoing</direction>
+		<speed>high</speed>
 		<label>
 			<labelDecimal>136</labelDecimal>
-         <transferType>0</transferType>
-         <parameter>
+			<transferType>0</transferType>
+			<period>10000</period>
+			<parameter>
 				<encoding>BNR</encoding>
 				<signed>true</signed>
 				<startBit>13</startBit>
@@ -157,7 +166,7 @@
 				<offset>0.0</offset>
 				<unit>m</unit>
 				<defaultValue>19.59</defaultValue>
-         </parameter>
+			</parameter>
 			<parameter>
 				<encoding>Discrete</encoding>
 				<signed>false</signed>
@@ -167,7 +176,7 @@
 				<scale>1</scale>
 				<offset>0.0</offset>
 				<unit></unit>
-         </parameter>
+			</parameter>
 			<parameter>
 				<encoding>Discrete</encoding>
 				<signed>false</signed>
@@ -177,7 +186,7 @@
 				<scale>1</scale>
 				<offset>0.0</offset>
 				<unit></unit>
-        	</parameter>
+			</parameter>
 		</label>
 	</channel>
 </parameters>
