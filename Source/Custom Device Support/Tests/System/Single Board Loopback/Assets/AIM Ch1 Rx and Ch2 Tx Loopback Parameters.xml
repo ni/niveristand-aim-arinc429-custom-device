@@ -137,6 +137,36 @@
                 <unit>rpm</unit>
             </parameter>
         </label>
+<!--** Label 9 (1 parameter, SDI 1) **-->
+        <label>
+            <labelDecimal>9</labelDecimal>
+            <sdi>01</sdi>
+            <parameter>
+                <encoding>BNR</encoding>
+                <signed>true</signed>
+                <startBit>10</startBit>
+                <numberOfBits>19</numberOfBits>
+                <name>RxParam9.1_1</name>
+                <scale>1</scale>
+                <offset>0</offset>
+                <unit>rpm</unit>
+            </parameter>
+        </label>
+<!--** Label 9 (1 parameter, SDI 2) **-->
+        <label>
+            <labelDecimal>9</labelDecimal>
+            <sdi>10</sdi>
+            <parameter>
+                <encoding>BNR</encoding>
+                <signed>true</signed>
+                <startBit>10</startBit>
+                <numberOfBits>19</numberOfBits>
+                <name>RxParam9.1_2</name>
+                <scale>1</scale>
+                <offset>0</offset>
+                <unit>rpm</unit>
+            </parameter>
+        </label>
     </channel>
 <!--*************************************** Tx Channels (2) ***************************************-->
     <channel>
@@ -223,7 +253,7 @@
         <label>
             <labelDecimal>1</labelDecimal>
             <transferType>0</transferType>
-            <transmitRate>10</transmitRate>
+            <period>10000</period>
             <parameter>
                 <encoding>BNR</encoding>
                 <signed>true</signed>
@@ -240,7 +270,7 @@
         <label>
             <labelDecimal>3</labelDecimal>
             <transferType>0</transferType>
-            <transmitRate>10</transmitRate>
+            <period>10000</period>
             <parameter>
                 <encoding>BNR</encoding>
                 <signed>true</signed>
@@ -268,7 +298,7 @@
         <label>
             <labelDecimal>6</labelDecimal>
             <transferType>0</transferType>
-            <transmitRate>10</transmitRate>
+            <period>10000</period>
             <parameter>
                 <encoding>BNR</encoding>
                 <signed>true</signed>
@@ -285,7 +315,7 @@
         <label>
             <labelDecimal>8</labelDecimal>
             <transferType>0</transferType>
-            <transmitRate>10</transmitRate>
+            <period>10000</period>
             <parameter>
                 <encoding>BNR</encoding>
                 <signed>true</signed>
@@ -296,6 +326,41 @@
                 <offset>2</offset>
                 <unit>rpm</unit>
                 <defaultValue>800</defaultValue>
+            </parameter>
+        </label>
+<!--********************************** Scheduled Labels with SDI (9_1, 9_2) **********************************-->
+<!--** Scheduled Label 9 (1 parameter, SDI 1) **-->
+        <label>
+            <labelDecimal>9</labelDecimal>
+            <transferType>0</transferType>
+            <period>10000</period>
+            <sdi>01</sdi>
+            <parameter>
+                <encoding>BNR</encoding>
+                <signed>true</signed>
+                <startBit>10</startBit>
+                <numberOfBits>19</numberOfBits>
+                <name>TxScheduledParam9.1_1</name>
+                <scale>1</scale>
+                <offset>0</offset>
+                <unit>rpm</unit>
+            </parameter>
+        </label>
+<!--** Scheduled Label 9 (1 parameter, SDI 2) **-->
+        <label>
+            <labelDecimal>9</labelDecimal>
+            <transferType>0</transferType>
+            <period>10000</period>
+            <sdi>10</sdi>
+            <parameter>
+                <encoding>BNR</encoding>
+                <signed>true</signed>
+                <startBit>10</startBit>
+                <numberOfBits>19</numberOfBits>
+                <name>TxScheduledParam9.1_2</name>
+                <scale>1</scale>
+                <offset>0</offset>
+                <unit>rpm</unit>
             </parameter>
         </label>
     </channel>
