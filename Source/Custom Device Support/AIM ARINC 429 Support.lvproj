@@ -69,6 +69,8 @@
 			<Item Name="System" Type="Folder">
 				<Item Name="Shared" Type="Folder">
 					<Item Name="Script Custom Device.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Script Custom Device.vi"/>
+					<Item Name="Generate VS Channels Info.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Generate VS Channels Info.vi"/>
+					<Item Name="AIM Multichannel Tx and RX PARAM Constants.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/AIM Multichannel Tx and RX PARAM Constants.vi"/>
 				</Item>
 				<Item Name="Single Board Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Board Loopback/Single Board Loopback.lvclass"/>
 				<Item Name="Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Logging Loopback/Logging Loopback.lvclass"/>
@@ -588,7 +590,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Monitor Data.ctl" Type="VI" URL="../Hardware API/Monitor Data.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -914,7 +915,6 @@
 			<Item Name="Label Properties.ctl" Type="VI" URL="../Shared/Label Properties.ctl"/>
 			<Item Name="Label.ctl" Type="VI" URL="../Shared/Label.ctl"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="Monitor Data.ctl" Type="VI" URL="../Hardware API/Monitor Data.ctl"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

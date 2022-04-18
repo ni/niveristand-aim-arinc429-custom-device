@@ -5,13 +5,13 @@
     <channel>
 		<hardwareChannel>1</hardwareChannel>
 		<direction>incoming</direction>
-        <!--*********** Acyclic Labels ***********-->
+        <!--*********** Acyclic Labels (2,4,5,7) ***********-->
         <!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
         <label>
 			<labelDecimal>2</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>RxParam2.1</name>
@@ -25,9 +25,9 @@
 			<labelDecimal>4</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
-				<numberOfBits>6</numberOfBits>
+				<numberOfBits>9</numberOfBits>
 				<name>RxParam4.1</name>
 				<scale>1</scale>
 				<offset>0</offset>
@@ -35,9 +35,9 @@
 			</parameter>
             <parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
-				<startBit>16</startBit>
-				<numberOfBits>13</numberOfBits>
+				<signed>false</signed>
+				<startBit>19</startBit>
+				<numberOfBits>10</numberOfBits>
 				<name>RxParam4.2</name>
 				<scale>1</scale>
 				<offset>0</offset>
@@ -62,23 +62,23 @@
         <label>
 			<labelDecimal>7</labelDecimal>
 			<parameter>
-				<encoding>Discrete</encoding>
-				<signed>true</signed>
+				<encoding>BNR</encoding>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>RxParam7.1</name>
-				<scale>1</scale>
-				<offset>0</offset>
+				<scale>2</scale>
+				<offset>2</offset>
 				<unit>psi</unit>
 			</parameter>
 		</label>
-        <!--*********** Scheduled Labels ***********-->
+        <!--*********** Scheduled Labels (1,3,6,8) ***********-->
         <!--*** Label 1: 1 parameter BNR signed no scale/offset PSI ***-->
         <label>
 			<labelDecimal>1</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>RxParam1.1</name>
@@ -92,7 +92,7 @@
 			<labelDecimal>3</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>9</numberOfBits>
 				<name>RxParam3.1</name>
@@ -102,7 +102,7 @@
 			</parameter>
             <parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>19</startBit>
 				<numberOfBits>10</numberOfBits>
 				<name>RxParam3.2</name>
@@ -115,8 +115,8 @@
         <label>
 			<labelDecimal>6</labelDecimal>
 			<parameter>
-				<encoding>BCD</encoding>
-				<signed>true</signed>
+				<encoding>BNR</encoding>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>RxParam6.1</name>
@@ -130,12 +130,12 @@
 			<labelDecimal>8</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>RxParam8.1</name>
 				<scale>2</scale>
-				<offset>5</offset>
+				<offset>2</offset>
 				<unit>rpm</unit>
 			</parameter>
 		</label>
@@ -144,13 +144,13 @@
 	 <channel>
 		<hardwareChannel>16</hardwareChannel>
 		<direction>incoming</direction>
-        <!--*********** Acyclic Labels ***********-->
+        <!--*********** Acyclic Labels (2,4,9,11) ***********-->
         <!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
         <label>
 			<labelDecimal>2</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>RxParam2.1</name>
@@ -164,9 +164,9 @@
 			<labelDecimal>4</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
-				<numberOfBits>6</numberOfBits>
+				<numberOfBits>9</numberOfBits>
 				<name>RxParam4.1</name>
 				<scale>1</scale>
 				<offset>0</offset>
@@ -174,9 +174,9 @@
 			</parameter>
             <parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
-				<startBit>16</startBit>
-				<numberOfBits>13</numberOfBits>
+				<signed>false</signed>
+				<startBit>19</startBit>
+				<numberOfBits>10</numberOfBits>
 				<name>RxParam4.2</name>
 				<scale>1</scale>
 				<offset>0</offset>
@@ -201,8 +201,8 @@
         <label>
 			<labelDecimal>11</labelDecimal>
 			<parameter>
-				<encoding>Discrete</encoding>
-				<signed>true</signed>
+				<encoding>BNR</encoding>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>RxParam11.1</name>
@@ -211,13 +211,13 @@
 				<unit>psi</unit>
 			</parameter>
 		</label>
-        <!--*********** Scheduled Labels ***********-->
+        <!--*********** Scheduled Labels (1,3,10,12) ***********-->
         <!--*** Label 1: 1 parameter BNR signed no scale/offset PSI ***-->
         <label>
 			<labelDecimal>1</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>RxParam1.1</name>
@@ -231,7 +231,7 @@
 			<labelDecimal>3</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>9</numberOfBits>
 				<name>RxParam3.1</name>
@@ -241,7 +241,7 @@
 			</parameter>
             <parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>19</startBit>
 				<numberOfBits>10</numberOfBits>
 				<name>RxParam3.2</name>
@@ -254,8 +254,8 @@
         <label>
 			<labelDecimal>10</labelDecimal>
 			<parameter>
-				<encoding>BCD</encoding>
-				<signed>true</signed>
+				<encoding>BNR</encoding>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>RxParam10.1</name>
@@ -269,12 +269,12 @@
 			<labelDecimal>12</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>RxParam12.1</name>
-				<scale>2</scale>
-				<offset>5</offset>
+				<scale>1</scale>
+				<offset>0</offset>
 				<unit>rpm</unit>
 			</parameter>
 		</label>
@@ -284,14 +284,14 @@
     <channel>
 		<hardwareChannel>2</hardwareChannel>
 		<direction>outgoing</direction>
-        <!--*********** Acyclic Labels ***********-->
+        <!--*********** Acyclic Labels (2,4,5,7) ***********-->
         <!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
         <label>
 			<labelDecimal>2</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>TxAcyclicParam2.1</name>
@@ -307,9 +307,9 @@
 			<transferType>1</transferType>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
-				<numberOfBits>6</numberOfBits>
+				<numberOfBits>9</numberOfBits>
 				<name>TxAcyclicParam4.1</name>
 				<scale>1</scale>
 				<offset>0</offset>
@@ -318,9 +318,9 @@
 			</parameter>
             <parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
-				<startBit>16</startBit>
-				<numberOfBits>13</numberOfBits>
+				<signed>false</signed>
+				<startBit>19</startBit>
+				<numberOfBits>10</numberOfBits>
 				<name>TxAcyclicParam4.2</name>
 				<scale>1</scale>
 				<offset>0</offset>
@@ -349,18 +349,18 @@
 			<labelDecimal>7</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
-				<encoding>Discrete</encoding>
-				<signed>true</signed>
+				<encoding>BNR</encoding>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>TxAcyclicParam7.1</name>
-				<scale>1</scale>
-				<offset>0</offset>
+				<scale>2</scale>
+				<offset>2</offset>
 				<unit>psi</unit>
 				<defaultValue>0</defaultValue>
 			</parameter>
 		</label>
-        <!--*********** Scheduled Labels ***********-->
+        <!--*********** Scheduled Labels (1,3,6,8) ***********-->
         <!--*** Label 1: 1 parameter BNR signed no scale/offset PSI ***-->
         <label>
 			<labelDecimal>1</labelDecimal>
@@ -368,7 +368,7 @@
 			<period>100000</period>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>TxScheduledParam1.1</name>
@@ -385,7 +385,7 @@
 			<period>100000</period>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>9</numberOfBits>
 				<name>TxScheduledParam3.1</name>
@@ -396,7 +396,7 @@
 			</parameter>
             <parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>19</startBit>
 				<numberOfBits>10</numberOfBits>
 				<name>TxScheduledParam3.2</name>
@@ -412,8 +412,8 @@
 			<transferType>0</transferType>
 			<period>100000</period>
 			<parameter>
-				<encoding>BCD</encoding>
-				<signed>true</signed>
+				<encoding>BNR</encoding>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>TxScheduledParam6.1</name>
@@ -430,12 +430,12 @@
 			<period>100000</period>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>TxScheduledParam8.1</name>
 				<scale>2</scale>
-				<offset>5</offset>
+				<offset>2</offset>
 				<unit>rpm</unit>
 				<defaultValue>820</defaultValue>
 			</parameter>
@@ -445,14 +445,14 @@
 	<channel>
 		<hardwareChannel>15</hardwareChannel>
 		<direction>outgoing</direction>
-        <!--*********** Acyclic Labels ***********-->
+        <!--*********** Acyclic Labels (2,4,9,11) ***********-->
         <!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
         <label>
 			<labelDecimal>2</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>TxAcyclicParam2.1</name>
@@ -468,9 +468,9 @@
 			<transferType>1</transferType>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
-				<numberOfBits>6</numberOfBits>
+				<numberOfBits>9</numberOfBits>
 				<name>TxAcyclicParam4.1</name>
 				<scale>1</scale>
 				<offset>0</offset>
@@ -479,9 +479,9 @@
 			</parameter>
             <parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
-				<startBit>16</startBit>
-				<numberOfBits>13</numberOfBits>
+				<signed>false</signed>
+				<startBit>19</startBit>
+				<numberOfBits>10</numberOfBits>
 				<name>TxAcyclicParam4.2</name>
 				<scale>1</scale>
 				<offset>0</offset>
@@ -510,8 +510,8 @@
 			<labelDecimal>11</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
-				<encoding>Discrete</encoding>
-				<signed>true</signed>
+				<encoding>BNR</encoding>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>TxAcyclicParam11.1</name>
@@ -521,7 +521,7 @@
 				<defaultValue>1</defaultValue>
 			</parameter>
 		</label>
-        <!--*********** Scheduled Labels ***********-->
+        <!--*********** Scheduled Labels (1,3,10,12) ***********-->
         <!--*** Label 1: 1 parameter BNR signed no scale/offset PSI ***-->
         <label>
 			<labelDecimal>1</labelDecimal>
@@ -529,7 +529,7 @@
 			<period>100000</period>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>TxScheduledParam1.1</name>
@@ -546,7 +546,7 @@
 			<period>100000</period>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>9</numberOfBits>
 				<name>TxScheduledParam3.1</name>
@@ -557,7 +557,7 @@
 			</parameter>
             <parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>19</startBit>
 				<numberOfBits>10</numberOfBits>
 				<name>TxScheduledParam3.2</name>
@@ -573,8 +573,8 @@
 			<transferType>0</transferType>
 			<period>100000</period>
 			<parameter>
-				<encoding>BCD</encoding>
-				<signed>true</signed>
+				<encoding>BNR</encoding>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>TxScheduledParam10.1</name>
@@ -591,12 +591,12 @@
 			<period>100000</period>
 			<parameter>
 				<encoding>BNR</encoding>
-				<signed>true</signed>
+				<signed>false</signed>
 				<startBit>10</startBit>
 				<numberOfBits>19</numberOfBits>
 				<name>TxScheduledParam12.1</name>
-				<scale>2</scale>
-				<offset>5</offset>
+				<scale>1</scale>
+				<offset>0</offset>
 				<unit>rpm</unit>
 				<defaultValue>800</defaultValue>
 			</parameter>
