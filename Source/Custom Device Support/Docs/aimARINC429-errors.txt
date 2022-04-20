@@ -30,4 +30,7 @@ A unique transfer ID was not found for a label.
 <nierror code="-732508">
 The desired label transmit period is outside the valid range. The fastest supported period is 1000 microseconds.
 </nierror>
+<nierror code="-732509">
+Invalid GUID stored for this item.
+</nierror>
 </nidocument>

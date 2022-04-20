@@ -73,6 +73,7 @@
 				<Item Name="Single Board Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Board Loopback/Single Board Loopback.lvclass"/>
 				<Item Name="Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Logging Loopback/Logging Loopback.lvclass"/>
 				<Item Name="AIM Deployment.lvclass" Type="LVClass" URL="../Tests/System/Deployment/AIM Deployment.lvclass"/>
+				<Item Name="Disabled Custom Device.lvclass" Type="LVClass" URL="../Tests/System/Disabled Custom Device/Disabled Custom Device.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
 				<Item Name="Common Assets" Type="Folder">

@@ -63,6 +63,133 @@
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
+					<GUID>B87DEF07-3249-4FC4-8922-62DEDB7BF5CE</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Disable</eng>
+						<loc>Disable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\EnableDisable RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>CD96FB02-5A3A-4817-B6B0-CD6EFAE9DC2D</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Export Configuration RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>9D3285B4-FD58-42EB-BD59-9EA018AF0942</GUID>
+					<Type>Action</Type>
+					<Execution>silent</Execution>
+					<Name>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Import Configuration RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>b46466fd-3c5d-4203-8a70-21c8e3dc3b39</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Export.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>CD96FB02-5A3A-4817-B6B0-CD6EFAE9DC2D</ReferencedGUID>
+					<ButtonText>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Export Configuration</eng>
+						<loc>Export Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Export Custom Device Configuration</eng>
+						<loc>Export Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Export Custom Device Configuration</eng>
+						<loc>Export Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>b3646754-9018-4224-a9be-d83b69edf9fa</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\Import.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>9D3285B4-FD58-42EB-BD59-9EA018AF0942</ReferencedGUID>
+					<ButtonText>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Import Configuration</eng>
+						<loc>Import Configuration</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</TipStrip>
+					<Documentation>
+						<eng>Import Custom Device Configuration</eng>
+						<loc>Import Custom Device Configuration</loc>
+					</Documentation>
+				</Button>
+			</ButtonList>
+			<ActionVIOnLoad>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\ActionVIOnLoad.vi</Path>
+			</ActionVIOnLoad>
+			<ActionVIOnCompile>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\ActionVIOnCompile.vi</Path>
+			</ActionVIOnCompile>
+		</Page>
+		<Page>
+			<Name>
+				<eng>AIM ARINC 429</eng>
+				<loc>AIM ARINC 429</loc>
+			</Name>
+			<GUID>55F0A291-1626-4DF6-B84E-B4D951A4E800</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\Glyphs\ArincGrey_disabled.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>B87DEF07-3249-4FC4-8922-62DEDB7BF5CE</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Enable</eng>
+						<loc>Enable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\EnableDisable RTM.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>CD96FB02-5A3A-4817-B6B0-CD6EFAE9DC2D</GUID>
 					<Type>Action</Type>
 					<Execution>silent</Execution>
