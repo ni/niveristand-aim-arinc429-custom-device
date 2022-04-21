@@ -69,6 +69,8 @@
 			<Item Name="System" Type="Folder">
 				<Item Name="Shared" Type="Folder">
 					<Item Name="Script Custom Device.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Script Custom Device.vi"/>
+					<Item Name="Generate VS Channels Info.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Generate VS Channels Info.vi"/>
+					<Item Name="AIM Multichannel Tx and RX PARAM Constants.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/AIM Multichannel Tx and RX PARAM Constants.vi"/>
 				</Item>
 				<Item Name="Single Board Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Board Loopback/Single Board Loopback.lvclass"/>
 				<Item Name="Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Logging Loopback/Logging Loopback.lvclass"/>
@@ -908,7 +910,6 @@
 			<Item Name="Get MD5 For File.vi" Type="VI" URL="../Shared/Get MD5 For File.vi"/>
 			<Item Name="Get Rx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Rx Hardware Channel Data.vi"/>
 			<Item Name="Get Static Channel Reference for Frame.vi" Type="VI" URL="../Shared/Get Static Channel Reference for Frame.vi"/>
-			<Item Name="Get Status Error Channel Data References.vi" Type="VI" URL="../Shared/Get Status Error Channel Data References.vi"/>
 			<Item Name="Get Tx Hardware Channel Data.vi" Type="VI" URL="../Shared/Get Tx Hardware Channel Data.vi"/>
 			<Item Name="Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi"/>
 			<Item Name="Initialize Channel Parameter (Discrete).vi" Type="VI" URL="../Shared/Initialize Channel Parameter (Discrete).vi"/>
