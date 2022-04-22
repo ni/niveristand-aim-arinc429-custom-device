@@ -2,12 +2,12 @@
 <parameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 <!--*************************************** Rx Channels (1,16) ***************************************-->
 	<!--*** Channel 1 ***-->
-    <channel>
+	<channel>
 		<hardwareChannel>1</hardwareChannel>
 		<direction>incoming</direction>
-        <!--*********** Acyclic Labels (2,4,5,7,10) ***********-->
-        <!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
-        <label>
+		<!--*********** Acyclic Labels (2,4,5,7,10) ***********-->
+		<!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
+		<label>
 			<labelDecimal>2</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -20,8 +20,8 @@
 				<unit>rpm</unit>
 			</parameter>
 		</label>
-        <!--*** Label 4: 2 parameters 6bit+13bit BNR signed no scale/offset RPM ***-->
-        <label>
+		<!--*** Label 4: 2 parameters 6bit+13bit BNR signed no scale/offset RPM ***-->
+		<label>
 			<labelDecimal>4</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -33,7 +33,7 @@
 				<offset>0</offset>
 				<unit>rpm</unit>
 			</parameter>
-            <parameter>
+			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
 				<startBit>19</startBit>
@@ -44,8 +44,8 @@
 				<unit>rpm</unit>
 			</parameter>
 		</label>
-        <!--*** Label 5: 1 parameter BNR unsigned no scale/offset PSI ***-->
-        <label>
+		<!--*** Label 5: 1 parameter BNR unsigned no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>5</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -58,8 +58,8 @@
 				<unit>psi</unit>
 			</parameter>
 		</label>
-        <!--*** Label 7: 1 parameter Discrete signed no scale/offset PSI ***-->
-        <label>
+		<!--*** Label 7: 1 parameter Discrete signed no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>7</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -87,9 +87,9 @@
 				<unit>psi</unit>
 			</parameter>
 		</label>
-        <!--*********** Scheduled Labels (1,3,6,8,9) ***********-->
-        <!--*** Label 1: 1 parameter BNR signed no scale/offset PSI ***-->
-        <label>
+		<!--*********** Scheduled Labels (1,3,6,8,9) ***********-->
+		<!--*** Label 1: 1 parameter BNR signed no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>1</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -102,8 +102,8 @@
 				<unit>psi</unit>
 			</parameter>
 		</label>
-        <!--*** Label 3: 2 parameters 9bit+10bit BNR signed no scale/offset PSI ***-->
-        <label>
+		<!--*** Label 3: 2 parameters 9bit+10bit BNR signed no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>3</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -115,7 +115,7 @@
 				<offset>0</offset>
 				<unit>psi</unit>
 			</parameter>
-            <parameter>
+			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
 				<startBit>19</startBit>
@@ -126,8 +126,8 @@
 				<unit>psi</unit>
 			</parameter>
 		</label>
-       <!--*** Label 6: 1 parameter BCD signed no scale/offset RPM ***-->
-        <label>
+		<!--*** Label 6: 1 parameter BCD signed no scale/offset RPM ***-->
+		<label>
 			<labelDecimal>6</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -140,8 +140,8 @@
 				<unit>rpm</unit>
 			</parameter>
 		</label>
-        <!--*** Label 8: 1 parameter BNR signed 2x+5 scale/offset RPM ***-->
-        <label>
+		<!--*** Label 8: 1 parameter BNR signed 2x+5 scale/offset RPM ***-->
+		<label>
 			<labelDecimal>8</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -189,9 +189,9 @@
 	 <channel>
 		<hardwareChannel>16</hardwareChannel>
 		<direction>incoming</direction>
-        <!--*********** Acyclic Labels (2,4,9,11) ***********-->
-        <!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
-        <label>
+		<!--*********** Acyclic Labels (2,4,9,11) ***********-->
+		<!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
+		<label>
 			<labelDecimal>2</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -204,8 +204,8 @@
 				<unit>rpm</unit>
 			</parameter>
 		</label>
-        <!--*** Label 4: 2 parameters 6bit+13bit BNR signed no scale/offset RPM ***-->
-        <label>
+		<!--*** Label 4: 2 parameters 6bit+13bit BNR signed no scale/offset RPM ***-->
+		<label>
 			<labelDecimal>4</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -217,7 +217,7 @@
 				<offset>0</offset>
 				<unit>rpm</unit>
 			</parameter>
-            <parameter>
+			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
 				<startBit>19</startBit>
@@ -228,8 +228,8 @@
 				<unit>rpm</unit>
 			</parameter>
 		</label>
-        <!--*** Label 9: 1 parameter BNR unsigned no scale/offset PSI ***-->
-        <label>
+		<!--*** Label 9: 1 parameter BNR unsigned no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>9</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -242,8 +242,8 @@
 				<unit>psi</unit>
 			</parameter>
 		</label>
-        <!--*** Label 11: 1 parameter Discrete signed no scale/offset PSI ***-->
-        <label>
+		<!--*** Label 11: 1 parameter Discrete signed no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>11</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -256,9 +256,9 @@
 				<unit>psi</unit>
 			</parameter>
 		</label>
-        <!--*********** Scheduled Labels (1,3,10,12) ***********-->
-        <!--*** Label 1: 1 parameter BNR signed no scale/offset PSI ***-->
-        <label>
+		<!--*********** Scheduled Labels (1,3,10,12) ***********-->
+		<!--*** Label 1: 1 parameter BNR signed no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>1</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -271,8 +271,8 @@
 				<unit>psi</unit>
 			</parameter>
 		</label>
-        <!--*** Label 3: 2 parameters 9bit+10bit BNR signed no scale/offset PSI ***-->
-        <label>
+		<!--*** Label 3: 2 parameters 9bit+10bit BNR signed no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>3</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -284,7 +284,7 @@
 				<offset>0</offset>
 				<unit>psi</unit>
 			</parameter>
-            <parameter>
+			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
 				<startBit>19</startBit>
@@ -295,8 +295,8 @@
 				<unit>psi</unit>
 			</parameter>
 		</label>
-       <!--*** Label 10: 1 parameter BCD signed no scale/offset RPM ***-->
-        <label>
+		<!--*** Label 10: 1 parameter BCD signed no scale/offset RPM ***-->
+		<label>
 			<labelDecimal>10</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -309,8 +309,8 @@
 				<unit>rpm</unit>
 			</parameter>
 		</label>
-        <!--*** Label 12: 1 parameter BNR signed 2x+5 scale/offset RPM ***-->
-        <label>
+		<!--*** Label 12: 1 parameter BNR signed 2x+5 scale/offset RPM ***-->
+		<label>
 			<labelDecimal>12</labelDecimal>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -326,12 +326,12 @@
 	</channel>
 <!--*************************************** Tx Channels (2,15) ***************************************-->
 	<!--*** Channel 2 ***-->
-    <channel>
+	<channel>
 		<hardwareChannel>2</hardwareChannel>
 		<direction>outgoing</direction>
-        <!--*********** Acyclic Labels (2,4,5,7,10) ***********-->
-        <!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
-        <label>
+		<!--*********** Acyclic Labels (2,4,5,7,10) ***********-->
+		<!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
+		<label>
 			<labelDecimal>2</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
@@ -346,8 +346,8 @@
 				<defaultValue>220</defaultValue>
 			</parameter>
 		</label>
-        <!--*** Label 4: 2 parameters 6bit+13bit BNR signed no scale/offset RPM ***-->
-        <label>
+		<!--*** Label 4: 2 parameters 6bit+13bit BNR signed no scale/offset RPM ***-->
+		<label>
 			<labelDecimal>4</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
@@ -361,7 +361,7 @@
 				<unit>rpm</unit>
 				<defaultValue>5</defaultValue>
 			</parameter>
-            <parameter>
+			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
 				<startBit>19</startBit>
@@ -373,8 +373,8 @@
 				<defaultValue>470</defaultValue>
 			</parameter>
 		</label>
-        <!--*** Label 5: 1 parameter BNR unsigned no scale/offset PSI ***-->
-        <label>
+		<!--*** Label 5: 1 parameter BNR unsigned no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>5</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
@@ -389,8 +389,8 @@
 				<defaultValue>520</defaultValue>
 			</parameter>
 		</label>
-        <!--*** Label 7: 1 parameter Discrete signed no scale/offset PSI ***-->
-        <label>
+		<!--*** Label 7: 1 parameter Discrete signed no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>7</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
@@ -439,9 +439,9 @@
 				<defaultValue>500</defaultValue>
 			</parameter>
 		</label>
-        <!--*********** Scheduled Labels (1,3,6,8,9) ***********-->
-        <!--*** Label 1: 1 parameter BNR signed no scale/offset PSI ***-->
-        <label>
+		<!--*********** Scheduled Labels (1,3,6,8,9) ***********-->
+		<!--*** Label 1: 1 parameter BNR signed no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>1</labelDecimal>
 			<transferType>0</transferType>
 			<period>100000</period>
@@ -457,8 +457,8 @@
 				<defaultValue>120</defaultValue>
 			</parameter>
 		</label>
-        <!--*** Label 3: 2 parameters 9bit+10bit BNR signed no scale/offset PSI ***-->
-        <label>
+		<!--*** Label 3: 2 parameters 9bit+10bit BNR signed no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>3</labelDecimal>
 			<transferType>0</transferType>
 			<period>100000</period>
@@ -473,7 +473,7 @@
 				<unit>psi</unit>
 				<defaultValue>32</defaultValue>
 			</parameter>
-            <parameter>
+			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
 				<startBit>19</startBit>
@@ -485,8 +485,8 @@
 				<defaultValue>370</defaultValue>
 			</parameter>
 		</label>
-       <!--*** Label 6: 1 parameter BCD signed no scale/offset RPM ***-->
-        <label>
+		<!--*** Label 6: 1 parameter BCD signed no scale/offset RPM ***-->
+		<label>
 			<labelDecimal>6</labelDecimal>
 			<transferType>0</transferType>
 			<period>100000</period>
@@ -502,8 +502,8 @@
 				<defaultValue>620</defaultValue>
 			</parameter>
 		</label>
-        <!--*** Label 8: 1 parameter BNR signed 2x+5 scale/offset RPM ***-->
-        <label>
+		<!--*** Label 8: 1 parameter BNR signed 2x+5 scale/offset RPM ***-->
+		<label>
 			<labelDecimal>8</labelDecimal>
 			<transferType>0</transferType>
 			<period>100000</period>
@@ -560,9 +560,9 @@
 	<channel>
 		<hardwareChannel>15</hardwareChannel>
 		<direction>outgoing</direction>
-        <!--*********** Acyclic Labels (2,4,9,11) ***********-->
-        <!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
-        <label>
+		<!--*********** Acyclic Labels (2,4,9,11) ***********-->
+		<!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
+		<label>
 			<labelDecimal>2</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
@@ -577,8 +577,8 @@
 				<defaultValue>200</defaultValue>
 			</parameter>
 		</label>
-        <!--*** Label 4: 2 parameters 6bit+13bit BNR signed no scale/offset RPM ***-->
-        <label>
+		<!--*** Label 4: 2 parameters 6bit+13bit BNR signed no scale/offset RPM ***-->
+		<label>
 			<labelDecimal>4</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
@@ -592,7 +592,7 @@
 				<unit>rpm</unit>
 				<defaultValue>4</defaultValue>
 			</parameter>
-            <parameter>
+			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
 				<startBit>19</startBit>
@@ -604,8 +604,8 @@
 				<defaultValue>450</defaultValue>
 			</parameter>
 		</label>
-        <!--*** Label 9: 1 parameter BNR unsigned no scale/offset PSI ***-->
-        <label>
+		<!--*** Label 9: 1 parameter BNR unsigned no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>9</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
@@ -620,8 +620,8 @@
 				<defaultValue>500</defaultValue>
 			</parameter>
 		</label>
-        <!--*** Label 11: 1 parameter Discrete signed no scale/offset PSI ***-->
-        <label>
+		<!--*** Label 11: 1 parameter Discrete signed no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>11</labelDecimal>
 			<transferType>1</transferType>
 			<parameter>
@@ -636,9 +636,9 @@
 				<defaultValue>1</defaultValue>
 			</parameter>
 		</label>
-        <!--*********** Scheduled Labels (1,3,10,12) ***********-->
-        <!--*** Label 1: 1 parameter BNR signed no scale/offset PSI ***-->
-        <label>
+		<!--*********** Scheduled Labels (1,3,10,12) ***********-->
+		<!--*** Label 1: 1 parameter BNR signed no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>1</labelDecimal>
 			<transferType>0</transferType>
 			<period>100000</period>
@@ -654,8 +654,8 @@
 				<defaultValue>100</defaultValue>
 			</parameter>
 		</label>
-        <!--*** Label 3: 2 parameters 9bit+10bit BNR signed no scale/offset PSI ***-->
-        <label>
+		<!--*** Label 3: 2 parameters 9bit+10bit BNR signed no scale/offset PSI ***-->
+		<label>
 			<labelDecimal>3</labelDecimal>
 			<transferType>0</transferType>
 			<period>100000</period>
@@ -670,7 +670,7 @@
 				<unit>psi</unit>
 				<defaultValue>30</defaultValue>
 			</parameter>
-            <parameter>
+			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
 				<startBit>19</startBit>
@@ -682,8 +682,8 @@
 				<defaultValue>350</defaultValue>
 			</parameter>
 		</label>
-       <!--*** Label 10: 1 parameter BCD signed no scale/offset RPM ***-->
-        <label>
+		<!--*** Label 10: 1 parameter BCD signed no scale/offset RPM ***-->
+		<label>
 			<labelDecimal>10</labelDecimal>
 			<transferType>0</transferType>
 			<period>100000</period>
@@ -699,8 +699,8 @@
 				<defaultValue>600</defaultValue>
 			</parameter>
 		</label>
-        <!--*** Label 12: 1 parameter BNR signed 2x+5 scale/offset RPM ***-->
-        <label>
+		<!--*** Label 12: 1 parameter BNR signed 2x+5 scale/offset RPM ***-->
+		<label>
 			<labelDecimal>12</labelDecimal>
 			<transferType>0</transferType>
 			<period>100000</period>
