@@ -31,7 +31,11 @@
 	</Item>
 	<Item Name="Custom Device" Type="Folder">
 		<Item Name="Add Custom Device.vi" Type="VI" URL="../Add Custom Device.vi"/>
+		<Item Name="Check If Custom Device Enabled.vi" Type="VI" URL="../Check If Custom Device Enabled.vi"/>
+		<Item Name="Disable Custom Device.vi" Type="VI" URL="../Disable Custom Device.vi"/>
+		<Item Name="Enable Custom Device.vi" Type="VI" URL="../Enable Custom Device.vi"/>
 		<Item Name="Export Custom Device.vi" Type="VI" URL="../Export Custom Device.vi"/>
+		<Item Name="Find Custom Devices.vi" Type="VI" URL="../Find Custom Devices.vi"/>
 		<Item Name="Get Description.vi" Type="VI" URL="../Get Description.vi"/>
 		<Item Name="Get Owning Custom Device.vi" Type="VI" URL="../Get Owning Custom Device.vi"/>
 		<Item Name="Import Custom Device (In Place).vi" Type="VI" URL="../Import Custom Device (In Place).vi"/>
@@ -40,7 +44,6 @@
 		<Item Name="Initialize Custom Device.vi" Type="VI" URL="../Initialize Custom Device.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Remove Custom Device.vi"/>
 		<Item Name="Set Description.vi" Type="VI" URL="../Set Description.vi"/>
-		<Item Name="Find Custom Devices.vi" Type="VI" URL="../Find Custom Devices.vi"/>
 	</Item>
 	<Item Name="Device" Type="Folder">
 		<Item Name="Get Device Parameters.vi" Type="VI" URL="../Device/Get Device Parameters.vi"/>
