@@ -26,8 +26,6 @@
 		<Item Name="Ports.vi" Type="VI" URL="../System Explorer/Pages/Ports.vi"/>
 		<Item Name="Protocol.vi" Type="VI" URL="../System Explorer/Pages/Protocol.vi"/>
 		<Item Name="Receive Time.vi" Type="VI" URL="../System Explorer/Pages/Receive Time.vi"/>
-		<Item Name="Status Channel.vi" Type="VI" URL="../System Explorer/Pages/Status Channel.vi"/>
-		<Item Name="Status.vi" Type="VI" URL="../System Explorer/Pages/Status.vi"/>
 		<Item Name="Vendor.vi" Type="VI" URL="../System Explorer/Pages/Vendor.vi"/>
 		<Item Name="Word.vi" Type="VI" URL="../System Explorer/Pages/Word.vi"/>
 	</Item>
@@ -60,7 +58,6 @@
 		<Item Name="Display Transmit Period.vi" Type="VI" URL="../System Explorer/Display Transmit Period.vi"/>
 		<Item Name="Load Help File.vi" Type="VI" URL="../System Explorer/Load Help File.vi"/>
 		<Item Name="Mutate System Definition.vi" Type="VI" URL="../System Explorer/Mutate System Definition.vi"/>
-		<Item Name="On Compile - Get Asynchronous Channels Status Block Refs.vi" Type="VI" URL="../System Explorer/On Compile - Get Asynchronous Channels Status Block Refs.vi"/>
 		<Item Name="On Compile - Group Hardware Channels by Message Type.vi" Type="VI" URL="../System Explorer/On Compile - Group Hardware Channels by Message Type.vi"/>
 		<Item Name="Parameters File Handler.vi" Type="VI" URL="../System Explorer/Parameters File Handler.vi"/>
 		<Item Name="Update Custom Device Version in System Definition.vi" Type="VI" URL="../System Explorer/Update Custom Device Version in System Definition.vi"/>
