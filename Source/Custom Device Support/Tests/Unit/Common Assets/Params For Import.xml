@@ -52,6 +52,7 @@
 		<speed>high</speed>
 		<label>
 			<labelDecimal>135</labelDecimal>
+			<sdi>10</sdi>
 			<createSSMChannel>true</createSSMChannel>
 			<parameter>
 				<encoding>BCD</encoding>
@@ -132,6 +133,7 @@
 		<speed>high</speed>
 		<label>
 			<labelDecimal>135</labelDecimal>
+			<sdi>10</sdi>
 			<transferType>0</transferType>
 			<period>50000</period>
 			<parameter>
