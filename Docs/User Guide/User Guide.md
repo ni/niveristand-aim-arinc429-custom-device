@@ -121,12 +121,12 @@ To configure logging use the **Logging** page in System Explorer. By default, th
 When logging is enabled, the log file is opened and written while the system definition is deployed. To stop logging, undeploy the system definition. After retrieving the file from the target, the contents will be saved like the example below. This is the data logged when triggering the acyclic message defined in the User Guide assets (Channel 0, Label 7).
 
 ```
-time stamp,hardware channel,label,data word
-07:36:07.058159,1,7,3758147591
-07:36:07.058159,1,7,3758147591
+time stamp,hardware channel,label,sdi,data word
+07:36:07.058159,1,7,0,3758147591
+07:36:07.058159,1,7,0,3758147591
 ```
 
-To limit the impact on real-time performance, the logged data read from the bus monitor is not converted to parameters. The **channel** and **label** values are read from the message and logged. However, the **data word** is the raw 32-bit value of the message. Converting the two logged data words above to binary notation shows that the first message was carrying a data value of **0b110010** or **0d50**.
+To limit the impact on real-time performance, the logged data read from the bus monitor is not converted to parameters. The **channel**, **label**, and **sdi** values are read from the message and logged. However, the **data word** is the raw 32-bit value of the message. Converting the two logged data words above to binary notation shows that the first message was carrying a data value of **0b110010** or **0d50**.
 
 ![Logged Frame 1](Screenshots/Logged_Frame_1.png)
 
