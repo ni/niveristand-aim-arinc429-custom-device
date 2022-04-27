@@ -35,4 +35,5 @@
 	<Item Name="Start Channel.vi" Type="VI" URL="../Start Channel.vi"/>
 	<Item Name="Write Acyclic Tx Channel.vi" Type="VI" URL="../Write Acyclic Tx Channel.vi"/>
 	<Item Name="Write Scheduled Tx Channel.vi" Type="VI" URL="../Write Scheduled Tx Channel.vi"/>
+	<Item Name="Get Count for Labels in Channel.vi" Type="VI" URL="../Get Count for Labels in Channel.vi"/>
 </Library>
