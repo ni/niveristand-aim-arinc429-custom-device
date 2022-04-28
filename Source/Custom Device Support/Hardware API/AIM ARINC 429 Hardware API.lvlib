@@ -16,6 +16,7 @@
 	<Item Name="Monitor Data.ctl" Type="VI" URL="../Monitor Data.ctl"/>
 	<Item Name="Channel Manager.vi" Type="VI" URL="../Channel Manager.vi"/>
 	<Item Name="Channel Status.ctl" Type="VI" URL="../Channel Status.ctl"/>
+	<Item Name="Check for Rx Label Updates.vi" Type="VI" URL="../Check for Rx Label Updates.vi"/>
 	<Item Name="Configure Rx Channel.vi" Type="VI" URL="../Configure Rx Channel.vi"/>
 	<Item Name="Configure Tx Channel.vi" Type="VI" URL="../Configure Tx Channel.vi"/>
 	<Item Name="Data to Label and Time Tag and Buffer Report Word.vi" Type="VI" URL="../Data to Label and Time Tag and Buffer Report Word.vi"/>

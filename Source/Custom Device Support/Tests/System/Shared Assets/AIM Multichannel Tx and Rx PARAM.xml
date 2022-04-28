@@ -9,6 +9,7 @@
 		<!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
 		<label>
 			<labelDecimal>2</labelDecimal>
+			<createTimestampChannel>True</createTimestampChannel>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
@@ -23,6 +24,7 @@
 		<!--*** Label 4: 2 parameters 6bit+13bit BNR signed no scale/offset RPM ***-->
 		<label>
 			<labelDecimal>4</labelDecimal>
+			<createTimestampChannel>True</createTimestampChannel>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
@@ -91,6 +93,7 @@
 		<!--*** Label 1: 1 parameter BNR signed no scale/offset PSI ***-->
 		<label>
 			<labelDecimal>1</labelDecimal>
+			<createTimestampChannel>True</createTimestampChannel>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
@@ -129,6 +132,7 @@
 		<!--*** Label 6: 1 parameter BCD signed no scale/offset RPM ***-->
 		<label>
 			<labelDecimal>6</labelDecimal>
+			<createTimestampChannel>True</createTimestampChannel>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
@@ -143,6 +147,7 @@
 		<!--*** Label 8: 1 parameter BNR signed 2x+5 scale/offset RPM ***-->
 		<label>
 			<labelDecimal>8</labelDecimal>
+			<createTimestampChannel>True</createTimestampChannel>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
@@ -172,6 +177,7 @@
 		<!--*** Label 9, SDI 2: 1 parameter BNR unsigned no scale/offset PSI ***-->
 		<label>
 			<labelDecimal>9</labelDecimal>
+			<createTimestampChannel>True</createTimestampChannel>
 			<sdi>10</sdi>
 			<parameter>
 				<encoding>BNR</encoding>
@@ -207,6 +213,7 @@
 		<!--*** Label 4: 2 parameters 6bit+13bit BNR signed no scale/offset RPM ***-->
 		<label>
 			<labelDecimal>4</labelDecimal>
+			<createTimestampChannel>True</createTimestampChannel>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
@@ -298,6 +305,7 @@
 		<!--*** Label 10: 1 parameter BCD signed no scale/offset RPM ***-->
 		<label>
 			<labelDecimal>10</labelDecimal>
+			<createTimestampChannel>True</createTimestampChannel>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
@@ -312,6 +320,7 @@
 		<!--*** Label 12: 1 parameter BNR signed 2x+5 scale/offset RPM ***-->
 		<label>
 			<labelDecimal>12</labelDecimal>
+			<createTimestampChannel>True</createTimestampChannel>
 			<parameter>
 				<encoding>BNR</encoding>
 				<signed>false</signed>
