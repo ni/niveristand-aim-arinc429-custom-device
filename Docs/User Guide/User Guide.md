@@ -116,7 +116,7 @@ The custom device can be configured to log all data received by channels configu
 
 To configure logging use the **Logging** page in System Explorer. By default, the **Enable Logging** box is unchecked. Check the **Enable Logging** box and configure the other logging properties to configure the log file.
 
-![Logging Configuration](Screenshots/Logging_Configuration.png)
+![Logging Configuration](Screenshots/Logging_Configuration.PNG)
 
 When logging is enabled, the log file is opened and written while the system definition is deployed. To stop logging, undeploy the system definition. After retrieving the file from the target, the contents will be saved like the example below. This is the data logged when triggering the acyclic message defined in the User Guide assets (Channel 1, Label 7).
 
