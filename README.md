@@ -1,6 +1,6 @@
 # AIM ARINC 429 Custom Device
 
-The **AIM ARINC 429 Custom Device** allows use of [AIM ARINC 429 PXIe Modules](https://www.aim-online.com/products/ace429-3u-x/) in VeriStand. The custom device targets exactly one AIM ARINC 429 PXIe module. To target multiple modules, use multiple instances of this custom device.
+The **AIM ARINC 429 Custom Device** allows use of [AIM ARINC 429 PXIe Modules](https://www.ni.com/en-us/support/model.aim-arinc-429.html) in VeriStand. The custom device targets exactly one AIM ARINC 429 PXIe module. To target multiple modules, use multiple instances of this custom device.
 
 The custom device supports the following functionality:
 - Import configuration file via scripting and System Explorer
@@ -11,6 +11,7 @@ The custom device supports the following functionality:
    - Multiple parameters per label
    - Multiple labels per channel
    - Multiple Rx and Tx channels per module
+- Log all configured channels and labels per core
 
 ## Requirements
 
@@ -19,8 +20,9 @@ The custom device supports the following functionality:
 
 ## Getting Started Documentation
 
-- [User Guide](Docs/User%20Guide/User%20Guide.md)
-- [Parameters XML File Schema](Docs/Parameters%20XML%20File/Parameters%20XML%20File.md)
+- Download the latest release package from the [Releases page](https://github.com/ni/niveristand-aim-arinc429-custom-device/releases).
+- See the [User Guide](Docs/User%20Guide/User%20Guide.md) for a walkthrough of using the Custom Device.
+- See the [Parameters XML File Schema documentation](Docs/Parameters%20XML%20File/Parameters%20XML%20File.md) for configuring the custom device.
 
 ## LabVIEW Source Code Version
 
@@ -31,13 +33,23 @@ LabVIEW 2020
 ### Running the custom device
 
 - [VeriStand 2020 or later](https://www.ni.com/ro-ro/support/downloads/software-products/download.veristand.html#382072)
-- AIM ARINC 429 BSP
+
+### Real-Time target software components
+
+- AIM ARINC 429 Board Software Package (BSP)
+  - Must enable the `ni-third-party` feed in MAX to install the `ARINC429 Board Software Package` component
 
 ### Developing or building from source
 
-- [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
-- [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+- [LabVIEW 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - AIM ARINC 429 BSP and LabVIEW API
+- [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-development-tools/releases)
+- [VeriStand Custom Device Message Library](https://github.com/ni/niveristand-custom-device-message-library)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-message-library/releases)
+- [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+  - To link correctly, this repository should be cloned as source to the same directory level as this repository
 
 ## Git History & Rebasing Policy
 
