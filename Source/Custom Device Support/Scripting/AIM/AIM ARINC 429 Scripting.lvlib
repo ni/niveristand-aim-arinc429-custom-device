@@ -36,13 +36,17 @@
 		<Item Name="Enable Custom Device.vi" Type="VI" URL="../Enable Custom Device.vi"/>
 		<Item Name="Export Custom Device.vi" Type="VI" URL="../Export Custom Device.vi"/>
 		<Item Name="Find Custom Devices.vi" Type="VI" URL="../Find Custom Devices.vi"/>
+		<Item Name="Get Decimation.vi" Type="VI" URL="../Get Decimation.vi"/>
 		<Item Name="Get Description.vi" Type="VI" URL="../Get Description.vi"/>
+		<Item Name="Get Rx Async.vi" Type="VI" URL="../Get Rx Async.vi"/>
 		<Item Name="Get Owning Custom Device.vi" Type="VI" URL="../Get Owning Custom Device.vi"/>
 		<Item Name="Import Custom Device (In Place).vi" Type="VI" URL="../Import Custom Device (In Place).vi"/>
 		<Item Name="Import Custom Device (New).vi" Type="VI" URL="../Import Custom Device (New).vi"/>
 		<Item Name="Import Custom Device.vi" Type="VI" URL="../Import Custom Device.vi"/>
 		<Item Name="Initialize Custom Device.vi" Type="VI" URL="../Initialize Custom Device.vi"/>
 		<Item Name="Remove Custom Device.vi" Type="VI" URL="../Remove Custom Device.vi"/>
+		<Item Name="Set Rx Async.vi" Type="VI" URL="../Set Rx Async.vi"/>
+		<Item Name="Set Decimation.vi" Type="VI" URL="../Set Decimation.vi"/>
 		<Item Name="Set Description.vi" Type="VI" URL="../Set Description.vi"/>
 	</Item>
 	<Item Name="Device" Type="Folder">
