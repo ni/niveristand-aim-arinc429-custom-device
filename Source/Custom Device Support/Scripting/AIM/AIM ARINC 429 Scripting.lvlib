@@ -122,6 +122,12 @@
 		<Item Name="Get Port Number.vi" Type="VI" URL="../Port/Get Port Number.vi"/>
 		<Item Name="Set Port Number.vi" Type="VI" URL="../Port/Set Port Number.vi"/>
 	</Item>
+	<Item Name="Timing" Type="Folder">
+		<Item Name="Add Timing Section.vi" Type="VI" URL="../Timing/Add Timing Section.vi"/>
+		<Item Name="Find Timing Section.vi" Type="VI" URL="../Timing/Find Timing Section.vi"/>
+		<Item Name="Get Rx Execution Time.vi" Type="VI" URL="../Timing/Get Rx Execution Time.vi"/>
+		<Item Name="Get Scheduled Tx Execution Time.vi" Type="VI" URL="../Timing/Get Scheduled Tx Execution Time.vi"/>
+	</Item>
 	<Item Name="Word" Type="Folder">
 		<Item Name="Get Default Word.vi" Type="VI" URL="../Word/Get Default Word.vi"/>
 		<Item Name="Get Parameters in Word.vi" Type="VI" URL="../Word/Get Parameters in Word.vi"/>
