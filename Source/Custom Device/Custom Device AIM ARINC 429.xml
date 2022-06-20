@@ -587,7 +587,6 @@
 				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
-	</Pages>
 		<Page>
 			<Name>
 				<eng>Timing</eng>
@@ -605,6 +604,7 @@
 				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
 			</Item2Launch>
 		</Page>
+	</Pages>
 	<CustomXML>
 		<Dummy></Dummy>
 	</CustomXML>
