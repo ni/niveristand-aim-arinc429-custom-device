@@ -26,6 +26,7 @@
 		<Item Name="Ports.vi" Type="VI" URL="../System Explorer/Pages/Ports.vi"/>
 		<Item Name="Protocol.vi" Type="VI" URL="../System Explorer/Pages/Protocol.vi"/>
 		<Item Name="Receive Time.vi" Type="VI" URL="../System Explorer/Pages/Receive Time.vi"/>
+		<Item Name="Timing.vi" Type="VI" URL="../System Explorer/Pages/Timing.vi"/>
 		<Item Name="Vendor.vi" Type="VI" URL="../System Explorer/Pages/Vendor.vi"/>
 		<Item Name="Word.vi" Type="VI" URL="../System Explorer/Pages/Word.vi"/>
 	</Item>

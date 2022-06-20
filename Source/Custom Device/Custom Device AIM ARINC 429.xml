@@ -588,6 +588,23 @@
 			</Item2Launch>
 		</Page>
 	</Pages>
+		<Page>
+			<Name>
+				<eng>Timing</eng>
+				<loc>Timing</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>821AF353-1E4F-4CB0-9BD1-B8D6901637A0</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\timing.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Page Wrapper.vi</Path>
+			</Item2Launch>
+		</Page>
 	<CustomXML>
 		<Dummy></Dummy>
 	</CustomXML>
