@@ -75,6 +75,35 @@
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
+					<GUID>4A7019D8-CF30-490E-9989-3AD49CD38C62</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Timing Channels</eng>
+						<loc>Add Timing Channels</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Add Timing Channels RTM.vi</Path>
+					</Item2Launch>
+					<Dependency>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\AIM\ARINC 429\Windows\AIM ARINC 429 Configuration.llb\Can Add Timing Channels.vi</Path>
+						<Behavior>Dynamic</Behavior>
+					</Dependency>
+				</MenuItem>
+				<MenuItem>
+					<GUID>D7FBD458-528E-44DB-9246-263A21180D90</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
 					<GUID>CD96FB02-5A3A-4817-B6B0-CD6EFAE9DC2D</GUID>
 					<Type>Action</Type>
 					<Execution>silent</Execution>
@@ -593,7 +622,6 @@
 				<loc>Timing</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
 			<GUID>821AF353-1E4F-4CB0-9BD1-B8D6901637A0</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
