@@ -48,6 +48,8 @@
 		<Item Name="Turn On Change Flag Upstream.vi" Type="VI" URL="../System Explorer/Refresh/Turn On Change Flag Upstream.vi"/>
 	</Item>
 	<Item Name="RTM" Type="Folder">
+		<Item Name="Add Timing Channels RTM.vi" Type="VI" URL="../System Explorer/RTM/Add Timing Channels RTM.vi"/>
+		<Item Name="Can Add Timing Channels.vi" Type="VI" URL="../System Explorer/RTM/Can Add Timing Channels.vi"/>
 		<Item Name="EnableDisable RTM.vi" Type="VI" URL="../System Explorer/RTM/EnableDisable RTM.vi"/>
 		<Item Name="Export Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Export Configuration RTM.vi"/>
 		<Item Name="Import Configuration RTM.vi" Type="VI" URL="../System Explorer/RTM/Import Configuration RTM.vi"/>
