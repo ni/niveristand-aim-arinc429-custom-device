@@ -16,10 +16,10 @@ This custom device consists of several Execution Units and Factories, and this s
 
 | Execution Unit | Mode | Responsibility |
 | --- | --- | --- |
-| Rx Execution Unit | **Inline**, Group 1 Async | Read all incoming 429 label buffers defined in the configuration file |
-| Tx Scheduled Execution Unit | Group 1 Async | Write all outgoing, scheduled 429 label buffers defined in the configuration file |
-| Tx Acyclic Execution Unit | Group 1 Async | Write all outgoing, acyclic 429 label buffers defined in the configuration file and trigger their transmission |
-| Logging Execution Unit | Group 2 Async | If enabled, read all labels on the channels configured in the configuration file |
+| Rx Execution Unit | **Inline**, Async Group 1 | Read all incoming 429 label buffers defined in the configuration file |
+| Tx Scheduled Execution Unit | Async Group 1 | Write all outgoing, scheduled 429 label buffers defined in the configuration file |
+| Tx Acyclic Execution Unit | Async Group 1 | Write all outgoing, acyclic 429 label buffers defined in the configuration file and trigger their transmission |
+| Logging Execution Unit | Async Group 2 | If enabled, read all labels on the channels configured in the configuration file |
 
 **Note**: The bolded execution mode is default if the execution mode is configurable.
 
@@ -72,4 +72,10 @@ The plot below shows a similar situation to the late-execution asynchronous Rx e
 
 ## Using Timing Channels to Analyze Performance
 
-Users can monitor the optional Timing Channels to analyze the impact of the custom device on system performance. Right-click on the custom device in System Explorer to add these **Timing Channels**.
+Users can monitor the optional Timing Channels to analyze the impact of the custom device on system performance. Right-click on the custom device in System Explorer to add these **Timing Channels**. 
+
+![TimingSection](Screenshots/TimingSection.png)
+
+These channels are updated each iteration of the custom device. The values represent the time in microseconds used to execute `Write to Hardware.vi` and `Read from Hardware.vi` for the corresponding execution unit. Depending on the custom device configuration, the `Rx Execution Time` channel is either the time spent executing inline within the PCL or asynchronously in the first execution unit group.
+
+The maximum achievable VeriStand loop rate can be calculated once the worst-case values for these execution durations is recorded. For example, an inline Rx custom device that takes 500us to execute will never execute faster than 2000Hz without late counts.
