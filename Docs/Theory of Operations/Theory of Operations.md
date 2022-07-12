@@ -1,6 +1,6 @@
 # Theory of Operations
 
-This guide details the low-level custom device implementation details of the AIM ARINC 429 custom device.
+This guide details low-level custom device implementation details of the AIM ARINC 429 custom device and their impact on system performance.
 
 ## Communications Bus Template
 
@@ -44,11 +44,11 @@ The plot below shows an ideal execution model where:
 
 As long as the rest of the VeriStand system meets timing constraints (the PCL does not run late), this is an acceptable execution mode. However, depending on the number of labels configured and the desired PCL loop rate, the Rx Execution Unit can cause the PCL to run late.
 
-![DefaultNormal](Screenshots/DefaultNormal.PNG)
+![DefaultNormal](Screenshots/DefaultNormal.png)
 
 When the PCL runs late, VeriStand will report that the actual loop rate is lower than the configured loop rate, and late high priority (HP) loop counts will be recorded. The plot below shows the scenario where the Rx Execution Unit taking a long time to execute causes the next iteration of the PCL to not start at the desired time.
 
-![DefaultLate](Screenshots/DefaultLate.PNG)
+![DefaultLate](Screenshots/DefaultLate.png)
 
 ### Rx Configured as Asynchronous
 
@@ -56,11 +56,11 @@ In order to maximize the performance of the rest of the system, the Execution Un
 
 This configuration is advantageous when trying to free up high-priority CPU time to maintain PCL stability. The plot below shows the change in execution mode.
 
-![AsyncNormal](Screenshots/AsyncNormal.PNG)
+![AsyncNormal](Screenshots/AsyncNormal.png)
 
 This is also advantageous when the Rx Execution Unit takes longer than the desired PCL period to execution. If the custom device's Execution Unit does not complete before the next PCL iteration, the rate will effectively be decimated, and the next custom device iteration will be skippped.
 
-![AsyncLate](Screenshots/AsyncLate.PNG)
+![AsyncLate](Screenshots/AsyncLate.png)
 
 ### Decimated Execution
 
@@ -68,7 +68,7 @@ To maintain deterministic execution rates of the custom device with large label 
 
 The plot below shows a similar situation to the late-execution asynchrous Rx execution from above. It will not cause the PCL to run late, but due to variability in execution times, the custom device loop rate may vary over time. However, if the custom device is decimated to run every two PCL iterations, the loop rate of the custom device can be made more deterministic.
 
-![Decimated](Screenshots/Decimated.PNG)
+![Decimated](Screenshots/Decimated.png)
 
 ## Using Timing Channels to Analyze Performance
 
