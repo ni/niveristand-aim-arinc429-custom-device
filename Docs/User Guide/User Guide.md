@@ -19,7 +19,7 @@ This example uses a simple example Parameters file found at `Assets/Parameters.x
 
 The files are configured with two ARINC 429 channels each containing the same two labels. The following XML snippet shows the Parameters file configuration of the transmit channel: Label 07 is an acyclic label with one BNR parameter, and Label 23 is a cyclic label with one BNR parameter. The receive channel contains two labels configured identically.
 
-```
+```xml
 	<channel>
 		<hardwareChannel>2</hardwareChannel>
 		<direction>outgoing</direction>
@@ -58,7 +58,8 @@ The files are configured with two ARINC 429 channels each containing the same tw
 	</channel>
 ```
 
-Running this example requires wiring Channel 1 to Channel 2 using an appropriate cable.
+
+**Note**: Running this example requires wiring Channel 1 to Channel 2 using an appropriate cable.
 
 #### Configure the Custom Device in System Explorer
 
@@ -133,3 +134,7 @@ To limit the impact on real-time performance, the logged data read from the bus 
 Similarly, the second message was carrying a data value of **0b110111** or **0d55**.
 
 ![Logged Frame 2](Screenshots/Logged_Frame_2.png)
+
+## Analyzing Performance
+
+This custom device can optionally report the execution time of each execution unit per iteration. To further understand the maximum loop rate achievable by the custom device for a given configuration, see the [Theory of Operations](../Theory%20of%20Operations/Theory%20of%20Operations.md#Using-Timing-Channels-to-Analyze-Performance) for an explanation of the execution mode and timing implications of each Execution Unit.
