@@ -25,7 +25,7 @@ This custom device consists of several Execution Units and Factories, and this s
 
 ### Execution Unit Factory
 
-This Factory is included in the Engine library but executes on the host PC during deployment of the custom device. Each Execution Unit's data is retrieved from the System Definition, channels references are configured, and the execution mode of each is determined. The output of `Create Execution Unit.vi` is deployed to the target and un-flattened in the RT Engine.
+This Factory is included in the Engine library but executes on the host PC during deployment of the custom device. Each Execution Unit's data is retrieved from the System Definition, channel references are configured, and the execution mode of each is determined. The output of `Create Execution Unit.vi` is deployed to the target and un-flattened in the RT Engine.
 
 ## Execution Modes
 
