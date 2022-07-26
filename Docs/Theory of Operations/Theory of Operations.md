@@ -52,7 +52,7 @@ When the PCL runs late, VeriStand will report that the actual loop rate is lower
 
 ### Rx Configured as Asynchronous
 
-In order to maximize the performance of the rest of the system, the Execution Unit and Factory design pattern allows simple modification of the execution mode of each execution unit. This custom device has a configuration option to run the Rx Execution Unit as Asynchronous. When selected, the Rx Execution unit executes in Async Group 1 after the Tx Execution Units have completed.
+In order to maximize the performance of the rest of the system, the Execution Unit and Factory design pattern allows simple modification of the execution mode of each execution unit. This custom device has a configuration option to run the Rx Execution Unit as Asynchronous. When selected, the Rx Execution unit executes in Async Group 1.
 
 This configuration is advantageous when trying to free up high-priority CPU time to maintain PCL stability. The plot below shows the change in execution mode.
 
