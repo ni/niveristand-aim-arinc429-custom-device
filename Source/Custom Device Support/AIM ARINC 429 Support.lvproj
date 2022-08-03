@@ -67,9 +67,11 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="System" Type="Folder">
 				<Item Name="Shared" Type="Folder">
+					<Item Name="Reset Acyclic Channels.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Reset Acyclic Channels.vi"/>
 					<Item Name="Script Custom Device.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Script Custom Device.vi"/>
 					<Item Name="Generate VS Channels Info.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Generate VS Channels Info.vi"/>
 					<Item Name="AIM Multichannel Tx and RX PARAM Constants.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/AIM Multichannel Tx and RX PARAM Constants.vi"/>
+					<Item Name="Get Class Data File Path.vi" Type="VI" URL="../Tests/System/Shared Sub VIs/Get Class Data File Path.vi"/>
 				</Item>
 				<Item Name="Single Board Loopback.lvclass" Type="LVClass" URL="../Tests/System/Single Board Loopback/Single Board Loopback.lvclass"/>
 				<Item Name="Logging Loopback.lvclass" Type="LVClass" URL="../Tests/System/Logging Loopback/Logging Loopback.lvclass"/>
