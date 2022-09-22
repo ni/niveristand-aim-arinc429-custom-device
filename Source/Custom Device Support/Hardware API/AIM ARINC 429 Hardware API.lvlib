@@ -23,7 +23,8 @@
 	<Item Name="Enable Monitoring All Labels on Channel.vi" Type="VI" URL="../Enable Monitoring All Labels on Channel.vi"/>
 	<Item Name="Finalize Channel.vi" Type="VI" URL="../Finalize Channel.vi"/>
 	<Item Name="Finalize Hardware.vi" Type="VI" URL="../Finalize Hardware.vi"/>
-	<Item Name="Get Transfer Identifier.vi" Type="VI" URL="../Get Transfer Identifier.vi"/>
+	<Item Name="Get New Transfer Identifier.vi" Type="VI" URL="../Get New Transfer Identifier.vi"/>
+	<Item Name="Get Transfer Identifier from Map.vi" Type="VI" URL="../Get Transfer Identifier from Map.vi"/>
 	<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>
 	<Item Name="Initialize Label Buffers.vi" Type="VI" URL="../Initialize Label Buffers.vi"/>
 	<Item Name="Initialize Monitors.vi" Type="VI" URL="../Initialize Monitors.vi"/>
