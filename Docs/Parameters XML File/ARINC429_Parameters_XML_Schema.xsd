@@ -106,7 +106,7 @@
 							</xs:element>
                               <xs:element name="parameter" maxOccurs="unbounded" minOccurs="1">
                                  <xs:complexType>
-                                    <xs:choice maxOccurs="unbounded" minOccurs="0">
+                                    <xs:sequence>
                                        <xs:element name="encoding" default="BNR" maxOccurs="1" minOccurs="1">
                                           <xs:simpleType>
                                              <xs:restriction base="xs:string">
@@ -142,7 +142,7 @@
                                        </xs:element>
                                        <xs:element type="xs:string" name="unit" maxOccurs="1" minOccurs="0"/>
                                        <xs:element type="xs:double" name="defaultValue"  default="0.0"/>
-                                    </xs:choice>
+                                    </xs:sequence>
                                  </xs:complexType>
                               </xs:element>
                            </xs:sequence>
