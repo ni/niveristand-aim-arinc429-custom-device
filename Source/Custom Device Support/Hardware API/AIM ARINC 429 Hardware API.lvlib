@@ -17,12 +17,14 @@
 	<Item Name="Channel Manager.vi" Type="VI" URL="../Channel Manager.vi"/>
 	<Item Name="Channel Status.ctl" Type="VI" URL="../Channel Status.ctl"/>
 	<Item Name="Check for Rx Label Updates.vi" Type="VI" URL="../Check for Rx Label Updates.vi"/>
+	<Item Name="Configure Channel Coupling Mode.vi" Type="VI" URL="../Configure Channel Coupling Mode.vi"/>
 	<Item Name="Configure Rx Channel.vi" Type="VI" URL="../Configure Rx Channel.vi"/>
 	<Item Name="Configure Tx Channel.vi" Type="VI" URL="../Configure Tx Channel.vi"/>
 	<Item Name="Data to Label and Time Tag and Buffer Report Word.vi" Type="VI" URL="../Data to Label and Time Tag and Buffer Report Word.vi"/>
 	<Item Name="Enable Monitoring All Labels on Channel.vi" Type="VI" URL="../Enable Monitoring All Labels on Channel.vi"/>
 	<Item Name="Finalize Channel.vi" Type="VI" URL="../Finalize Channel.vi"/>
 	<Item Name="Finalize Hardware.vi" Type="VI" URL="../Finalize Hardware.vi"/>
+	<Item Name="Get Channel Coupling Supported.vi" Type="VI" URL="../Get Channel Coupling Supported.vi"/>
 	<Item Name="Get New Transfer Identifier.vi" Type="VI" URL="../Get New Transfer Identifier.vi"/>
 	<Item Name="Get Transfer Identifier from Map.vi" Type="VI" URL="../Get Transfer Identifier from Map.vi"/>
 	<Item Name="Initialize Hardware.vi" Type="VI" URL="../Initialize Hardware.vi"/>

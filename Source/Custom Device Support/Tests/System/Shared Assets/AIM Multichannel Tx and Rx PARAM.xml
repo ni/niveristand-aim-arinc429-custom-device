@@ -393,10 +393,10 @@
 			</parameter>
 		</label>
 	</channel>
-<!--*************************************** Tx Channels (2,15) ***************************************-->
-	<!--*** Channel 2 ***-->
+<!--*************************************** Tx Channels (3,14) ***************************************-->
+	<!--*** Channel 3 ***-->
 	<channel>
-		<hardwareChannel>2</hardwareChannel>
+		<hardwareChannel>3</hardwareChannel>
 		<direction>outgoing</direction>
 		<!--*********** Acyclic Labels (2,4,5,7,10) ***********-->
 		<!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
@@ -659,9 +659,9 @@
 			</parameter>
 		</label>
 	</channel>
-	<!--*** Channel 15 ***-->
+	<!--*** Channel 14 ***-->
 	<channel>
-		<hardwareChannel>15</hardwareChannel>
+		<hardwareChannel>14</hardwareChannel>
 		<direction>outgoing</direction>
 		<!--*********** Acyclic Labels (2,4,9,11) ***********-->
 		<!--*** Label 2: 1 parameter BNR signed no scale/offset RPM ***-->
