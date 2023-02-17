@@ -694,8 +694,11 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Scripting/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Top Level</Property>
 				<Property Name="Destination[2].path" Type="Path">../Built/Scripting</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EC4037E4-4835-4028-96AF-088019BF8070}</Property>
+				<Property Name="Destination[3].destName" Type="Str">Shared</Property>
+				<Property Name="Destination[3].libraryName" Type="Str">AIM ARINC 429 Shared.lvlib</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Scripting/Shared</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B0174127-A8E1-4647-8394-A04D2FDC6FC6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AIM ARINC 429 Scripting.lvlib</Property>
@@ -703,11 +706,17 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Palettes/Parameters.mnu</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Palettes/Ports.mnu</Property>
 				<Property Name="Source[10].lvfile" Type="Bool">true</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Palettes/Ports.mnu</Property>
-				<Property Name="Source[11].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/ARINC 429 Import.lvlib</Property>
+				<Property Name="Source[11].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[11].newName" Type="Str">AIM ARINC 429 Import.lvlib</Property>
+				<Property Name="Source[11].type" Type="Str">Library</Property>
+				<Property Name="Source[12].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Shared</Property>
+				<Property Name="Source[12].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/AIM ARINC 429 Engine.lvlib</Property>
 				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
@@ -719,32 +728,30 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Exclude</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
-				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/ARINC 429 Import.lvlib/Parse Parameters File.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/ARINC 429 Import.lvlib/Parse Parameters File.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Shared/Get MD5 For File.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Shared/Get MD5 For File.vi</Property>
+				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Palettes</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Palettes</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Palettes/dir.mnu</Property>
+				<Property Name="Source[7].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Palettes/dir.mnu</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Palettes/Labels.mnu</Property>
 				<Property Name="Source[8].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Palettes/Labels.mnu</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Palettes/Parameters.mnu</Property>
 				<Property Name="Source[9].lvfile" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 			</Item>
 		</Item>
 	</Item>
