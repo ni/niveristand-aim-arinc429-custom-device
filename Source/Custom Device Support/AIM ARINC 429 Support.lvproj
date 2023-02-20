@@ -59,6 +59,7 @@
 			<Item Name="Data Word Format.ctl" Type="VI" URL="../Shared/Data Word Format.ctl"/>
 			<Item Name="Transfer Speed.ctl" Type="VI" URL="../Shared/Transfer Speed.ctl"/>
 			<Item Name="Build Transfer ID.vi" Type="VI" URL="../Shared/Build Transfer ID.vi"/>
+			<Item Name="SDI.ctl" Type="VI" URL="../Shared/SDI.ctl"/>
 		</Item>
 		<Item Name="Support Files" Type="Folder">
 			<Item Name="AIM-API-errors.txt" Type="Document" URL="../Docs/AIM-API-errors.txt"/>
@@ -561,7 +562,6 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SDI.ctl" Type="VI" URL="../Shared/SDI.ctl"/>
 			<Item Name="NationalInstruments.VeriStand.Internal" Type="Document" URL="NationalInstruments.VeriStand.Internal">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
