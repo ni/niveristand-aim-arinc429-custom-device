@@ -57,6 +57,12 @@ or you can open it in Word, edit it, and save it as a .htm or .html file.
 				<li><strong>Name</strong>&#8212;Specifies the custom device name.</li>
 				<li><strong>Description</strong>&#8212;Documents this instance of the custom device.</li>
 				<li><strong>PXI Slot Number</strong>&#8212;Specifies the PXI Slot Number of the hardware device.</li>
+				<li><strong>Coupling Mode</strong>&#8212;Specifies the Coupling Mode of the hardware device:</li>
+					<ul>
+						<li><strong>External</strong>&#8212;All channels will send/receive physically to/from bus.</li>
+						<li><strong>Dual</strong>&#8212;All channels will send/receive physically to/from bus and the send data is also internally looped to its peer channel.</li>
+						<li><strong>Internal</strong>&#8212;All channels are physically disconnected from bus. Sent data is internally looped to the peer channel.</li>
+					</ul>
 			</ul></p>
 	</body>
 </html>

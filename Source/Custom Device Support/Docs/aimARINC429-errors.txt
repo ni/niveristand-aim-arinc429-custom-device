@@ -33,4 +33,7 @@ The desired label transmit period is outside the valid range. The fastest suppor
 <nierror code="-732509">
 Invalid GUID stored for this item.
 </nierror>
+<nierror code="-732510">
+Channel coupling mode is not configurable on this module.
+</nierror>
 </nidocument>

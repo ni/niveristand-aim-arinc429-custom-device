@@ -21,7 +21,7 @@ The files are configured with two ARINC 429 channels each containing the same tw
 
 ```xml
 	<channel>
-		<hardwareChannel>2</hardwareChannel>
+		<hardwareChannel>3</hardwareChannel>
 		<direction>outgoing</direction>
 		<speed>high</speed>
 		<label>
@@ -58,18 +58,18 @@ The files are configured with two ARINC 429 channels each containing the same tw
 	</channel>
 ```
 
-
-**Note**: Running this example requires wiring Channel 1 to Channel 2 using an appropriate cable.
-
 #### Configure the Custom Device in System Explorer
 
 1. Create a new VeriStand Project and configure your PXI Linux RT target.
 2. Navigate to the `Targets\Controller\Hardware\Custom Devices` entry in the tree.
 3. Right-click the **Custom Devices** entry and add a new instance of the **NI\AIM ARINC 429** custom device.
 4. Use the Main Page to set the **PXI Slot Number** accordingly.
-![System Explorer Main Page](Screenshots/System_Explorer_main_configured.PNG)
-5. Navigate to the **Configuration Files** page.
-6. Use the browse button to select the example parameters file at `niveristand-aim-arinc429-custom-device\Docs\User Guide\Assets\Parameters.xml`.
+5. Determine how to set up loopback and configure **Coupling Mode** accordingly.
+   - Use **External** if physically wiring Channel 1 to Channel 3 using an appropriate cable.
+   - Use **Internal** to use the internal loopback mode of supported hardware.
+![System Explorer Main Page](Screenshots/System_Explorer_main_unconfigured.PNG)
+6. Navigate to the **Configuration Files** page.
+7. Use the browse button to select the example parameters file at `niveristand-aim-arinc429-custom-device\Docs\User Guide\Assets\Parameters.xml`.
 ![System Explorer Configuration Files](Screenshots/System_Explorer_configuration_files_configured.PNG)
 
 Note: After configuring the custom device, all of the configuration under `Ports` is read-only except for the `Description` field on each page.
@@ -98,7 +98,7 @@ After configuring the System Definition with the custom device, deploy the Syste
 2. Highlight the **System Definition** tree in the left rail
 3. Expand the tree to `Targets\Controller\Hardware\Custom Devices\AIM ARINC 429\Ports`
 4. Drag the **Ports** item onto the screen
-5. Change the values written to the outgoing channel 2 (**07_Parameter 0** and **23_Parameter 0**)
+5. Change the values written to the outgoing channel 3 (**07_Parameter 0** and **23_Parameter 0**)
 6. Toggle the **Trigger** and **Disable** VeriStand channels under each label to see the behavior reflected to the incoming channels
 
 ![VeriStand Screen](Screenshots/VeriStand_screen_deployed.PNG)
