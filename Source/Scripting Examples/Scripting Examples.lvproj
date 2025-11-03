@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="24008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -369,38 +369,15 @@
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="ARINC 429 Import.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Import/ARINC 429 Import.lvlib"/>
-				<Item Name="VS Channels Definition for All Labels on Hardware Channel.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/VS Channels Definition for All Labels on Hardware Channel.ctl"/>
-				<Item Name="Direction.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Direction.ctl"/>
-				<Item Name="VS Channels Definition for Label.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/VS Channels Definition for Label.ctl"/>
-				<Item Name="VS Channel Definition for Parameter.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/VS Channel Definition for Parameter.ctl"/>
-				<Item Name="Parameter Definition.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Parameter Definition.ctl"/>
 				<Item Name="Encoding and Decoding.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Encoding and Decoding/Encoding and Decoding.lvlib"/>
-				<Item Name="Transfer Type.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Transfer Type.ctl"/>
-				<Item Name="Transfer Speed.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Transfer Speed.ctl"/>
-				<Item Name="Get MD5 For File.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Get MD5 For File.vi"/>
-				<Item Name="SDI.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/SDI.ctl"/>
-				<Item Name="Label Properties.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Label Properties.ctl"/>
-				<Item Name="Label.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Label.ctl"/>
 				<Item Name="Custom Device Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/VeriStand Custom Device Serialization/Custom Device Serialization.lvlib"/>
-				<Item Name="Device Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Device Parameters.ctl"/>
-				<Item Name="Data Word Format.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Data Word Format.ctl"/>
-				<Item Name="Error Test Channel Number.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Error Test Channel Number.vi"/>
-				<Item Name="Error Word Bits Checker for All Parameters on Label.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Error Word Bits Checker for All Parameters on Label.vi"/>
-				<Item Name="Error Word Bits Checker.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Error Word Bits Checker.vi"/>
-				<Item Name="Error Test Label Count.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Error Test Label Count.vi"/>
-				<Item Name="Error Test Transmit Period.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Error Test Transmit Period.vi"/>
-				<Item Name="Error Test Label Name.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Error Test Label Name.vi"/>
-				<Item Name="Error Test Parameter Name.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Error Test Parameter Name.vi"/>
-				<Item Name="Error Test Start Bit Value.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Error Test Start Bit Value.vi"/>
-				<Item Name="Error Test Number Of Bits.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Error Test Number Of Bits.vi"/>
-				<Item Name="Conditionally Add SSM Parameter.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Conditionally Add SSM Parameter.vi"/>
-				<Item Name="Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Initialize Channel Parameter (BNR, Unsigned, Unity Scaling).vi"/>
-				<Item Name="Conditionally Add SDI Parameter.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Conditionally Add SDI Parameter.vi"/>
-				<Item Name="Conditionally Add Parity Parameter.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Conditionally Add Parity Parameter.vi"/>
-				<Item Name="Initialize Channel Parameter (Discrete).vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/Initialize Channel Parameter (Discrete).vi"/>
 				<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/VeriStand Custom Device Testing Tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 				<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/VeriStand Custom Device Testing Tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
+				<Item Name="Custom Device Offline API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Offline API/Custom Device Offline API.lvlib"/>
+				<Item Name="AIM ARINC 429 Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Shared/AIM ARINC 429 Shared.lvlib"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="AIM ARINC 429 Import.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/AIM ARINC 429/Import/AIM ARINC 429 Import.lvlib"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VIs Reference__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Reference__ogtk.vi"/>

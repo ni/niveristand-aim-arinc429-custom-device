@@ -1,10 +1,10 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="20008000">
+<Library LVVersion="24008000">
 	<Property Name="NI.Lib.Description" Type="Str">NI wrappers around low-level AIM API function calls to decouple this custom device from the high-level AIM ARINC 429 API for LabVIEW.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*)!!!*Q(C=\&gt;5R4BN"&amp;-&lt;RDYC#UNO%.PA'U&lt;O#,U!E8_(V3*(=5LKAIHN.#J&gt;\A$3_QLO#L_!L,0]:8GS(!D=E1IB&gt;ROR_/T0PR_R[E@JW*6VK/L@.8NX[^@9RT@J2TSJ^?8U[HP8ORUNV/PUZ\$`(I?XQ-0`TS;Q+`$8_J0ZU7P^6`ZF.H^PH^L'X_\.@AH`_0&lt;B1?R(2EB9UJZF;W3H*ETT*ETT*ETT)ATT)ATT)A^T*H&gt;T*H&gt;T*H&gt;T)D&gt;T)D&gt;T)D&lt;TPZ#)8O=AB*=741MGES12*:SB+0B*0YEE]C9&gt;4*:\%EXA34_+BCR*0YEE]C3@R-%S**`%EHM34?*CK3\,PZ(A3$^-L]!3?Q".Y!A]F&amp;8A#1&amp;!MG$C9");#C]&amp;"Y!E]A9&gt;$":\!%XA#4_$BMA*0Y!E]A3@Q-+3P3H2.W]HR-)U=D_.R0)\(]4#V()`D=4S/R`&amp;14I\(]4A)J[!T/11ZAZQ/TIHD=4T]EO.R0)\(]4A?,P5\Z(VFGK&lt;NZ(A-D_%R0)&lt;(]$#&amp;$)`B-4S'R`!QL1S0Y4%]BM@Q5%K'R`!9(A.C&amp;+7]D-G-A59H)T!]`03HR@J&gt;CC[RPEPV]+I?3N8$JHK)6!_([K;L&lt;K&lt;K*KE78\7IKM63,9,KDV/B62B6%&gt;8AVF&amp;\0H?U,7WEL7ELWJ+WI-VJ1RP[RBXX_\VWOZWWW[X'=&gt;2[P&gt;:KN&gt;*SO&gt;2CM&gt;"]0N=Q$)@8Q$@WQQPB_&lt;VUT`($ZOP.Q_`PNY`DD\N@GZ`$Y_&lt;[JO8`Y@`T/XAX[IN/;\"'4\5;41!!!!!!</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*)!!!*Q(C=\&gt;5R4BN"&amp;-&lt;RDYC#UNO%.PA'U&lt;O#,U!E8_(V3*(=5LKAIHN.#J&gt;\A$3_QLO#L_!L,0]:8GS(!D=E1IB&gt;ROR_/T0PR_R[E@JW*6VK/L@.8NX[^@9RT@J2TSJ^?8U[HP8ORUNV/PUZ\$`(I?XQ-0`TS;Q+`$8_J0ZU7P^6`ZF.H^PH^L'X_\.@AH`_0&lt;B1?R(2EB9UJZF;W3H*ETT*ETT*ETT)ATT)ATT)A^T*H&gt;T*H&gt;T*H&gt;T)D&gt;T)D&gt;T)D&lt;TPZ#)8O=AB*=741MGES12*:SB+0B*0YEE]C9&gt;4*:\%EXA34_+BCR*0YEE]C3@R-%S**`%EHM34?*CK3\,PZ(A3$^-L]!3?Q".Y!A]F&amp;8A#1&amp;!MG$C9");#C]&amp;"Y!E]A9&gt;$":\!%XA#4_$BMA*0Y!E]A3@Q-+3P3H2.W]HR-)U=D_.R0)\(]4#V()`D=4S/R`&amp;14I\(]4A)J[!T/11ZAZQ/TIHD=4T]EO.R0)\(]4A?,P5\Z(VFGK&lt;NZ(A-D_%R0)&lt;(]$#&amp;$)`B-4S'R`!QL1S0Y4%]BM@Q5%K'R`!9(A.C&amp;+7]D-G-A59H)T!]`03HR@J&gt;CC[RPEPV]+I?3N8$JHK)6!_([K;L&lt;K&lt;K*KE78\7IKM63,9,KDV/B62B6%&gt;8AVF&amp;\0H?U,7WEL7ELWJ+WI-VJ1RP[RBXX_\VWOZWWW[X'=&gt;2[P&gt;:KN&gt;*SO&gt;2CM&gt;"]0N=Q$)@8Q$@WQQPB_&lt;VUT`($ZOP.Q_`PNY`DD\N@GZ`$Y_&lt;[JO8`Y@`T/XAX[IN/;\"'4\5;41!!!!!!</Property>
 	<Property Name="NI.Lib.LocalName" Type="Str">AIM ARINC 429 API</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
