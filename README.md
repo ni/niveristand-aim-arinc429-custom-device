@@ -32,7 +32,7 @@ LabVIEW 2024
 
 ### Running the custom device
 
-- [VeriStand 2020 or later](https://www.ni.com/ro-ro/support/downloads/software-products/download.veristand.html#382072)
+- [VeriStand 2024 or later](https://www.ni.com/ro-ro/support/downloads/software-products/download.veristand.html#382072)
 
 ### Real-Time target software components
 
