@@ -72,7 +72,7 @@ stages:
       packages:
         - controlFileName: 'control_custom_device'
           payloadMaps:
-            - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\AIM'
+            - installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Addons\Custom Devices\AIM'
               payloadLocation: 'AIM'
             - installLocation: 'ni-paths-NISHAREDDIR$(nipkgx64suffix)\LabVIEW Run-Time\$(lvVersion)\errors\English'
               payloadLocation: 'Errors'
